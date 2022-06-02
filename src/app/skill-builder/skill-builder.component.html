@@ -1,14 +1,14 @@
-<div class="container">
-  <div class="menu">
-    <a
-      class="link"
-      routerLink="{{ charClass.toLowerCase() }}"
-      *ngFor="let charClass of charClasses"
-    >
-      {{ charClass }}
-    </a>
-  </div>
+<div class="menu">
+  <a
+    class="link"
+    routerLink="{{ charClass.toLowerCase() }}"
+    *ngFor="let charClass of charClasses"
+  >
+    {{ charClass }}
+  </a>
+</div>
 
+<div class="container">
   <app-basic-skills></app-basic-skills>
   <app-basic-skills></app-basic-skills>
   <app-basic-skills></app-basic-skills>

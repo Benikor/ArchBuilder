@@ -1,17 +1,19 @@
+.menu {
+  grid-column: 1 / -1;
+  width: 725px;
+  margin: auto;
+  padding: 288px 40px 0 40px;
+  color: #d2b582;
+  display: flex;
+  justify-content: space-between;
+}
+
 .container {
-  padding-top: 288px;
-  margin: 0 10% 0 10%;
+  margin: 150px 10% 0 10%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 100px;
   justify-items: center;
-}
-.menu {
-  grid-column: 1 / -1;
-  width: 725px;
-  color: #d2b582;
-  display: flex;
-  justify-content: space-between;
 }
 
 .link:link,
