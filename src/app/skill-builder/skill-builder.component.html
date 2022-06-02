@@ -1,1 +1,19 @@
-<p>skill-builder works!</p>
+<div class="container">
+  <div class="menu">
+    <a
+      class="link"
+      routerLink="{{ charClass.toLowerCase() }}"
+      *ngFor="let charClass of charClasses"
+    >
+      {{ charClass }}
+    </a>
+  </div>
+
+  <app-basic-skills></app-basic-skills>
+  <app-basic-skills></app-basic-skills>
+  <app-basic-skills></app-basic-skills>
+  <app-basic-skills></app-basic-skills>
+
+  <app-combo-skills class="combo"></app-combo-skills>
+  <app-heroic-skills class="heroic"></app-heroic-skills>
+</div>

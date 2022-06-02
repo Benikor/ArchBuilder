@@ -1,0 +1,35 @@
+.container {
+  padding-top: 288px;
+  margin: 0 10% 0 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 100px;
+  justify-items: center;
+}
+.menu {
+  grid-column: 1 / -1;
+  width: 725px;
+  color: #d2b582;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link:link,
+.link:visited {
+  color: #d2b582;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.link:hover,
+.link:active {
+  color: white;
+}
+
+.combo {
+  grid-column: 1 / 3;
+}
+
+.heroic {
+  grid-column: 3 / -1;
+}
