@@ -8,8 +8,8 @@ import { BasicSkillsComponent } from './skill-builder/basic-skills/basic-skills.
 import { ComboSkillsComponent } from './skill-builder/combo-skills/combo-skills.component';
 import { HeroicSkillsComponent } from './skill-builder/heroic-skills/heroic-skills.component';
 import { SkillComponent } from './skill-builder/skill/skill.component';
-import { TopBarComponent } from './top-bar/top-bar.component';
 import { MainPageComponent } from './main-page/main-page.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -19,14 +19,11 @@ import { MainPageComponent } from './main-page/main-page.component';
     ComboSkillsComponent,
     HeroicSkillsComponent,
     SkillComponent,
-    TopBarComponent,
-    MainPageComponent
+    MainPageComponent,
+    HeaderComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
