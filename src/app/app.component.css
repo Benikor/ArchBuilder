@@ -1,10 +1,10 @@
 .background {
-  height: fit-content;
   min-width: fit-content;
   background-color: black;
 }
 
 .background-img {
+  height: 3500px;
   background-image: url(../assets/background.jpg);
   background-repeat: no-repeat;
   background-position-x: center;

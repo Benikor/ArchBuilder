@@ -1,0 +1,26 @@
+{
+  "class": "Sorcerer",
+  "type": "Buff",
+  "skills": [
+    {
+      "name": "Vital Conversion",
+      "imgPath": "vital_conversion.jpg"
+    },
+    {
+      "name": "Geo Shards",
+      "imgPath": "geo_shards.jpg"
+    },
+    {
+      "name": "Power Staff",
+      "imgPath": "power_staff.jpg"
+    },
+    {
+      "name": "Power Wand",
+      "imgPath": "power_wand.jpg"
+    },
+    {
+      "name": "Wind Quake",
+      "imgPath": "wind_quake.jpg"
+    }
+  ]
+}

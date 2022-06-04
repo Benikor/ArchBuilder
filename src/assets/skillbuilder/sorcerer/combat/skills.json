@@ -1,0 +1,54 @@
+{
+  "class": "Sorcerer",
+  "type": "Combat",
+  "skills": [
+    {
+      "name": "Flame Core",
+      "imgPath": "flame_core.jpg"
+    },
+    {
+      "name": "Blaze Wall",
+      "imgPath": "blaze_wall.jpg"
+    },
+    {
+      "name": "Magic Bolt",
+      "imgPath": "magic_bolt.jpg"
+    },
+    {
+      "name": "Water Spout",
+      "imgPath": "water_spout.jpg"
+    },
+    {
+      "name": "Napalm Flame",
+      "imgPath": "napalm_flame.jpg"
+    },
+    {
+      "name": "Mass Snare",
+      "imgPath": "mass_snare.jpg"
+    },
+    {
+      "name": "Whirlwind",
+      "imgPath": "whirlwind.jpg"
+    },
+    {
+      "name": "Hell Typhoon",
+      "imgPath": "hell_typhoon.jpg"
+    },
+    {
+      "name": "Earthquake",
+      "imgPath": "earthquake.jpg"
+    },
+    {
+      "name": "Acid Rain",
+      "imgPath": "acid_rain.jpg"
+    },
+    {
+      "name": "Whirlpool",
+      "imgPath": "whirlpool.jpg"
+    },
+    {
+      "name": "Soul Chaos",
+      "imgPath": "soul_chaos.jpg"
+    }
+  ]
+}

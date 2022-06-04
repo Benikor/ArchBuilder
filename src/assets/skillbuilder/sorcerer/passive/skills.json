@@ -1,0 +1,42 @@
+{
+  "class": "Sorcerer",
+  "type": "Passive",
+  "skills": [
+    {
+      "name": "Hawk Eye",
+      "imgPath": "hawk_eye.jpg"
+    },
+    {
+      "name": "Power Surge",
+      "imgPath": "power_surge.jpg"
+    },
+    {
+      "name": "Nimbleness",
+      "imgPath": "nimbleness.jpg"
+    },
+    {
+      "name": "Intellect",
+      "imgPath": "intellect.jpg"
+    },
+    {
+      "name": "Mind Boost",
+      "imgPath": "mind_boost.jpg"
+    },
+    {
+      "name": "Endurance",
+      "imgPath": "endurance.jpg"
+    },
+    {
+      "name": "Intense Magic",
+      "imgPath": "intense_magic.jpg"
+    },
+    {
+      "name": "Mind Control",
+      "imgPath": "mind_control.jpg"
+    },
+    {
+      "name": "Armament",
+      "imgPath": "armament.jpg"
+    }
+  ]
+}

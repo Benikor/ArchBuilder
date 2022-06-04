@@ -1,0 +1,38 @@
+{
+  "class": "Sorcerer",
+  "type": "Class",
+  "skills": [
+    {
+      "name": "Life Restore",
+      "imgPath": "life_restore.jpg"
+    },
+    {
+      "name": "Testament",
+      "imgPath": "testament.jpg"
+    },
+    {
+      "name": "Quagmire",
+      "imgPath": "quagmire.jpg"
+    },
+    {
+      "name": "Mana Sequence",
+      "imgPath": "mana_sequence.jpg"
+    },
+    {
+      "name": "Halt",
+      "imgPath": "halt.jpg"
+    },
+    {
+      "name": "Optimum",
+      "imgPath": "optimum.jpg"
+    },
+    {
+      "name": "Mana Pull",
+      "imgPath": "mana_pull.jpg"
+    },
+    {
+      "name": "Assmilitate",
+      "imgPath": "assmilitate.jpg"
+    }
+  ]
+}
