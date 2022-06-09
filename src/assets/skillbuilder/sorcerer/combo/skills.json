@@ -1,0 +1,50 @@
+{
+  "class": "Sorcerer",
+  "type": "Combo",
+  "skills": [
+    {
+      "name": "Firestorm",
+      "imgPath": "firestorm.jpg"
+    },
+    {
+      "name": "Ethereal Impale",
+      "imgPath": "ethereal_impale.jpg"
+    },
+    {
+      "name": "Legion of the Dead",
+      "imgPath": "legion_of_the_dead.jpg"
+    },
+    {
+      "name": "Requiem",
+      "imgPath": "requiem.jpg"
+    },
+    {
+      "name": "Unholy Casting",
+      "imgPath": "unholy_casting.jpg"
+    },
+    {
+      "name": "Death Pact",
+      "imgPath": "death_pact.jpg"
+    },
+    {
+      "name": "Dark Metabolism",
+      "imgPath": "dark_metabolism.jpg"
+    },
+    {
+      "name": "Ethereal Refreshment",
+      "imgPath": "ethereal_refreshment.jpg"
+    },
+    {
+      "name": "Windstorm",
+      "imgPath": "windstorm.jpg"
+    },
+    {
+      "name": "Wretched Cold",
+      "imgPath": "wretched_cold.jpg"
+    },
+    {
+      "name": "Narcolepsy",
+      "imgPath": "narcolepsy.jpg"
+    }
+  ]
+}

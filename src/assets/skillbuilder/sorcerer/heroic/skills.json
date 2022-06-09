@@ -1,0 +1,46 @@
+{
+  "class": "Sorcerer",
+  "type": "Heroic",
+  "skills": [
+    {
+      "name": "Nightmare Vision",
+      "imgPath": "nightmare_vision.jpg"
+    },
+    {
+      "name": "Dark Firewood",
+      "imgPath": "dark_firewood.jpg"
+    },
+    {
+      "name": "Soul Burn",
+      "imgPath": "soul_burn.jpg"
+    },
+    {
+      "name": "Crown of Madness",
+      "imgPath": "crown_of_madness.jpg"
+    },
+    {
+      "name": "Venomous Bite",
+      "imgPath": "venomous_bite.jpg"
+    },
+    {
+      "name": "Shroud of Darkness",
+      "imgPath": "shroud_of_darkness.jpg"
+    },
+    {
+      "name": "Life Black Fire",
+      "imgPath": "life_black_fire.jpg"
+    },
+    {
+      "name": "Deadman Awaken",
+      "imgPath": "deadman_awaken.jpg"
+    },
+    {
+      "name": "Ruins of Horror",
+      "imgPath": "ruins_of_horror.jpg"
+    },
+    {
+      "name": "Zone of Terrible Corpses",
+      "imgPath": "zone_of_terrible_corpses.jpg"
+    }
+  ]
+}
