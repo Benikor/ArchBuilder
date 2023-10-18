@@ -1,0 +1,17 @@
+.title {
+  width: 725px;
+  margin: auto;
+  padding: 288px 40px 0px;
+  color: #d2b582;
+  font-weight: 500px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.smile {
+  margin: 80px auto;
+  width: fit-content;
+  color: #d2b582;
+  font-weight: 500px;
+  font-size: 80px;
+}
