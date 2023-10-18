@@ -1,25 +1,16 @@
-<div class="background">
-  <p>main-page works!</p>
+<div class="title">
+  <p>Choose a class to create a Build!</p>
 </div>
-
-<div>s</div>
-<div>s</div>
-<div>s</div>
-<div>s</div>
-<div>s</div>
-<div>s</div>
-<div>s</div>
-<div>s</div>
-<div>s</div>
-<div>s</div>
-<div>s</div>
-<div>s</div>
-<div>s</div>
-<div>s</div>
-<div>s</div>
-<div>s</div>
-<div>s</div>
-<div>s</div>
-<div>s</div>
-<div>s</div>
-<div>s</div>
+<div class="background">
+  <div class="container">
+    <div
+      *ngFor="let charClass of charClasses"
+      [ngClass]="charClass === 'Dragonscion' ? 'dragonscion' : ''"
+    >
+      <a class="link" routerLink="/{{ charClass.toLowerCase() }}">
+        <img src="/assets/mainpage/{{ charClass.toLowerCase() }}.png" alt="" />
+        {{ charClass }}
+      </a>
+    </div>
+  </div>
+</div>

@@ -11,6 +11,7 @@ import { HeroicSkillsComponent } from './skill-builder/heroic-skills/heroic-skil
 import { SkillComponent } from './skill-builder/skill/skill.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { HeaderComponent } from './header/header.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,7 @@ import { HeaderComponent } from './header/header.component';
     MainPageComponent,
     HeaderComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

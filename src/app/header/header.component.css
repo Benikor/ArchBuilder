@@ -1,9 +1,30 @@
 .top-menu {
   height: 50px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding: 0px 25px;
   color: #d2b582;
   border-bottom: 1px solid #3d3d3d;
+}
+
+.logo {
+  display: flex;
+  width: 300px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  gap: 25px;
+}
+
+.social {
+  display: flex;
+  justify-content: right;
+  width: 300px;
+  gap: 10px;
 }
 
 .link:link,
@@ -16,24 +37,4 @@
 .link:hover,
 .link:active {
   color: white;
-}
-
-.logo {
-  flex: 1;
-}
-
-.logo-item {
-  margin-left: 20px;
-}
-
-.menu {
-  flex: 3;
-  display: flex;
-  justify-content: space-around;
-}
-
-.social {
-  flex: 1;
-  display: flex;
-  justify-content: right;
 }

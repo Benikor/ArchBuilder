@@ -1,1 +1,47 @@
+.title {
+  width: 725px;
+  margin: auto;
+  padding: 288px 40px 0px;
+  color: #d2b582;
+  font-weight: 500px;
+  font-size: 20px;
+  text-align: center;
+}
 
+.background {
+  padding: 50px;
+  margin: 50px auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid #2b2b2b;
+  color: #d2b582;
+  width: fit-content;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  column-gap: 75px;
+  row-gap: 50px;
+}
+
+.link:link,
+.link:visited {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #d2b582;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500px;
+  font-size: 20px;
+}
+
+.link:hover,
+.link:active {
+  color: white;
+}
+
+.dragonscion {
+  grid-column: 4 / 7;
+}
