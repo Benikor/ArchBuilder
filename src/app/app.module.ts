@@ -8,7 +8,7 @@ import { SkillBuilderComponent } from './skill-builder/skill-builder.component';
 import { BasicSkillsComponent } from './skill-builder/basic-skills/basic-skills.component';
 import { ComboSkillsComponent } from './skill-builder/combo-skills/combo-skills.component';
 import { HeroicSkillsComponent } from './skill-builder/heroic-skills/heroic-skills.component';
-import { SkillComponent } from './skill/skill.component';
+import { SkillComponent } from './skill-builder/skill/skill.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { HeaderComponent } from './header/header.component';
 import { FormsModule } from '@angular/forms';
