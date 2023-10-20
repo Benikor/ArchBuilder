@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Skill } from '../skill-builder/skill';
-import { SkillBuilderService } from '../skill-builder/skill-builder.service';
+import { Skill } from '../skill';
+import { SkillBuilderService } from '../skill-builder.service';
 
 @Component({
   selector: 'app-skill',
