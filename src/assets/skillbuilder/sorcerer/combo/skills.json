@@ -4,47 +4,159 @@
   "skills": [
     {
       "name": "Firestorm",
-      "imgPath": "firestorm.jpg"
+      "imgPath": "firestorm.jpg",
+      "description": "This is Firestorm",
+      "level": 0,
+      "skillPoints": [1, 1, 1, 1, 1],
+      "heroicPoints": [0, 0, 0, 0, 0],
+      "requiredLevels": [20, 20, 20, 20, 20],
+      "requiredSkills": {
+        "Ethereal Impale": 4
+      },
+      "requiredHeroicPoints": 0,
+      "stats": {}
     },
     {
       "name": "Ethereal Impale",
-      "imgPath": "ethereal_impale.jpg"
+      "imgPath": "ethereal_impale.jpg",
+      "description": "This is Ethereal Impale",
+      "level": 0,
+      "skillPoints": [1, 1, 1, 1, 1],
+      "heroicPoints": [0, 0, 0, 0, 0],
+      "requiredLevels": [20, 20, 20, 20, 20],
+      "requiredSkills": {},
+      "requiredHeroicPoints": 0,
+      "stats": {}
     },
     {
       "name": "Legion of the Dead",
-      "imgPath": "legion_of_the_dead.jpg"
+      "imgPath": "legion_of_the_dead.jpg",
+      "description": "This is Legion of the Dead",
+      "level": 0,
+      "skillPoints": [1, 1, 1, 1, 1],
+      "heroicPoints": [0, 0, 0, 0, 0],
+      "requiredLevels": [20, 20, 20, 20, 20],
+      "requiredSkills": {
+        "Ethereal Impale": 4
+      },
+      "requiredHeroicPoints": 0,
+      "stats": {}
     },
     {
       "name": "Requiem",
-      "imgPath": "requiem.jpg"
+      "imgPath": "requiem.jpg",
+      "description": "This is Requiem",
+      "level": 0,
+      "skillPoints": [1, 1, 1, 1, 1],
+      "heroicPoints": [0, 0, 0, 0, 0],
+      "requiredLevels": [20, 20, 20, 20, 20],
+      "requiredSkills": {
+        "Firestorm": 3
+      },
+      "requiredHeroicPoints": 0,
+      "stats": {}
     },
     {
       "name": "Unholy Casting",
-      "imgPath": "unholy_casting.jpg"
+      "imgPath": "unholy_casting.jpg",
+      "description": "This is Unholy Casting",
+      "level": 0,
+      "skillPoints": [1, 1, 1, 1, 1],
+      "heroicPoints": [0, 0, 0, 0, 0],
+      "requiredLevels": [20, 20, 20, 20, 20],
+      "requiredSkills": {
+        "Firestorm": 2,
+        "Legion of the Dead": 2
+      },
+      "requiredHeroicPoints": 0,
+      "stats": {}
     },
     {
       "name": "Death Pact",
-      "imgPath": "death_pact.jpg"
+      "imgPath": "death_pact.jpg",
+      "description": "This is Death Pact",
+      "level": 0,
+      "skillPoints": [1, 1, 1, 1, 1],
+      "heroicPoints": [0, 0, 0, 0, 0],
+      "requiredLevels": [20, 20, 20, 20, 20],
+      "requiredSkills": {
+        "Legion of the Dead": 3
+      },
+      "requiredHeroicPoints": 0,
+      "stats": {}
     },
     {
       "name": "Dark Metabolism",
-      "imgPath": "dark_metabolism.jpg"
+      "imgPath": "dark_metabolism.jpg",
+      "description": "This is Dark Metabolism",
+      "level": 0,
+      "skillPoints": [1, 1, 1, 1, 1],
+      "heroicPoints": [0, 0, 0, 0, 0],
+      "requiredLevels": [20, 20, 20, 20, 20],
+      "requiredSkills": {
+        "Requiem": 2,
+        "Unholy Casting": 2
+      },
+      "requiredHeroicPoints": 0,
+      "stats": {}
     },
     {
       "name": "Ethereal Refreshment",
-      "imgPath": "ethereal_refreshment.jpg"
+      "imgPath": "ethereal_refreshment.jpg",
+      "description": "This is Ethereal Refreshment",
+      "level": 0,
+      "skillPoints": [1, 1, 1, 1, 1],
+      "heroicPoints": [0, 0, 0, 0, 0],
+      "requiredLevels": [20, 20, 20, 20, 20],
+      "requiredSkills": {
+        "Death Pact": 2,
+        "Unholy Casting": 2
+      },
+      "requiredHeroicPoints": 0,
+      "stats": {}
     },
     {
       "name": "Windstorm",
-      "imgPath": "windstorm.jpg"
+      "imgPath": "windstorm.jpg",
+      "description": "This is Windstorm",
+      "level": 0,
+      "skillPoints": [1, 1, 1, 1, 1],
+      "heroicPoints": [0, 0, 0, 0, 0],
+      "requiredLevels": [20, 20, 20, 20, 20],
+      "requiredSkills": {
+        "Dark Metabolism": 3
+      },
+      "requiredHeroicPoints": 0,
+      "stats": {}
     },
     {
       "name": "Wretched Cold",
-      "imgPath": "wretched_cold.jpg"
+      "imgPath": "wretched_cold.jpg",
+      "description": "This is Wretched Cold",
+      "level": 0,
+      "skillPoints": [1, 1, 1, 1, 1],
+      "heroicPoints": [0, 0, 0, 0, 0],
+      "requiredLevels": [20, 20, 20, 20, 20],
+      "requiredSkills": {
+        "Dark Metabolism": 2,
+        "Ethereal Refreshment": 2
+      },
+      "requiredHeroicPoints": 0,
+      "stats": {}
     },
     {
       "name": "Narcolepsy",
-      "imgPath": "narcolepsy.jpg"
+      "imgPath": "narcolepsy.jpg",
+      "description": "This is Narcolepsy",
+      "level": 0,
+      "skillPoints": [1, 1, 1, 1, 1],
+      "heroicPoints": [0, 0, 0, 0, 0],
+      "requiredLevels": [20, 20, 20, 20, 20],
+      "requiredSkills": {
+        "Ethereal Refreshment": 3
+      },
+      "requiredHeroicPoints": 0,
+      "stats": {}
     }
   ]
 }
