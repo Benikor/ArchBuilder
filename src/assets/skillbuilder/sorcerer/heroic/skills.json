@@ -7,11 +7,11 @@
       "imgPath": "nightmare_vision.jpg",
       "description": "Nightmare Vision",
       "level": 0,
+      "requiredLevels": [],
+      "requiredHeroicPoints": [0, 0, 0, 0, 0],
       "skillPoints": [2, 2, 2, 2, 2],
       "heroicPoints": [1, 2, 2, 2, 2],
-      "requiredLevels": [],
       "requiredSkills": {},
-      "requiredHeroicPoints": 0,
       "stats": {}
     },
     {
@@ -19,11 +19,11 @@
       "imgPath": "dark_firewood.jpg",
       "description": "Dark Firewood",
       "level": 0,
+      "requiredLevels": [],
+      "requiredHeroicPoints": [10, 10, 10, 10, 10],
       "skillPoints": [2, 2, 2, 2, 2],
       "heroicPoints": [2, 2, 2, 2, 2],
-      "requiredLevels": [],
       "requiredSkills": {},
-      "requiredHeroicPoints": 10,
       "stats": {}
     },
     {
@@ -31,11 +31,11 @@
       "imgPath": "soul_burn.jpg",
       "description": "Soul Burn",
       "level": 0,
+      "requiredLevels": [],
+      "requiredHeroicPoints": [5, 5, 5, 5, 5],
       "skillPoints": [2, 2, 2, 2, 2],
       "heroicPoints": [1, 2, 2, 2, 2],
-      "requiredLevels": [],
       "requiredSkills": {},
-      "requiredHeroicPoints": 5,
       "stats": {}
     },
     {
@@ -43,11 +43,11 @@
       "imgPath": "crown_of_madness.jpg",
       "description": "Crown of Madness",
       "level": 0,
+      "requiredLevels": [],
+      "requiredHeroicPoints": [5, 5, 5, 5, 5],
       "skillPoints": [2, 2, 2, 2, 2],
       "heroicPoints": [1, 2, 2, 2, 2],
-      "requiredLevels": [],
       "requiredSkills": {},
-      "requiredHeroicPoints": 5,
       "stats": {}
     },
     {
@@ -55,13 +55,13 @@
       "imgPath": "venomous_bite.jpg",
       "description": "Venomous Bite",
       "level": 0,
+      "requiredLevels": [],
+      "requiredHeroicPoints": [20, 20, 20, 20, 20],
       "skillPoints": [2, 2, 2, 2, 2],
       "heroicPoints": [2, 2, 2, 2, 2],
-      "requiredLevels": [],
       "requiredSkills": {
         "Dark Firewood": 3
       },
-      "requiredHeroicPoints": 20,
       "stats": {}
     },
     {
@@ -69,13 +69,13 @@
       "imgPath": "shroud_of_darkness.jpg",
       "description": "Shroud of Darkness",
       "level": 0,
+      "requiredLevels": [],
+      "requiredHeroicPoints": [10, 10, 10, 10, 10],
       "skillPoints": [2, 2, 2, 2, 2],
       "heroicPoints": [1, 2, 2, 2, 2],
-      "requiredLevels": [],
       "requiredSkills": {
         "Soul Burn": 3
       },
-      "requiredHeroicPoints": 10,
       "stats": {}
     },
     {
@@ -83,13 +83,13 @@
       "imgPath": "life_black_fire.jpg",
       "description": "Life Black Fire",
       "level": 0,
+      "requiredLevels": [],
+      "requiredHeroicPoints": [20, 20, 20, 20, 20],
       "skillPoints": [2, 2, 2, 2, 2],
       "heroicPoints": [1, 2, 2, 2, 2],
-      "requiredLevels": [],
       "requiredSkills": {
         "Crown of Madness": 3
       },
-      "requiredHeroicPoints": 20,
       "stats": {}
     },
     {
@@ -97,11 +97,11 @@
       "imgPath": "deadman_awaken.jpg",
       "description": "Deadman Awaken",
       "level": 0,
+      "requiredLevels": [],
+      "requiredHeroicPoints": [40, 40, 40, 40, 40],
       "skillPoints": [2, 2, 2, 2, 2],
       "heroicPoints": [3, 3, 3, 3, 3],
-      "requiredLevels": [],
       "requiredSkills": {},
-      "requiredHeroicPoints": 40,
       "stats": {}
     },
     {
@@ -109,13 +109,13 @@
       "imgPath": "ruins_of_horror.jpg",
       "description": "Ruins of Horror",
       "level": 0,
+      "requiredLevels": [],
+      "requiredHeroicPoints": [25, 25, 25, 25, 25],
       "skillPoints": [2, 2, 2, 2, 2],
       "heroicPoints": [2, 2, 2, 2, 2],
-      "requiredLevels": [],
       "requiredSkills": {
         "Shroud of Darkness": 3
       },
-      "requiredHeroicPoints": 25,
       "stats": {}
     },
     {
@@ -123,13 +123,13 @@
       "imgPath": "zone_of_terrible_corpses.jpg",
       "description": "Zone of Terrible Corpses",
       "level": 0,
+      "requiredLevels": [],
+      "requiredHeroicPoints": [25, 25, 25, 25, 25],
       "skillPoints": [2, 2, 2, 2, 2],
       "heroicPoints": [1, 2, 2, 2, 2],
-      "requiredLevels": [],
       "requiredSkills": {
         "Life Black Fire": 3
       },
-      "requiredHeroicPoints": 25,
       "stats": {}
     }
   ]

@@ -7,11 +7,11 @@
       "imgPath": "hawk_eye.jpg",
       "description": "Increases skill range",
       "level": 0,
+      "requiredLevels": [6, 9, 12, 15, 18],
+      "requiredHeroicPoints": [],
       "skillPoints": [1, 1, 1, 1, 1],
       "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredLevels": [6, 9, 12, 15, 18],
       "requiredSkills": {},
-      "requiredHeroicPoints": 0,
       "stats": {}
     },
     {
@@ -19,11 +19,11 @@
       "imgPath": "power_surge.jpg",
       "description": "Increases Strength",
       "level": 0,
+      "requiredLevels": [6, 9, 12, 15, 18],
+      "requiredHeroicPoints": [],
       "skillPoints": [1, 1, 1, 1, 1],
       "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredLevels": [6, 9, 12, 15, 18],
       "requiredSkills": {},
-      "requiredHeroicPoints": 0,
       "stats": {}
     },
     {
@@ -31,11 +31,11 @@
       "imgPath": "nimbleness.jpg",
       "description": "Increases Agility",
       "level": 0,
+      "requiredLevels": [6, 9, 12, 15, 18],
+      "requiredHeroicPoints": [],
       "skillPoints": [1, 1, 1, 1, 1],
       "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredLevels": [6, 9, 12, 15, 18],
       "requiredSkills": {},
-      "requiredHeroicPoints": 0,
       "stats": {}
     },
     {
@@ -43,11 +43,11 @@
       "imgPath": "intellect.jpg",
       "description": "Increases Intelligence",
       "level": 0,
+      "requiredLevels": [6, 9, 12, 15, 18],
+      "requiredHeroicPoints": [],
       "skillPoints": [1, 1, 1, 1, 1],
       "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredLevels": [6, 9, 12, 15, 18],
       "requiredSkills": {},
-      "requiredHeroicPoints": 0,
       "stats": {}
     },
     {
@@ -55,11 +55,11 @@
       "imgPath": "mind_boost.jpg",
       "description": "Increases Wisdom",
       "level": 0,
+      "requiredLevels": [6, 9, 12, 15, 18],
+      "requiredHeroicPoints": [],
       "skillPoints": [1, 1, 1, 1, 1],
       "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredLevels": [6, 9, 12, 15, 18],
       "requiredSkills": {},
-      "requiredHeroicPoints": 0,
       "stats": {}
     },
     {
@@ -67,11 +67,11 @@
       "imgPath": "endurance.jpg",
       "description": "Increases Stamina",
       "level": 0,
+      "requiredLevels": [6, 9, 12, 15, 18],
+      "requiredHeroicPoints": [],
       "skillPoints": [1, 1, 1, 1, 1],
       "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredLevels": [6, 9, 12, 15, 18],
       "requiredSkills": {},
-      "requiredHeroicPoints": 0,
       "stats": {}
     },
     {
@@ -79,11 +79,11 @@
       "imgPath": "intense_magic.jpg",
       "description": "Uses skills with no MP cost at a certain rate",
       "level": 0,
+      "requiredLevels": [14, 17, 20, 23, 26],
+      "requiredHeroicPoints": [],
       "skillPoints": [1, 1, 1, 1, 1],
       "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredLevels": [14, 17, 20, 23, 26],
       "requiredSkills": {},
-      "requiredHeroicPoints": 0,
       "stats": {}
     },
     {
@@ -91,11 +91,11 @@
       "imgPath": "mind_control.jpg",
       "description": "Increases Mana",
       "level": 0,
+      "requiredLevels": [22, 25, 28, 31, 34],
+      "requiredHeroicPoints": [],
       "skillPoints": [1, 1, 1, 1, 1],
       "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredLevels": [22, 25, 28, 31, 34],
       "requiredSkills": {},
-      "requiredHeroicPoints": 0,
       "stats": {}
     },
     {
@@ -103,11 +103,11 @@
       "imgPath": "armament.jpg",
       "description": "Increases Elemental Resistance",
       "level": 0,
+      "requiredLevels": [30, 33, 36, 39, 42],
+      "requiredHeroicPoints": [],
       "skillPoints": [1, 1, 1, 1, 1],
       "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredLevels": [30, 33, 36, 39, 42],
       "requiredSkills": {},
-      "requiredHeroicPoints": 0,
       "stats": {}
     }
   ]

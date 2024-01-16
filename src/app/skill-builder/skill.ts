@@ -3,10 +3,10 @@ export interface Skill {
   imgPath: string;
   level: number;
   description: string;
+  requiredLevels: [number];
+  requiredHeroicPoints: [number];
   skillPoints: [number];
   heroicPoints: [number];
-  requiredLevels: [number];
   requiredSkills: {};
-  requiredHeroicPoints: number;
   stats: {};
 }

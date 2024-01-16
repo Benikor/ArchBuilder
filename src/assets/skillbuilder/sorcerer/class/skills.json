@@ -7,11 +7,11 @@
       "imgPath": "life_restore.jpg",
       "description": "Health Recovery, Damage, and Defense increases",
       "level": 0,
+      "requiredLevels": [8, 11, 14, 17, 20],
+      "requiredHeroicPoints": [],
       "skillPoints": [1, 1, 1, 1, 1],
       "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredLevels": [8, 11, 14, 17, 20],
       "requiredSkills": {},
-      "requiredHeroicPoints": 0,
       "stats": {}
     },
     {
@@ -19,11 +19,11 @@
       "imgPath": "testament.jpg",
       "description": "Temporarily reinforces your Attributes using a Hero's soul. Normal Attacks have a chance of ignoring target's Elemental Resistance.",
       "level": 0,
+      "requiredLevels": [13, 16, 19, 22, 25],
+      "requiredHeroicPoints": [],
       "skillPoints": [1, 1, 1, 1, 1],
       "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredLevels": [13, 16, 19, 22, 25],
       "requiredSkills": {},
-      "requiredHeroicPoints": 0,
       "stats": {}
     },
     {
@@ -31,11 +31,11 @@
       "imgPath": "quagmire.jpg",
       "description": "Creates a swamp to slow the enemy and deals damage successively",
       "level": 0,
+      "requiredLevels": [18, 21, 24, 27, 30],
+      "requiredHeroicPoints": [],
       "skillPoints": [1, 1, 1, 1, 1],
       "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredLevels": [18, 21, 24, 27, 30],
       "requiredSkills": {},
-      "requiredHeroicPoints": 0,
       "stats": {}
     },
     {
@@ -43,11 +43,11 @@
       "imgPath": "mana_sequence.jpg",
       "description": "Successive Energy Ball Attack",
       "level": 0,
+      "requiredLevels": [23, 26, 29, 32, 35],
+      "requiredHeroicPoints": [],
       "skillPoints": [1, 1, 1, 1, 1],
       "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredLevels": [23, 26, 29, 32, 35],
       "requiredSkills": {},
-      "requiredHeroicPoints": 0,
       "stats": {}
     },
     {
@@ -55,11 +55,11 @@
       "imgPath": "halt.jpg",
       "description": "Temporarily disrupts target's Attacks",
       "level": 0,
+      "requiredLevels": [28, 31, 34, 37, 40],
+      "requiredHeroicPoints": [],
       "skillPoints": [1, 1, 1, 1, 1],
       "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredLevels": [28, 31, 34, 37, 40],
       "requiredSkills": {},
-      "requiredHeroicPoints": 0,
       "stats": {}
     },
     {
@@ -67,11 +67,11 @@
       "imgPath": "optimum.jpg",
       "description": "Temporarily increases Max. HP and Movement Speed and decreases Mana consumption rate for Skills.",
       "level": 0,
+      "requiredLevels": [33, 36, 39, 42, 45],
+      "requiredHeroicPoints": [],
       "skillPoints": [1, 1, 1, 1, 1],
       "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredLevels": [33, 36, 39, 42, 45],
       "requiredSkills": {},
-      "requiredHeroicPoints": 0,
       "stats": {}
     },
     {
@@ -79,11 +79,11 @@
       "imgPath": "mana_pull.jpg",
       "description": "Temporarily absorbs damage and convert it to MP Temporarily increases Discipline",
       "level": 0,
+      "requiredLevels": [38, 41, 44, 47, 50],
+      "requiredHeroicPoints": [],
       "skillPoints": [1, 1, 1, 1, 1],
       "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredLevels": [38, 41, 44, 47, 50],
       "requiredSkills": {},
-      "requiredHeroicPoints": 0,
       "stats": {}
     },
     {
@@ -91,11 +91,11 @@
       "imgPath": "assmilitate.jpg",
       "description": "Temporarily heals yourself for a percentage of damage taken when hit.",
       "level": 0,
+      "requiredLevels": [43, 46, 49, 52, 55],
+      "requiredHeroicPoints": [],
       "skillPoints": [1, 1, 1, 1, 1],
       "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredLevels": [43, 46, 49, 52, 55],
       "requiredSkills": {},
-      "requiredHeroicPoints": 0,
       "stats": {}
     }
   ]

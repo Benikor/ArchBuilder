@@ -11,8 +11,9 @@ import { HeroicSkillsComponent } from './skill-builder/heroic-skills/heroic-skil
 import { SkillComponent } from './skill-builder/skill/skill.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { HeaderComponent } from './header/header.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { SkillDescriptionComponent } from './skill-builder/skill/skill-description/skill-description.component';
 
 @NgModule({
   declarations: [
@@ -25,8 +26,15 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     MainPageComponent,
     HeaderComponent,
     PageNotFoundComponent,
+    SkillDescriptionComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
