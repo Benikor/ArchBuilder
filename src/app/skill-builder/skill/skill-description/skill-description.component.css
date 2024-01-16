@@ -52,7 +52,7 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: 250px repeat(15, 1fr);
+  grid-template-columns: 235px repeat(15, 1fr);
   margin: 10px 20px;
 }
 
