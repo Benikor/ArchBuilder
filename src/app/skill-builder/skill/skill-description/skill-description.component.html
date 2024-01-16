@@ -5,9 +5,7 @@
     <h1>{{ skill.name }}</h1>
     <div class="flex-row">
       <img
-        src="/assets/skillbuilder/sorcerer/{{ skillType.toLowerCase() }}/{{
-          skill.imgPath
-        }}"
+        src="/assets/skillbuilder/sorcerer/{{ skill.type }}/{{ skill.imgPath }}"
         alt=""
       />
       <h3>{{ skill.description }}</h3>
@@ -24,8 +22,8 @@
       <p class="property-name">Skill Level</p>
       <p class="property" *ngFor="let level of levels">{{ level + 1 }}</p>
 
-      <p class="property-name" *ngIf="skillType != 'Heroic'">Required Level</p>
-      <ng-container *ngIf="skillType != 'Heroic'">
+      <p class="property-name" *ngIf="skill.type != 'heroic'">Required Level</p>
+      <ng-container *ngIf="skill.type != 'heroic'">
         <p
           [ngClass]="{ property: skill.requiredLevels[level] != null }"
           *ngFor="let level of levels"
@@ -34,10 +32,10 @@
         </p>
       </ng-container>
 
-      <p class="property-name" *ngIf="skillType == 'Heroic'">
+      <p class="property-name" *ngIf="skill.type == 'heroic'">
         Required Spent Heroic Points
       </p>
-      <ng-container *ngIf="skillType == 'Heroic'">
+      <ng-container *ngIf="skill.type == 'heroic'">
         <p
           [ngClass]="{
             property: skill.requiredHeroicPoints[level] != null
@@ -56,10 +54,10 @@
         {{ skill.skillPoints[level] }}
       </p>
 
-      <p class="property-name" *ngIf="skillType == 'Heroic'">
+      <p class="property-name" *ngIf="skill.type == 'heroic'">
         Required Heroic Points
       </p>
-      <ng-container *ngIf="skillType == 'Heroic'">
+      <ng-container *ngIf="skill.type == 'heroic'">
         <p
           [ngClass]="{ property: skill.heroicPoints[level] != null }"
           *ngFor="let level of levels"

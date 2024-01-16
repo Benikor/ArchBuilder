@@ -1,66 +1,67 @@
-{
-  "class": "Sorcerer",
-  "type": "Buff",
-  "skills": [
-    {
-      "name": "Vital Conversion",
-      "imgPath": "vital_conversion.jpg",
-      "description": "Temporarily increases HP",
-      "level": 0,
-      "requiredLevels": [5, 8, 11, 14, 17],
-      "requiredHeroicPoints": [],
-      "skillPoints": [1, 1, 1, 1, 1],
-      "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredSkills": {},
-      "stats": {}
-    },
-    {
-      "name": "Geo Shards",
-      "imgPath": "geo_shards.jpg",
-      "description": "Binds long range targets with the power of Earth and reduces victims' Movement and Attack Speeds",
-      "level": 0,
-      "requiredLevels": [13, 16, 19, 22, 25],
-      "requiredHeroicPoints": [],
-      "skillPoints": [1, 1, 1, 1, 1],
-      "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredSkills": {},
-      "stats": {}
-    },
-    {
-      "name": "Power Staff",
-      "imgPath": "power_staff.jpg",
-      "description": "Temporarily increases Staff damage.",
-      "level": 0,
-      "requiredLevels": [21, 24, 27, 30, 33],
-      "requiredHeroicPoints": [],
-      "skillPoints": [1, 1, 1, 1, 1],
-      "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredSkills": {},
-      "stats": {}
-    },
-    {
-      "name": "Power Wand",
-      "imgPath": "power_wand.jpg",
-      "description": "Temporarily increases Wand damage.",
-      "level": 0,
-      "requiredLevels": [21, 24, 27, 30, 33],
-      "requiredHeroicPoints": [],
-      "skillPoints": [1, 1, 1, 1, 1],
-      "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredSkills": {},
-      "stats": {}
-    },
-    {
-      "name": "Wind Quake",
-      "imgPath": "wind_quake.jpg",
-      "description": "Binds targets within certain radius around the caster with the power of Wind and reduces their Movement Speed",
-      "level": 0,
-      "requiredLevels": [29, 32, 35, 38, 41],
-      "requiredHeroicPoints": [],
-      "skillPoints": [1, 1, 1, 1, 1],
-      "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredSkills": {},
-      "stats": {}
-    }
-  ]
-}
+[
+  {
+    "type": "buff",
+    "name": "Vital Conversion",
+    "imgPath": "vital_conversion.jpg",
+    "description": "Temporarily increases HP",
+    "level": 0,
+    "requiredLevels": [5, 8, 11, 14, 17],
+    "requiredHeroicPoints": [],
+    "skillPoints": [1, 1, 1, 1, 1],
+    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "buff",
+    "name": "Geo Shards",
+    "imgPath": "geo_shards.jpg",
+    "description": "Binds long range targets with the power of Earth and reduces victims' Movement and Attack Speeds",
+    "level": 0,
+    "requiredLevels": [13, 16, 19, 22, 25],
+    "requiredHeroicPoints": [],
+    "skillPoints": [1, 1, 1, 1, 1],
+    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "buff",
+    "name": "Power Staff",
+    "imgPath": "power_staff.jpg",
+    "description": "Temporarily increases Staff damage.",
+    "level": 0,
+    "requiredLevels": [21, 24, 27, 30, 33],
+    "requiredHeroicPoints": [],
+    "skillPoints": [1, 1, 1, 1, 1],
+    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "buff",
+    "name": "Power Wand",
+    "imgPath": "power_wand.jpg",
+    "description": "Temporarily increases Wand damage.",
+    "level": 0,
+    "requiredLevels": [21, 24, 27, 30, 33],
+    "requiredHeroicPoints": [],
+    "skillPoints": [1, 1, 1, 1, 1],
+    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "buff",
+    "name": "Wind Quake",
+    "imgPath": "wind_quake.jpg",
+    "description": "Binds targets within certain radius around the caster with the power of Wind and reduces their Movement Speed",
+    "level": 0,
+    "requiredLevels": [29, 32, 35, 38, 41],
+    "requiredHeroicPoints": [],
+    "skillPoints": [1, 1, 1, 1, 1],
+    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {},
+    "stats": {}
+  }
+]

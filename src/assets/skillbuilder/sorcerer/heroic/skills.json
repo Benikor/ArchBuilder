@@ -1,136 +1,142 @@
-{
-  "class": "Sorcerer",
-  "type": "Heroic",
-  "skills": [
-    {
-      "name": "Nightmare Vision",
-      "imgPath": "nightmare_vision.jpg",
-      "description": "Nightmare Vision",
-      "level": 0,
-      "requiredLevels": [],
-      "requiredHeroicPoints": [0, 0, 0, 0, 0],
-      "skillPoints": [2, 2, 2, 2, 2],
-      "heroicPoints": [1, 2, 2, 2, 2],
-      "requiredSkills": {},
-      "stats": {}
+[
+  {
+    "type": "heroic",
+    "name": "Nightmare Vision",
+    "imgPath": "nightmare_vision.jpg",
+    "description": "Nightmare Vision",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "skillPoints": [2, 2, 2, 2, 2],
+    "heroicPoints": [1, 2, 2, 2, 2],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Dark Firewood",
+    "imgPath": "dark_firewood.jpg",
+    "description": "Dark Firewood",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredHeroicPoints": [10, 10, 10, 10, 10],
+    "skillPoints": [2, 2, 2, 2, 2],
+    "heroicPoints": [2, 2, 2, 2, 2],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Soul Burn",
+    "imgPath": "soul_burn.jpg",
+    "description": "Soul Burn",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredHeroicPoints": [5, 5, 5, 5, 5],
+    "skillPoints": [2, 2, 2, 2, 2],
+    "heroicPoints": [1, 2, 2, 2, 2],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Crown of Madness",
+    "imgPath": "crown_of_madness.jpg",
+    "description": "Crown of Madness",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredHeroicPoints": [5, 5, 5, 5, 5],
+    "skillPoints": [2, 2, 2, 2, 2],
+    "heroicPoints": [1, 2, 2, 2, 2],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Venomous Bite",
+    "imgPath": "venomous_bite.jpg",
+    "description": "Venomous Bite",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredHeroicPoints": [20, 20, 20, 20, 20],
+    "skillPoints": [2, 2, 2, 2, 2],
+    "heroicPoints": [2, 2, 2, 2, 2],
+    "requiredSkills": {
+      "Dark Firewood": 3
     },
-    {
-      "name": "Dark Firewood",
-      "imgPath": "dark_firewood.jpg",
-      "description": "Dark Firewood",
-      "level": 0,
-      "requiredLevels": [],
-      "requiredHeroicPoints": [10, 10, 10, 10, 10],
-      "skillPoints": [2, 2, 2, 2, 2],
-      "heroicPoints": [2, 2, 2, 2, 2],
-      "requiredSkills": {},
-      "stats": {}
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Shroud of Darkness",
+    "imgPath": "shroud_of_darkness.jpg",
+    "description": "Shroud of Darkness",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredHeroicPoints": [10, 10, 10, 10, 10],
+    "skillPoints": [2, 2, 2, 2, 2],
+    "heroicPoints": [1, 2, 2, 2, 2],
+    "requiredSkills": {
+      "Soul Burn": 3
     },
-    {
-      "name": "Soul Burn",
-      "imgPath": "soul_burn.jpg",
-      "description": "Soul Burn",
-      "level": 0,
-      "requiredLevels": [],
-      "requiredHeroicPoints": [5, 5, 5, 5, 5],
-      "skillPoints": [2, 2, 2, 2, 2],
-      "heroicPoints": [1, 2, 2, 2, 2],
-      "requiredSkills": {},
-      "stats": {}
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Life Black Fire",
+    "imgPath": "life_black_fire.jpg",
+    "description": "Life Black Fire",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredHeroicPoints": [20, 20, 20, 20, 20],
+    "skillPoints": [2, 2, 2, 2, 2],
+    "heroicPoints": [1, 2, 2, 2, 2],
+    "requiredSkills": {
+      "Crown of Madness": 3
     },
-    {
-      "name": "Crown of Madness",
-      "imgPath": "crown_of_madness.jpg",
-      "description": "Crown of Madness",
-      "level": 0,
-      "requiredLevels": [],
-      "requiredHeroicPoints": [5, 5, 5, 5, 5],
-      "skillPoints": [2, 2, 2, 2, 2],
-      "heroicPoints": [1, 2, 2, 2, 2],
-      "requiredSkills": {},
-      "stats": {}
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Deadman Awaken",
+    "imgPath": "deadman_awaken.jpg",
+    "description": "Deadman Awaken",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredHeroicPoints": [40, 40, 40, 40, 40],
+    "skillPoints": [2, 2, 2, 2, 2],
+    "heroicPoints": [3, 3, 3, 3, 3],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Ruins of Horror",
+    "imgPath": "ruins_of_horror.jpg",
+    "description": "Ruins of Horror",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredHeroicPoints": [25, 25, 25, 25, 25],
+    "skillPoints": [2, 2, 2, 2, 2],
+    "heroicPoints": [2, 2, 2, 2, 2],
+    "requiredSkills": {
+      "Shroud of Darkness": 3
     },
-    {
-      "name": "Venomous Bite",
-      "imgPath": "venomous_bite.jpg",
-      "description": "Venomous Bite",
-      "level": 0,
-      "requiredLevels": [],
-      "requiredHeroicPoints": [20, 20, 20, 20, 20],
-      "skillPoints": [2, 2, 2, 2, 2],
-      "heroicPoints": [2, 2, 2, 2, 2],
-      "requiredSkills": {
-        "Dark Firewood": 3
-      },
-      "stats": {}
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Zone of Terrible Corpses",
+    "imgPath": "zone_of_terrible_corpses.jpg",
+    "description": "Zone of Terrible Corpses",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredHeroicPoints": [25, 25, 25, 25, 25],
+    "skillPoints": [2, 2, 2, 2, 2],
+    "heroicPoints": [1, 2, 2, 2, 2],
+    "requiredSkills": {
+      "Life Black Fire": 3
     },
-    {
-      "name": "Shroud of Darkness",
-      "imgPath": "shroud_of_darkness.jpg",
-      "description": "Shroud of Darkness",
-      "level": 0,
-      "requiredLevels": [],
-      "requiredHeroicPoints": [10, 10, 10, 10, 10],
-      "skillPoints": [2, 2, 2, 2, 2],
-      "heroicPoints": [1, 2, 2, 2, 2],
-      "requiredSkills": {
-        "Soul Burn": 3
-      },
-      "stats": {}
-    },
-    {
-      "name": "Life Black Fire",
-      "imgPath": "life_black_fire.jpg",
-      "description": "Life Black Fire",
-      "level": 0,
-      "requiredLevels": [],
-      "requiredHeroicPoints": [20, 20, 20, 20, 20],
-      "skillPoints": [2, 2, 2, 2, 2],
-      "heroicPoints": [1, 2, 2, 2, 2],
-      "requiredSkills": {
-        "Crown of Madness": 3
-      },
-      "stats": {}
-    },
-    {
-      "name": "Deadman Awaken",
-      "imgPath": "deadman_awaken.jpg",
-      "description": "Deadman Awaken",
-      "level": 0,
-      "requiredLevels": [],
-      "requiredHeroicPoints": [40, 40, 40, 40, 40],
-      "skillPoints": [2, 2, 2, 2, 2],
-      "heroicPoints": [3, 3, 3, 3, 3],
-      "requiredSkills": {},
-      "stats": {}
-    },
-    {
-      "name": "Ruins of Horror",
-      "imgPath": "ruins_of_horror.jpg",
-      "description": "Ruins of Horror",
-      "level": 0,
-      "requiredLevels": [],
-      "requiredHeroicPoints": [25, 25, 25, 25, 25],
-      "skillPoints": [2, 2, 2, 2, 2],
-      "heroicPoints": [2, 2, 2, 2, 2],
-      "requiredSkills": {
-        "Shroud of Darkness": 3
-      },
-      "stats": {}
-    },
-    {
-      "name": "Zone of Terrible Corpses",
-      "imgPath": "zone_of_terrible_corpses.jpg",
-      "description": "Zone of Terrible Corpses",
-      "level": 0,
-      "requiredLevels": [],
-      "requiredHeroicPoints": [25, 25, 25, 25, 25],
-      "skillPoints": [2, 2, 2, 2, 2],
-      "heroicPoints": [1, 2, 2, 2, 2],
-      "requiredSkills": {
-        "Life Black Fire": 3
-      },
-      "stats": {}
-    }
-  ]
-}
+    "stats": {}
+  }
+]

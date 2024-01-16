@@ -1,162 +1,169 @@
-{
-  "class": "Sorcerer",
-  "type": "Combo",
-  "skills": [
-    {
-      "name": "Firestorm",
-      "imgPath": "firestorm.jpg",
-      "description": "This is Firestorm",
-      "level": 0,
-      "requiredLevels": [20, 20, 20, 20, 20],
-      "requiredHeroicPoints": [],
-      "skillPoints": [1, 1, 1, 1, 1],
-      "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredSkills": {
-        "Ethereal Impale": 4
-      },
-      "stats": {}
+[
+  {
+    "type": "combo",
+    "name": "Firestorm",
+    "imgPath": "firestorm.jpg",
+    "description": "This is Firestorm",
+    "level": 0,
+    "requiredLevels": [20, 20, 20, 20, 20],
+    "requiredHeroicPoints": [],
+    "skillPoints": [1, 1, 1, 1, 1],
+    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Ethereal Impale": 4
     },
-    {
-      "name": "Ethereal Impale",
-      "imgPath": "ethereal_impale.jpg",
-      "description": "This is Ethereal Impale",
-      "level": 0,
-      "requiredLevels": [20, 20, 20, 20, 20],
-      "requiredHeroicPoints": [],
-      "skillPoints": [1, 1, 1, 1, 1],
-      "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredSkills": {},
-      "stats": {}
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Ethereal Impale",
+    "imgPath": "ethereal_impale.jpg",
+    "description": "This is Ethereal Impale",
+    "level": 0,
+    "requiredLevels": [20, 20, 20, 20, 20],
+    "requiredHeroicPoints": [],
+    "skillPoints": [1, 1, 1, 1, 1],
+    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Legion of the Dead",
+    "imgPath": "legion_of_the_dead.jpg",
+    "description": "This is Legion of the Dead",
+    "level": 0,
+    "requiredLevels": [20, 20, 20, 20, 20],
+    "requiredHeroicPoints": [],
+    "skillPoints": [1, 1, 1, 1, 1],
+    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Ethereal Impale": 4
     },
-    {
-      "name": "Legion of the Dead",
-      "imgPath": "legion_of_the_dead.jpg",
-      "description": "This is Legion of the Dead",
-      "level": 0,
-      "requiredLevels": [20, 20, 20, 20, 20],
-      "requiredHeroicPoints": [],
-      "skillPoints": [1, 1, 1, 1, 1],
-      "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredSkills": {
-        "Ethereal Impale": 4
-      },
-      "stats": {}
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Requiem",
+    "imgPath": "requiem.jpg",
+    "description": "This is Requiem",
+    "level": 0,
+    "requiredLevels": [20, 20, 20, 20, 20],
+    "requiredHeroicPoints": [],
+    "skillPoints": [1, 1, 1, 1, 1],
+    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Firestorm": 3
     },
-    {
-      "name": "Requiem",
-      "imgPath": "requiem.jpg",
-      "description": "This is Requiem",
-      "level": 0,
-      "requiredLevels": [20, 20, 20, 20, 20],
-      "requiredHeroicPoints": [],
-      "skillPoints": [1, 1, 1, 1, 1],
-      "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredSkills": {
-        "Firestorm": 3
-      },
-      "stats": {}
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Unholy Casting",
+    "imgPath": "unholy_casting.jpg",
+    "description": "This is Unholy Casting",
+    "level": 0,
+    "requiredLevels": [20, 20, 20, 20, 20],
+    "requiredHeroicPoints": [],
+    "skillPoints": [1, 1, 1, 1, 1],
+    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Firestorm": 2,
+      "Legion of the Dead": 2
     },
-    {
-      "name": "Unholy Casting",
-      "imgPath": "unholy_casting.jpg",
-      "description": "This is Unholy Casting",
-      "level": 0,
-      "requiredLevels": [20, 20, 20, 20, 20],
-      "requiredHeroicPoints": [],
-      "skillPoints": [1, 1, 1, 1, 1],
-      "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredSkills": {
-        "Firestorm": 2,
-        "Legion of the Dead": 2
-      },
-      "stats": {}
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Death Pact",
+    "imgPath": "death_pact.jpg",
+    "description": "This is Death Pact",
+    "level": 0,
+    "requiredLevels": [20, 20, 20, 20, 20],
+    "requiredHeroicPoints": [],
+    "skillPoints": [1, 1, 1, 1, 1],
+    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Legion of the Dead": 3
     },
-    {
-      "name": "Death Pact",
-      "imgPath": "death_pact.jpg",
-      "description": "This is Death Pact",
-      "level": 0,
-      "requiredLevels": [20, 20, 20, 20, 20],
-      "requiredHeroicPoints": [],
-      "skillPoints": [1, 1, 1, 1, 1],
-      "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredSkills": {
-        "Legion of the Dead": 3
-      },
-      "stats": {}
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Dark Metabolism",
+    "imgPath": "dark_metabolism.jpg",
+    "description": "This is Dark Metabolism",
+    "level": 0,
+    "requiredLevels": [20, 20, 20, 20, 20],
+    "requiredHeroicPoints": [],
+    "skillPoints": [1, 1, 1, 1, 1],
+    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Requiem": 2,
+      "Unholy Casting": 2
     },
-    {
-      "name": "Dark Metabolism",
-      "imgPath": "dark_metabolism.jpg",
-      "description": "This is Dark Metabolism",
-      "level": 0,
-      "requiredLevels": [20, 20, 20, 20, 20],
-      "requiredHeroicPoints": [],
-      "skillPoints": [1, 1, 1, 1, 1],
-      "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredSkills": {
-        "Requiem": 2,
-        "Unholy Casting": 2
-      },
-      "stats": {}
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Ethereal Refreshment",
+    "imgPath": "ethereal_refreshment.jpg",
+    "description": "This is Ethereal Refreshment",
+    "level": 0,
+    "requiredLevels": [20, 20, 20, 20, 20],
+    "requiredHeroicPoints": [],
+    "skillPoints": [1, 1, 1, 1, 1],
+    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Death Pact": 2,
+      "Unholy Casting": 2
     },
-    {
-      "name": "Ethereal Refreshment",
-      "imgPath": "ethereal_refreshment.jpg",
-      "description": "This is Ethereal Refreshment",
-      "level": 0,
-      "requiredLevels": [20, 20, 20, 20, 20],
-      "requiredHeroicPoints": [],
-      "skillPoints": [1, 1, 1, 1, 1],
-      "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredSkills": {
-        "Death Pact": 2,
-        "Unholy Casting": 2
-      },
-      "stats": {}
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Windstorm",
+    "imgPath": "windstorm.jpg",
+    "description": "This is Windstorm",
+    "level": 0,
+    "requiredLevels": [20, 20, 20, 20, 20],
+    "requiredHeroicPoints": [],
+    "skillPoints": [1, 1, 1, 1, 1],
+    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Dark Metabolism": 3
     },
-    {
-      "name": "Windstorm",
-      "imgPath": "windstorm.jpg",
-      "description": "This is Windstorm",
-      "level": 0,
-      "requiredLevels": [20, 20, 20, 20, 20],
-      "requiredHeroicPoints": [],
-      "skillPoints": [1, 1, 1, 1, 1],
-      "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredSkills": {
-        "Dark Metabolism": 3
-      },
-      "stats": {}
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Wretched Cold",
+    "imgPath": "wretched_cold.jpg",
+    "description": "This is Wretched Cold",
+    "level": 0,
+    "requiredLevels": [20, 20, 20, 20, 20],
+    "requiredHeroicPoints": [],
+    "skillPoints": [1, 1, 1, 1, 1],
+    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Dark Metabolism": 2,
+      "Ethereal Refreshment": 2
     },
-    {
-      "name": "Wretched Cold",
-      "imgPath": "wretched_cold.jpg",
-      "description": "This is Wretched Cold",
-      "level": 0,
-      "requiredLevels": [20, 20, 20, 20, 20],
-      "requiredHeroicPoints": [],
-      "skillPoints": [1, 1, 1, 1, 1],
-      "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredSkills": {
-        "Dark Metabolism": 2,
-        "Ethereal Refreshment": 2
-      },
-      "stats": {}
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Narcolepsy",
+    "imgPath": "narcolepsy.jpg",
+    "description": "This is Narcolepsy",
+    "level": 0,
+    "requiredLevels": [20, 20, 20, 20, 20],
+    "requiredHeroicPoints": [],
+    "skillPoints": [1, 1, 1, 1, 1],
+    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Ethereal Refreshment": 3
     },
-    {
-      "name": "Narcolepsy",
-      "imgPath": "narcolepsy.jpg",
-      "description": "This is Narcolepsy",
-      "level": 0,
-      "requiredLevels": [20, 20, 20, 20, 20],
-      "requiredHeroicPoints": [],
-      "skillPoints": [1, 1, 1, 1, 1],
-      "heroicPoints": [0, 0, 0, 0, 0],
-      "requiredSkills": {
-        "Ethereal Refreshment": 3
-      },
-      "stats": {}
-    }
-  ]
-}
+    "stats": {}
+  }
+]

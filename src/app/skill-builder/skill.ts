@@ -1,4 +1,5 @@
 export interface Skill {
+  type: string;
   name: string;
   imgPath: string;
   level: number;
