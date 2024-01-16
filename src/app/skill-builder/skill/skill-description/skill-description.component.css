@@ -1,0 +1,72 @@
+.outer-container {
+  background-color: #000000bf;
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #000000e6;
+  border: 1px solid #2b2b2b;
+  height: 70%;
+  min-width: 600px;
+  max-width: 1350px;
+  width: 100%;
+  padding: 10px;
+  margin: auto;
+}
+
+.exit-button {
+  border: none;
+  background-color: #00000000;
+  color: #d2b582;
+  font-size: 16px;
+  align-self: end;
+  padding: 3px 5px 3px 5px;
+}
+
+.exit-button:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.flex-row {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+.skill-requirement {
+  text-align: start;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 250px repeat(15, 1fr);
+  margin: 10px 20px;
+}
+
+.property-name {
+  border: 1px solid #2b2b2b;
+  text-align: end;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  padding-right: 7.5px;
+}
+
+.property {
+  border: 1px solid #2b2b2b;
+  text-align: center;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+}
