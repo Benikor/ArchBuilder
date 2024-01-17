@@ -20,15 +20,17 @@
 
     <div class="grid-container">
       <p class="property-name">Skill Level</p>
-      <p class="property" *ngFor="let level of levels">{{ level + 1 }}</p>
+      <p class="property" *ngFor="let skillLevel of skillLevels">
+        {{ skillLevel + 1 }}
+      </p>
 
       <p class="property-name" *ngIf="skill.type != 'heroic'">Required Level</p>
       <ng-container *ngIf="skill.type != 'heroic'">
         <p
-          [ngClass]="{ property: skill.requiredLevels[level] != null }"
-          *ngFor="let level of levels"
+          [ngClass]="{ property: skill.requiredLevels[skillLevel] != null }"
+          *ngFor="let skillLevel of skillLevels"
         >
-          {{ skill.requiredLevels[level] }}
+          {{ skill.requiredLevels[skillLevel] }}
         </p>
       </ng-container>
 
@@ -38,20 +40,20 @@
       <ng-container *ngIf="skill.type == 'heroic'">
         <p
           [ngClass]="{
-            property: skill.requiredHeroicPoints[level] != null
+            property: skill.requiredHeroicPoints[skillLevel] != null
           }"
-          *ngFor="let level of levels"
+          *ngFor="let skillLevel of skillLevels"
         >
-          {{ skill.requiredHeroicPoints[level] }}
+          {{ skill.requiredHeroicPoints[skillLevel] }}
         </p>
       </ng-container>
 
       <p class="property-name">Required Skill Points</p>
       <p
-        [ngClass]="{ property: skill.skillPoints[level] != null }"
-        *ngFor="let level of levels"
+        [ngClass]="{ property: skill.skillPoints[skillLevel] != null }"
+        *ngFor="let skillLevel of skillLevels"
       >
-        {{ skill.skillPoints[level] }}
+        {{ skill.skillPoints[skillLevel] }}
       </p>
 
       <p class="property-name" *ngIf="skill.type == 'heroic'">
@@ -59,10 +61,10 @@
       </p>
       <ng-container *ngIf="skill.type == 'heroic'">
         <p
-          [ngClass]="{ property: skill.heroicPoints[level] != null }"
-          *ngFor="let level of levels"
+          [ngClass]="{ property: skill.heroicPoints[skillLevel] != null }"
+          *ngFor="let skillLevel of skillLevels"
         >
-          {{ skill.heroicPoints[level] }}
+          {{ skill.heroicPoints[skillLevel] }}
         </p>
       </ng-container>
 

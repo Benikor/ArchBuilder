@@ -9,7 +9,7 @@ import { Skill } from '../../skill';
 export class SkillDescriptionComponent implements OnInit {
   @Input() skill: Skill = {} as Skill;
   @Output() showDescription = new EventEmitter<boolean>();
-  levels = Array.from(Array(15).keys());
+  skillLevels = Array.from(Array(15).keys());
 
   constructor() {}
 
