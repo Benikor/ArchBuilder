@@ -4,12 +4,15 @@
 <div class="background">
   <div class="container">
     <div
-      *ngFor="let charClass of charClasses"
-      [ngClass]="charClass === 'Dragonscion' ? 'dragonscion' : ''"
+      *ngFor="let currentClass of classes"
+      [ngClass]="currentClass === 'Dragonscion' ? 'dragonscion' : ''"
     >
-      <a class="link" routerLink="/{{ charClass.toLowerCase() }}">
-        <img src="/assets/mainpage/{{ charClass.toLowerCase() }}.png" alt="" />
-        {{ charClass }}
+      <a class="link" routerLink="/{{ currentClass.toLowerCase() }}">
+        <img
+          src="/assets/mainpage/{{ currentClass.toLowerCase() }}.png"
+          alt=""
+        />
+        {{ currentClass }}
       </a>
     </div>
   </div>

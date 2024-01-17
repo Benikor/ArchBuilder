@@ -7,17 +7,17 @@ import { SkillBuilderService } from '../skill-builder/skill-builder.service';
   styleUrls: ['./main-page.component.css'],
 })
 export class MainPageComponent implements OnInit {
-  charClasses: string[] = [];
+  classes: string[] = [];
 
   constructor(private skillBuilderService: SkillBuilderService) {}
 
   ngOnInit(): void {
-    this.getCharClasses();
+    this.getClasses();
   }
 
-  getCharClasses() {
+  getClasses() {
     this.skillBuilderService
-      .getCharClasses()
-      .subscribe((charClasses) => (this.charClasses = charClasses));
+      .getClasses()
+      .subscribe((classes) => (this.classes = classes));
   }
 }
