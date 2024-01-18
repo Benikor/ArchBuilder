@@ -1,0 +1,20 @@
+.menu {
+  display: flex;
+  width: 725px;
+  margin: auto;
+  padding-top: 288px;
+  color: #d2b582;
+  justify-content: space-between;
+}
+
+.link:link,
+.link:visited {
+  color: #d2b582;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.link:hover,
+.link:active {
+  color: white;
+}

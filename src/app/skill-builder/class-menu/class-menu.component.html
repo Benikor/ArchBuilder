@@ -1,0 +1,10 @@
+<div class="menu">
+  <a
+    class="link"
+    (click)="ngOnInit()"
+    routerLink="/{{ class.toLowerCase() }}"
+    *ngFor="let class of classes"
+  >
+    {{ class }}
+  </a>
+</div>

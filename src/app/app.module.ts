@@ -11,6 +11,7 @@ import { HeaderComponent } from './header/header.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { SkillDescriptionComponent } from './skill-builder/skill/skill-description/skill-description.component';
+import { ClassMenuComponent } from './skill-builder/class-menu/class-menu.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { SkillDescriptionComponent } from './skill-builder/skill/skill-descripti
     HeaderComponent,
     PageNotFoundComponent,
     SkillDescriptionComponent,
+    ClassMenuComponent,
   ],
   imports: [
     BrowserModule,
