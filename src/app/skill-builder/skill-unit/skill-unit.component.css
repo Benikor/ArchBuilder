@@ -17,6 +17,7 @@
 
 .skill-img {
   margin: 10px 0 10px 0;
+  opacity: 0.3;
 }
 
 .skill-img:hover {
@@ -26,17 +27,18 @@
 }
 
 .level {
+  color: #2b2b2b;
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  background-color: rgb(20, 20, 20);
+  background-color: #141414;
 }
 
 button {
   background-color: #2b2b2b;
-  color: #d2b582;
+  color: #000000;
   font-family: "Courier";
   font-size: large;
   font-weight: 600;
@@ -45,16 +47,17 @@ button {
   width: 20px;
 }
 
-button:hover {
+button:hover:enabled {
   color: white;
   cursor: pointer;
   background-color: #3d3d3d;
 }
 
-.learned {
-  color: rgb(0, 175, 0);
+.learnable {
+  opacity: 1;
+  color: #d2b582;
 }
 
-.learnedImg {
-  opacity: 0.3;
+.learned {
+  color: #00af00;
 }

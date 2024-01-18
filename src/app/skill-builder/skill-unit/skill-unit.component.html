@@ -1,0 +1,37 @@
+<div class="skill-container">
+  <p class="skill-header">{{ skill.name }}</p>
+
+  <img
+    class="skill-img"
+    [ngClass]="{ learnable: skillAvailable() || skillLevel }"
+    src="/assets/skillbuilder/sorcerer/{{ skill.type }}/{{ skill.imgPath }}"
+    title="Click on the Image for description"
+    (click)="showDescription()"
+  />
+
+  <div class="level">
+    <button
+      [ngClass]="{ learnable: skillAvailable() || skillLevel }"
+      (click)="decreasePoint()"
+    >
+      -
+    </button>
+    <p [ngClass]="{ learnable: skillAvailable(), learned: skillLevel }">
+      {{ skillLevel }}
+    </p>
+    <button
+      [ngClass]="{ learnable: skillAvailable() }"
+      [disabled]="!skillAvailable()"
+      (click)="increasePoint()"
+    >
+      +
+    </button>
+  </div>
+</div>
+
+<div *ngIf="displayDescription">
+  <app-skill-description
+    [skill]="skill"
+    (showDescription)="showDescription()"
+  ></app-skill-description>
+</div>
