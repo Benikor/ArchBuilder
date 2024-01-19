@@ -53,11 +53,12 @@ button:hover:enabled {
   background-color: #3d3d3d;
 }
 
-.learnable {
+.available {
   opacity: 1;
   color: #d2b582;
 }
 
 .learned {
+  opacity: 1;
   color: #00af00;
 }

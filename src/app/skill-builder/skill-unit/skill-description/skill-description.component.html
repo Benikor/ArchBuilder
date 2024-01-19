@@ -1,6 +1,8 @@
-<div class="outer-container" (click)="closeDescription(false)">
+<div class="outer-container" (click)="displayDescription.emit(false)">
   <div class="inner-container" (click)="$event.stopPropagation()">
-    <button class="exit-button" (click)="closeDescription(false)">X</button>
+    <button class="exit-button" (click)="displayDescription.emit(false)">
+      X
+    </button>
 
     <h1>{{ skill.name }}</h1>
     <div class="flex-row">

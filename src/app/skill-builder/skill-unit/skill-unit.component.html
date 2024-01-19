@@ -3,26 +3,27 @@
 
   <img
     class="skill-img"
-    [ngClass]="{ learnable: skillAvailable() || skillLevel }"
+    [ngClass]="{ available: isAvailable, learned: skill.level }"
     src="/assets/skillbuilder/sorcerer/{{ skill.type }}/{{ skill.imgPath }}"
     title="Click on the Image for description"
-    (click)="showDescription()"
+    (click)="displayDescription = true"
   />
 
   <div class="level">
     <button
-      [ngClass]="{ learnable: skillAvailable() || skillLevel }"
-      (click)="decreasePoint()"
+      [ngClass]="{ available: skill.level }"
+      [disabled]="!skill.level"
+      (click)="decreaseSkillLevel()"
     >
       -
     </button>
-    <p [ngClass]="{ learnable: skillAvailable(), learned: skillLevel }">
-      {{ skillLevel }}
+    <p [ngClass]="{ available: isAvailable, learned: skill.level }">
+      {{ skill.level }}
     </p>
     <button
-      [ngClass]="{ learnable: skillAvailable() }"
-      [disabled]="!skillAvailable()"
-      (click)="increasePoint()"
+      [ngClass]="{ available: isAvailable }"
+      [disabled]="!isAvailable"
+      (click)="increaseSkillLevel()"
     >
       +
     </button>
@@ -32,6 +33,6 @@
 <div *ngIf="displayDescription">
   <app-skill-description
     [skill]="skill"
-    (showDescription)="showDescription()"
+    (displayDescription)="displayDescription = $event"
   ></app-skill-description>
 </div>

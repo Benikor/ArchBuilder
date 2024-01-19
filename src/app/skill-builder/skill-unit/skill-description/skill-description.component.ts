@@ -8,14 +8,10 @@ import { Skill } from '../../skill';
 })
 export class SkillDescriptionComponent implements OnInit {
   @Input() skill: Skill = {} as Skill;
-  @Output() showDescription = new EventEmitter<boolean>();
+  @Output() displayDescription = new EventEmitter<boolean>();
   skillLevels = Array.from(Array(15).keys());
 
   constructor() {}
 
   ngOnInit(): void {}
-
-  closeDescription(displayDescription: boolean) {
-    this.showDescription.emit(displayDescription);
-  }
 }
