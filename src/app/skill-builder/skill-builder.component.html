@@ -1,19 +1,72 @@
-<div class="menu">
-  <a
-    class="link"
-    routerLink="{{ charClass.toLowerCase() }}"
-    *ngFor="let charClass of charClasses"
+<app-class-menu></app-class-menu>
+<div class="background">
+  <div class="skills-header">
+    <h2>Skill Points</h2>
+    <h2>Heroic Points</h2>
+    <h2>Minimum Level</h2>
+    <h2>Level Limit: {{ levelLimit }}</h2>
+    <h2>
+      <div
+        class="available-points"
+        [ngClass]="{ notavailable: getAvilableSkillPoints() < 0 }"
+      >
+        {{ getAvilableSkillPoints() }}
+      </div>
+      of {{ getMaxSkillPoints() }}
+    </h2>
+    <h2>
+      <div
+        class="available-points"
+        [ngClass]="{ notavailable: getAvilableHeroicPoints() < 0 }"
+      >
+        {{ getAvilableHeroicPoints() }}
+      </div>
+      of {{ getMaxHeroicPoints() }}
+    </h2>
+    <h2>{{ getMinLevel() }}</h2>
+    <div class="form-container">
+      <form [formGroup]="levelLimitForm" (ngSubmit)="changeLevelLimit()">
+        <input
+          class="level-limit-input"
+          type="number"
+          [min]="getMinLevel()"
+          [max]="getMaxLevel()"
+          formControlName="levelLimitInput"
+        />
+        <button type="submit">Change</button>
+      </form>
+      <button (click)="resetSkillBuilder()">Reset</button>
+    </div>
+  </div>
+  <div *ngIf="currentClass != 'dragonscion'" class="container">
+    <div
+      [ngClass]="skillType.toLowerCase() + '-skills'"
+      *ngFor="let skillType of skillTypes; let i = index"
+    >
+      <div [ngClass]="skillType.toLowerCase() + '-container'">
+        <h2 class="header">{{ skillType }}</h2>
+        <div
+          *ngFor="let skill of skills[i]; let i = index"
+          [ngClass]="{
+            combo: i == 7 && skillType == 'Combo',
+            heroic: i == 0 && skillType == 'Heroic'
+          }"
+        >
+          <app-skill-unit
+            [skill]="skill"
+            [increasable]="increasable(skill)"
+            [decreasable]="decreasable(skill)"
+          ></app-skill-unit>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    *ngIf="currentClass == 'dragonscion'"
+    style="text-align: center; margin-top: 75px"
   >
-    {{ charClass }}
-  </a>
-</div>
-
-<div class="container">
-  <app-basic-skills></app-basic-skills>
-  <app-basic-skills></app-basic-skills>
-  <app-basic-skills></app-basic-skills>
-  <app-basic-skills></app-basic-skills>
-
-  <app-combo-skills class="combo"></app-combo-skills>
-  <app-heroic-skills class="heroic"></app-heroic-skills>
+    <h1>
+      <i class="bi bi-emoji-frown-fill"></i> This Page is not finished yet!
+    </h1>
+  </div>
 </div>

@@ -3,7 +3,7 @@
 
   <img
     class="skill-img"
-    [ngClass]="{ available: isAvailable, learned: skill.level }"
+    [ngClass]="{ available: increasable, learned: skill.level }"
     src="/assets/skillbuilder/sorcerer/{{ skill.type }}/{{ skill.imgPath }}"
     title="Click on the Image for description"
     (click)="displayDescription = true"
@@ -11,18 +11,18 @@
 
   <div class="level">
     <button
-      [ngClass]="{ available: skill.level }"
-      [disabled]="!skill.level"
+      [ngClass]="{ available: decreasable }"
+      [disabled]="!decreasable"
       (click)="decreaseSkillLevel()"
     >
       -
     </button>
-    <p [ngClass]="{ available: isAvailable, learned: skill.level }">
+    <p [ngClass]="{ available: increasable, learned: skill.level }">
       {{ skill.level }}
     </p>
     <button
-      [ngClass]="{ available: isAvailable }"
-      [disabled]="!isAvailable"
+      [ngClass]="{ available: increasable }"
+      [disabled]="!increasable"
       (click)="increaseSkillLevel()"
     >
       +
