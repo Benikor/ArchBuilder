@@ -49,10 +49,13 @@ export class SkillBuilderService {
     return this.maxHeroicPoints - this.usedHeroicPoints;
   }
 
-  setMaxSkillPoint(charLevel: number) {
-    this.maxSkillPoints =
-      charLevel +
-      (charLevel > 49 ? (charLevel - 49 < 21 ? charLevel - 49 : 21) : 0);
+  getSkillPointByLevel(level: number) {
+    // Lv1 - Lv49 -> 1 SkillPoint // Lv50 - Lv70 -> 2 SkillPoint // Lv71 - Lv150 -> 1 SkillPoint
+    return level + (level > 49 ? (level - 49 < 21 ? level - 49 : 21) : 0);
+  }
+
+  setMaxSkillPoint(level: number) {
+    this.maxSkillPoints = this.getSkillPointByLevel(level);
   }
 
   getMaxSkillPoints() {
@@ -61,24 +64,26 @@ export class SkillBuilderService {
 
   getRequiredLevelForSkillPoint() {
     let requiredLevelForSkillPoint = 0;
-    for (let i = 0; i <= 150; i++) {
-      if (
-        i + (i > 49 ? (i - 49 < 21 ? i - 49 : 21) : 0) >=
-        this.usedSkillPoints
-      ) {
-        requiredLevelForSkillPoint = i;
+    for (let level = 0; level <= 150; level++) {
+      if (this.getSkillPointByLevel(level) >= this.usedSkillPoints) {
+        requiredLevelForSkillPoint = level;
         break;
       }
     }
     return requiredLevelForSkillPoint;
   }
 
-  setMaxHeroicPoint(charLevel: number) {
+  getHeroicPointByLevel(level: number) {
     // Lv90 -> 1 HeroicPoint // Lv91 - Lv110 -> 2 HeroicPoint // Lv111 - Lv150 -> 3 HeroicPoint
-    this.maxHeroicPoints =
-      (charLevel - 89 > 0 ? charLevel - 89 : 0) +
-      (charLevel - 90 > 0 ? charLevel - 90 : 0) +
-      (charLevel - 110 > 0 ? charLevel - 110 : 0);
+    return (
+      (level - 89 > 0 ? level - 89 : 0) +
+      (level - 90 > 0 ? level - 90 : 0) +
+      (level - 110 > 0 ? level - 110 : 0)
+    );
+  }
+
+  setMaxHeroicPoint(level: number) {
+    this.maxHeroicPoints = this.getHeroicPointByLevel(level);
   }
 
   getMaxHeroicPoints() {
@@ -87,18 +92,17 @@ export class SkillBuilderService {
 
   getRequiredLevelForHeroicPoint() {
     let requiredLevelForHeroicPoint = 0;
-    for (let i = 0; i <= 150; i++) {
-      if (
-        (i - 89 > 0 ? i - 89 : 0) +
-          (i - 90 > 0 ? i - 90 : 0) +
-          (i - 110 > 0 ? i - 110 : 0) >=
-        this.usedHeroicPoints
-      ) {
-        requiredLevelForHeroicPoint = i;
+    for (let level = 0; level <= 150; level++) {
+      if (this.getHeroicPointByLevel(level) >= this.usedHeroicPoints) {
+        requiredLevelForHeroicPoint = level;
         break;
       }
     }
     return requiredLevelForHeroicPoint;
+  }
+
+  getMaxLevel() {
+    return this.maxLevel;
   }
 
   addMinLevel(minLevel: number) {
@@ -125,10 +129,6 @@ export class SkillBuilderService {
       : this.getRequiredLevelForHeroicPoint() > this.minLevel[0]
       ? this.getRequiredLevelForHeroicPoint()
       : this.minLevel[0];
-  }
-
-  getMaxLevel() {
-    return this.maxLevel;
   }
 
   getTypes(charClass: string): Observable<string[]> {
