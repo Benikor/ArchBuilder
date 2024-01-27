@@ -48,20 +48,30 @@ export class SkillBuilderComponent implements OnInit {
           return forkJoin(observables);
         })
       )
-      .subscribe((skills) => (this.skills = skills));
-
-    this.levelLimit = this.getMaxLevel();
-    this.skillBuilderService.resetMinLevel();
-    this.skillBuilderService.setUsedSkillPoints(0);
-    this.skillBuilderService.setUsedHeroicPoints(0);
-    this.skillBuilderService.setMaxSkillPoint(this.levelLimit);
-    this.skillBuilderService.setMaxHeroicPoint(this.levelLimit);
-    this.levelLimitForm.controls['levelLimitInput'].setValue(this.levelLimit);
+      .subscribe((skills) => {
+        this.skills = skills;
+        this.levelLimit = this.getMaxLevel();
+        this.skillBuilderService.resetMinLevel();
+        this.skillBuilderService.setUsedSkillPoints(0);
+        this.skillBuilderService.setUsedHeroicPoints(0);
+        this.skillBuilderService.setMaxSkillPoint(this.levelLimit);
+        this.skillBuilderService.setMaxHeroicPoint(this.levelLimit);
+        this.levelLimitForm.controls['levelLimitInput'].setValue(
+          this.levelLimit
+        );
+      });
   }
 
   changeLevelLimit() {
     console.log(this.skills);
     console.log(Number(this.levelLimitForm.value.levelLimitInput));
+    if (
+      Number(this.levelLimitForm.value.levelLimitInput) > this.getMaxLevel()
+    ) {
+      this.levelLimitForm.controls['levelLimitInput'].setValue(
+        this.getMaxLevel()
+      );
+    }
     if (
       Number(this.levelLimitForm.value.levelLimitInput) < this.getMinLevel()
     ) {

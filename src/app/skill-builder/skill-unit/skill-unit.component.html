@@ -4,7 +4,9 @@
   <img
     class="skill-img"
     [ngClass]="{ available: increasable, learned: skill.level }"
-    src="/assets/skillbuilder/sorcerer/{{ skill.type }}/{{ skill.imgPath }}"
+    src="/assets/skillbuilder/{{ currentClass }}/{{ skill.type }}/{{
+      skill.imgPath
+    }}"
     title="Click on the Image for description"
     (click)="displayDescription = true"
   />
@@ -33,6 +35,7 @@
 <div *ngIf="displayDescription">
   <app-skill-description
     [skill]="skill"
+    [currentClass]="currentClass"
     (displayDescription)="displayDescription = $event"
   ></app-skill-description>
 </div>

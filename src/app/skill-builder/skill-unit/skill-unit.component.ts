@@ -11,6 +11,7 @@ export class SkillUnitComponent implements OnInit {
   @Input() skill: Skill = {} as Skill;
   @Input() increasable: boolean = false;
   @Input() decreasable: boolean = false;
+  @Input() currentClass: string = '';
   displayDescription = false;
 
   constructor(private skillBuilderService: SkillBuilderService) {}
