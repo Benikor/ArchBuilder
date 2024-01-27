@@ -42,20 +42,20 @@
       <ng-container *ngIf="skill.type == 'heroic'">
         <p
           [ngClass]="{
-            property: skill.requiredHeroicPoints[skillLevel] != null
+            property: skill.requiredSpentHeroicPoints[skillLevel] != null
           }"
           *ngFor="let skillLevel of skillLevels"
         >
-          {{ skill.requiredHeroicPoints[skillLevel] }}
+          {{ skill.requiredSpentHeroicPoints[skillLevel] }}
         </p>
       </ng-container>
 
       <p class="property-name">Required Skill Points</p>
       <p
-        [ngClass]="{ property: skill.skillPoints[skillLevel] != null }"
+        [ngClass]="{ property: skill.requiredSkillPoints[skillLevel] != null }"
         *ngFor="let skillLevel of skillLevels"
       >
-        {{ skill.skillPoints[skillLevel] }}
+        {{ skill.requiredSkillPoints[skillLevel] }}
       </p>
 
       <p class="property-name" *ngIf="skill.type == 'heroic'">
@@ -63,10 +63,12 @@
       </p>
       <ng-container *ngIf="skill.type == 'heroic'">
         <p
-          [ngClass]="{ property: skill.heroicPoints[skillLevel] != null }"
+          [ngClass]="{
+            property: skill.requiredHeroicPoints[skillLevel] != null
+          }"
           *ngFor="let skillLevel of skillLevels"
         >
-          {{ skill.heroicPoints[skillLevel] }}
+          {{ skill.requiredHeroicPoints[skillLevel] }}
         </p>
       </ng-container>
 

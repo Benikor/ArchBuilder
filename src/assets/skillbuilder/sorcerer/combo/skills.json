@@ -6,9 +6,9 @@
     "description": "Inflicts Fire Damage to targets within a certain radius and temporarily decreases their Skill Block Rate and Movement Speed.",
     "level": 0,
     "requiredLevels": [56, 58, 60, 62, 64],
-    "requiredHeroicPoints": [],
-    "skillPoints": [1, 1, 1, 1, 1],
-    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
     "requiredSkills": {
       "Ethereal Impale": 4
     },
@@ -21,9 +21,9 @@
     "description": "Inflicts a powerful Damage on a target by summoning a Giant Sword and temporarily decreases target's Block Rate and STR.",
     "level": 0,
     "requiredLevels": [50, 52, 54, 56, 58],
-    "requiredHeroicPoints": [],
-    "skillPoints": [1, 1, 1, 1, 1],
-    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
     "requiredSkills": {},
     "stats": {}
   },
@@ -34,9 +34,9 @@
     "description": "Using the dark arts to summon the Skeleton Warrior that will be under your command.",
     "level": 0,
     "requiredLevels": [56, 58, 60, 62, 64],
-    "requiredHeroicPoints": [],
-    "skillPoints": [1, 1, 1, 1, 1],
-    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
     "requiredSkills": {
       "Ethereal Impale": 4
     },
@@ -49,9 +49,9 @@
     "description": "Temporarily decreases Physical Resistance and Dodge Rate of targets within a certain radius.",
     "level": 0,
     "requiredLevels": [62, 64, 66, 68, 70],
-    "requiredHeroicPoints": [],
-    "skillPoints": [1, 1, 1, 1, 1],
-    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
     "requiredSkills": {
       "Firestorm": 3
     },
@@ -64,9 +64,9 @@
     "description": "Reduces your Skill Cast Time and increases both Attack Power and Accuracy when using a wand.",
     "level": 0,
     "requiredLevels": [62, 64, 66, 68, 70],
-    "requiredHeroicPoints": [],
-    "skillPoints": [1, 1, 1, 1, 1],
-    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
     "requiredSkills": {
       "Firestorm": 2,
       "Legion of the Dead": 2
@@ -80,9 +80,9 @@
     "description": "Temporarily increases Damage and Defense of Summoned Skeletons and increases Pet's level.",
     "level": 0,
     "requiredLevels": [62, 64, 66, 68, 70],
-    "requiredHeroicPoints": [],
-    "skillPoints": [1, 1, 1, 1, 1],
-    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
     "requiredSkills": {
       "Legion of the Dead": 3
     },
@@ -95,9 +95,9 @@
     "description": "[Party] Temporarily increases the Stamina, Strength and Agility of both you and party members.",
     "level": 0,
     "requiredLevels": [67, 69, 71, 73, 75],
-    "requiredHeroicPoints": [],
-    "skillPoints": [1, 1, 1, 1, 1],
-    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
     "requiredSkills": {
       "Requiem": 2,
       "Unholy Casting": 2
@@ -111,9 +111,9 @@
     "description": "Restores some lost health and mana back to the current target.",
     "level": 0,
     "requiredLevels": [67, 69, 71, 73, 75],
-    "requiredHeroicPoints": [],
-    "skillPoints": [1, 1, 1, 1, 1],
-    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
     "requiredSkills": {
       "Death Pact": 2,
       "Unholy Casting": 2
@@ -127,9 +127,9 @@
     "description": "Inflicts Air Damage to targets within a certain radius and temporarily decreases their Intelligence and Wisdom.",
     "level": 0,
     "requiredLevels": [71, 73, 75, 77, 79],
-    "requiredHeroicPoints": [],
-    "skillPoints": [1, 1, 1, 1, 1],
-    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
     "requiredSkills": {
       "Dark Metabolism": 3
     },
@@ -142,9 +142,9 @@
     "description": "Inflicts Ice Damage to a target, temporarily decreases its Attack Speed, and increases its Skill Cast Time.",
     "level": 0,
     "requiredLevels": [71, 73, 75, 77, 79],
-    "requiredHeroicPoints": [],
-    "skillPoints": [1, 1, 1, 1, 1],
-    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
     "requiredSkills": {
       "Dark Metabolism": 2,
       "Ethereal Refreshment": 2
@@ -158,9 +158,9 @@
     "description": "Any targets within the target area have a chance to be subjected to a deep sleep that renders them immobilized.",
     "level": 0,
     "requiredLevels": [71, 73, 75, 77, 79],
-    "requiredHeroicPoints": [],
-    "skillPoints": [1, 1, 1, 1, 1],
-    "heroicPoints": [0, 0, 0, 0, 0],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
     "requiredSkills": {
       "Ethereal Refreshment": 3
     },

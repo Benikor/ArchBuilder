@@ -5,9 +5,9 @@ export interface Skill {
   level: number;
   description: string;
   requiredLevels: [number];
+  requiredSpentHeroicPoints: [number];
+  requiredSkillPoints: [number];
   requiredHeroicPoints: [number];
-  skillPoints: [number];
-  heroicPoints: [number];
   requiredSkills: {};
   stats: {};
 }

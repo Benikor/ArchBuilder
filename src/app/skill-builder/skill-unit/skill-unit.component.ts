@@ -20,10 +20,10 @@ export class SkillUnitComponent implements OnInit {
   increaseSkillLevel() {
     if (this.increasable) {
       this.skillBuilderService.increaseUsedSkillPoints(
-        this.skill.skillPoints[this.skill.level]
+        this.skill.requiredSkillPoints[this.skill.level]
       );
       this.skillBuilderService.increaseUsedHeroicPoints(
-        this.skill.heroicPoints[this.skill.level]
+        this.skill.requiredHeroicPoints[this.skill.level]
       );
       this.skillBuilderService.addMinLevel(
         this.skill.requiredLevels[this.skill.level]
@@ -36,10 +36,10 @@ export class SkillUnitComponent implements OnInit {
     if (this.decreasable) {
       this.skill.level--;
       this.skillBuilderService.decreaseUsedSkillPoints(
-        this.skill.skillPoints[this.skill.level]
+        this.skill.requiredSkillPoints[this.skill.level]
       );
       this.skillBuilderService.decreaseUsedHeroicPoints(
-        this.skill.heroicPoints[this.skill.level]
+        this.skill.requiredHeroicPoints[this.skill.level]
       );
       this.skillBuilderService.removeMinLevel(
         this.skill.requiredLevels[this.skill.level]

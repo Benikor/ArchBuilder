@@ -119,11 +119,11 @@ export class SkillBuilderComponent implements OnInit {
       (this.levelLimit >= skill.requiredLevels[skill.level] ||
         this.skillBuilderService.getMaxHeroicPoints() -
           this.skillBuilderService.getAvilableHeroicPoints() >=
-          skill.requiredHeroicPoints[skill.level]) &&
+          skill.requiredSpentHeroicPoints[skill.level]) &&
       this.skillBuilderService.getAvilableSkillPoints() >=
-        skill.skillPoints[skill.level] &&
+        skill.requiredSkillPoints[skill.level] &&
       this.skillBuilderService.getAvilableHeroicPoints() >=
-        skill.heroicPoints[skill.level] &&
+        skill.requiredHeroicPoints[skill.level] &&
       requiredPassed
     );
   }
