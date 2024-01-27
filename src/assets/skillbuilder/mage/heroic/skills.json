@@ -1,0 +1,142 @@
+[
+  {
+    "type": "heroic",
+    "name": "Magical Tradition",
+    "imgPath": "magical_tradition.jpg",
+    "description": "Reduces Skill Casting time and increases duration of the caster's debuffs if a Staff is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSpentHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Titan Crusher",
+    "imgPath": "titan_crusher.jpg",
+    "description": "Powerful Magic Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSpentHeroicPoints": [10, 0, 0, 0, 0],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Lance of Lightning",
+    "imgPath": "lance_of_lightning.jpg",
+    "description": "Powerful Magic Heroic Attack in a line.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSpentHeroicPoints": [5, 0, 0, 0, 0],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Radiant Vision",
+    "imgPath": "radiant_vision.jpg",
+    "description": "Temporarily increases Heroic Attack Power, Physical Damage and Fire Elemental Damage.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSpentHeroicPoints": [5, 0, 0, 0, 0],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Storm Bite",
+    "imgPath": "storm_bite.jpg",
+    "description": "Temporarily causes Cower with a certain chance after a powerful Magic Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSpentHeroicPoints": [20, 0, 0, 0, 0],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requiredSkills": {
+      "Titan Crusher": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Iron Staff",
+    "imgPath": "iron_staff.jpg",
+    "description": "Reduces Heroic Attack Power and Melee Heroic Damage, as well as increases Movement Speed if a Staff is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSpentHeroicPoints": [10, 0, 0, 0, 0],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requiredSkills": {
+      "Lance of Lightning": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Dread Assault",
+    "imgPath": "dread_assault.jpg",
+    "description": "Temporarily causes Fear with a certain chance after a powerful Magic Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSpentHeroicPoints": [20, 0, 0, 0, 0],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requiredSkills": {
+      "Radiant Vision": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Soul Bane",
+    "imgPath": "soul_bane.jpg",
+    "description": "Powerful Magic Heroic Attack on a ranged target.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSpentHeroicPoints": [40, 0, 0, 0, 0],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [3, 3, 3, 3, 3],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Spiral Vision",
+    "imgPath": "spiral_vision.jpg",
+    "description": "[Party] Temporarily increases Heroic Attack Power and reduces Skill Casting time of your party members within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSpentHeroicPoints": [25, 0, 0, 0, 0],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requiredSkills": {
+      "Iron Staff": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Black Staff Disease",
+    "imgPath": "black_staff_disease.jpg",
+    "description": "Temporarily causes Disease with a certain chance after a powerful Magic Heroic Attack within range around you.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSpentHeroicPoints": [25, 0, 0, 0, 0],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requiredSkills": {
+      "Dread Assault": 3
+    },
+    "stats": {}
+  }
+]
