@@ -52,15 +52,29 @@ export class SkillBuilderService {
   setMaxSkillPoint(charLevel: number) {
     this.maxSkillPoints =
       charLevel +
-      (charLevel - 49 > 0 ? (charLevel - 49 < 21 ? charLevel - 49 : 21) : 0);
+      (charLevel > 49 ? (charLevel - 49 < 21 ? charLevel - 49 : 21) : 0);
   }
 
   getMaxSkillPoints() {
     return this.maxSkillPoints;
   }
 
+  getRequiredLevelForSkillPoint() {
+    let requiredLevelForSkillPoint = 0;
+    for (let i = 0; i <= 150; i++) {
+      if (
+        i + (i > 49 ? (i - 49 < 21 ? i - 49 : 21) : 0) >=
+        this.usedSkillPoints
+      ) {
+        requiredLevelForSkillPoint = i;
+        break;
+      }
+    }
+    return requiredLevelForSkillPoint;
+  }
+
   setMaxHeroicPoint(charLevel: number) {
-    // Lv90 -> 1HP // Lv91 - Lv110 -> 2HP // Lv111 - Lv150 -> 3HP
+    // Lv90 -> 1 HeroicPoint // Lv91 - Lv110 -> 2 HeroicPoint // Lv111 - Lv150 -> 3 HeroicPoint
     this.maxHeroicPoints =
       (charLevel - 89 > 0 ? charLevel - 89 : 0) +
       (charLevel - 90 > 0 ? charLevel - 90 : 0) +
@@ -69,6 +83,22 @@ export class SkillBuilderService {
 
   getMaxHeroicPoints() {
     return this.maxHeroicPoints;
+  }
+
+  getRequiredLevelForHeroicPoint() {
+    let requiredLevelForHeroicPoint = 0;
+    for (let i = 0; i <= 150; i++) {
+      if (
+        (i - 89 > 0 ? i - 89 : 0) +
+          (i - 90 > 0 ? i - 90 : 0) +
+          (i - 110 > 0 ? i - 110 : 0) >=
+        this.usedHeroicPoints
+      ) {
+        requiredLevelForHeroicPoint = i;
+        break;
+      }
+    }
+    return requiredLevelForHeroicPoint;
   }
 
   addMinLevel(minLevel: number) {
@@ -87,7 +117,14 @@ export class SkillBuilderService {
   }
 
   getMinLevel() {
-    return this.minLevel[0];
+    return this.getRequiredLevelForSkillPoint() > this.minLevel[0]
+      ? this.getRequiredLevelForSkillPoint() >
+        this.getRequiredLevelForHeroicPoint()
+        ? this.getRequiredLevelForSkillPoint()
+        : this.getRequiredLevelForHeroicPoint()
+      : this.getRequiredLevelForHeroicPoint() > this.minLevel[0]
+      ? this.getRequiredLevelForHeroicPoint()
+      : this.minLevel[0];
   }
 
   getMaxLevel() {
