@@ -1,0 +1,169 @@
+[
+  {
+    "type": "combo",
+    "name": "Aggression",
+    "imgPath": "aggression.jpg",
+    "description": "[Party] Temporarily increases the Attack Power of both you and party members within close proximity.",
+    "level": 0,
+    "requiredLevels": [56, 58, 60, 62, 64],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Elemental Support": 4
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Elemental Support",
+    "imgPath": "elemental_support.jpg",
+    "description": "[Guild] Temporarily increases the lemental Damages of both you and guild members within the target area.",
+    "level": 0,
+    "requiredLevels": [50, 52, 54, 56, 58],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Wild Barrage",
+    "imgPath": "wild_barrage.jpg",
+    "description": "Inflicts Physical Damage on targets within a certain radius and temporarily decreases their Physical Defense.",
+    "level": 0,
+    "requiredLevels": [56, 58, 60, 62, 64],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Elemental Support": 4
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Seismic Shock",
+    "imgPath": "seismic_shock.jpg",
+    "description": "Inflicts Earth Damage to targets in a straight line and temporarily decreases their Skill Block Rate.",
+    "level": 0,
+    "requiredLevels": [62, 64, 66, 68, 70],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Aggression": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Weapon Mastery",
+    "imgPath": "weapon_mastery.jpg",
+    "description": "Grants additional Attack Power and Accuracy.",
+    "level": 0,
+    "requiredLevels": [62, 64, 66, 68, 70],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Aggression": 2,
+      "Wild Barrage": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Steadfast",
+    "imgPath": "steadfast.jpg",
+    "description": "Temporarily increases your Block Rate, Discipline and Physical Resistance.",
+    "level": 0,
+    "requiredLevels": [62, 64, 66, 68, 70],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Wild Barrage": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Tribal Venom",
+    "imgPath": "tribal_venom.jpg",
+    "description": "Inflicts Poison Damage to a target and temporarily decreases its Elemental Resistance.",
+    "level": 0,
+    "requiredLevels": [67, 69, 71, 73, 75],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Seismic Shock": 2,
+      "Weapon Mastery": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Rallying Shout",
+    "imgPath": "rallying_shout.jpg",
+    "description": "[Party] Increases the Critical Hit chance and Critical Hit damage for both you and party members within close proximity.",
+    "level": 0,
+    "requiredLevels": [67, 69, 71, 73, 75],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Steadfast": 2,
+      "Weapon Mastery": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Repress",
+    "imgPath": "repress.jpg",
+    "description": "Represes your target for a short period, preventing them from Attacking.",
+    "level": 0,
+    "requiredLevels": [71, 73, 75, 77, 79],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Tribal Venom": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Sacrificial Blow",
+    "imgPath": "sacrificial_blow.jpg",
+    "description": "An ostentatious strike that deals huge Damage to the current target, at the cost of your own health.",
+    "level": 0,
+    "requiredLevels": [71, 73, 75, 77, 79],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Tribal Venom": 2,
+      "Rallying Shout": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Martyr`s Mark",
+    "imgPath": "martyrs_mark.jpg",
+    "description": "[Party] When cast on party members within close proximity to you, they will divert some of the Damage they receive to you instead.",
+    "level": 0,
+    "requiredLevels": [71, 73, 75, 77, 79],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Rallying Shout": 3
+    },
+    "stats": {}
+  }
+]
