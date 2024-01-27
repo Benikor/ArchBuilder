@@ -36,6 +36,7 @@ export class SkillBuilderService {
   setUsedHeroicPoints(HeroicPoints: number) {
     this.usedHeroicPoints = HeroicPoints;
   }
+
   increaseUsedHeroicPoints(HeroicPoints: number) {
     this.usedHeroicPoints += HeroicPoints;
   }
@@ -70,10 +71,6 @@ export class SkillBuilderService {
     return this.maxHeroicPoints;
   }
 
-  resetMinLevel() {
-    this.minLevel = [0];
-  }
-
   addMinLevel(minLevel: number) {
     this.minLevel.push(minLevel);
     this.minLevel.sort((a, b) => b - a);
@@ -83,6 +80,10 @@ export class SkillBuilderService {
     this.minLevel
       .splice(this.minLevel.indexOf(minLevel, 0), 1)
       .sort((a, b) => b - a);
+  }
+
+  resetMinLevel() {
+    this.minLevel = [0];
   }
 
   getMinLevel() {
