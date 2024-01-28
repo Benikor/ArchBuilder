@@ -5,7 +5,7 @@
   <div class="container">
     <div
       *ngFor="let currentClass of classes"
-      [ngClass]="currentClass === 'Dragonscion' ? 'dragonscion' : ''"
+      [ngClass]="{ dragonscion: currentClass == 'Dragonscion' }"
     >
       <a class="link" routerLink="/{{ currentClass.toLowerCase() }}">
         <img

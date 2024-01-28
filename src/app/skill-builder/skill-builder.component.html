@@ -38,18 +38,35 @@
       <button (click)="resetSkillBuilder()">Reset</button>
     </div>
   </div>
-  <div *ngIf="currentClass != 'dragonscion'" class="container">
+  <div
+    [ngClass]="
+      currentClass == 'dragonscion' ? currentClass + '-container' : 'container'
+    "
+  >
     <div
-      [ngClass]="skillType.toLowerCase() + '-skills'"
+      [ngClass]="
+        currentClass == 'dragonscion' && skillType == 'Passive'
+          ? currentClass + '-' + skillType.toLowerCase() + '-skills'
+          : skillType.toLowerCase() + '-skills'
+      "
       *ngFor="let skillType of skillTypes; let i = index"
     >
-      <div [ngClass]="skillType.toLowerCase() + '-container'">
+      <div
+        [ngClass]="
+          currentClass == 'dragonscion' && skillType == 'Passive'
+            ? currentClass + '-' + skillType.toLowerCase() + '-container'
+            : skillType.toLowerCase() + '-container'
+        "
+      >
         <h2 class="header">{{ skillType }}</h2>
         <div
           *ngFor="let skill of skills[i]; let i = index"
           [ngClass]="{
             combo: i == 7 && skillType == 'Combo',
-            heroic: i == 0 && skillType == 'Heroic'
+            heroic: i == 0 && skillType.search('Heroic') != -1,
+            slayer: (i == 3 || i == 7) && skillType == 'Slayer',
+            summonerone: i == 0 && skillType == 'Summoner',
+            summonertwo: i == 9 && skillType == 'Summoner'
           }"
         >
           <app-skill-unit
@@ -61,13 +78,5 @@
         </div>
       </div>
     </div>
-  </div>
-  <div
-    *ngIf="currentClass == 'dragonscion'"
-    style="text-align: center; margin-top: 75px"
-  >
-    <h1>
-      <i class="bi bi-emoji-frown-fill"></i> This Page is not finished yet!
-    </h1>
   </div>
 </div>

@@ -28,8 +28,10 @@
         {{ skillLevel + 1 }}
       </p>
 
-      <p class="property-name" *ngIf="skill.type != 'heroic'">Required Level</p>
-      <ng-container *ngIf="skill.type != 'heroic'">
+      <p class="property-name" *ngIf="skill.type.search('heroic') == -1">
+        Required Level
+      </p>
+      <ng-container *ngIf="skill.type.search('heroic') == -1">
         <p
           [ngClass]="{ property: skill.requiredLevels[skillLevel] != null }"
           *ngFor="let skillLevel of skillLevels"
@@ -38,10 +40,10 @@
         </p>
       </ng-container>
 
-      <p class="property-name" *ngIf="skill.type == 'heroic'">
+      <p class="property-name" *ngIf="skill.type.search('heroic') != -1">
         Required Spent Heroic Points
       </p>
-      <ng-container *ngIf="skill.type == 'heroic'">
+      <ng-container *ngIf="skill.type.search('heroic') != -1">
         <p
           [ngClass]="{
             property: skill.requiredSpentHeroicPoints[skillLevel] != null
@@ -60,10 +62,10 @@
         {{ skill.requiredSkillPoints[skillLevel] }}
       </p>
 
-      <p class="property-name" *ngIf="skill.type == 'heroic'">
+      <p class="property-name" *ngIf="skill.type.search('heroic') != -1">
         Required Heroic Points
       </p>
-      <ng-container *ngIf="skill.type == 'heroic'">
+      <ng-container *ngIf="skill.type.search('heroic') != -1">
         <p
           [ngClass]="{
             property: skill.requiredHeroicPoints[skillLevel] != null
