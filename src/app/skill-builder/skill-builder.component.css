@@ -127,6 +127,10 @@ button:hover {
   grid-column: 1 / -1;
 }
 
+.scion {
+  grid-column: 1 / 2;
+}
+
 .slayer {
   grid-column: 1 / -1;
 }
