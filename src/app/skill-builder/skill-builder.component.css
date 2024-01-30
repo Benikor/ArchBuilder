@@ -135,10 +135,10 @@ button:hover {
   grid-column: 1 / -1;
 }
 
-.summonerone {
+.summonerfirst {
   grid-column: 1 / -1;
 }
 
-.summonertwo {
+.summonersecond {
   grid-column: 1 / 2;
 }
