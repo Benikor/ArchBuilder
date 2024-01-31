@@ -1,0 +1,166 @@
+[
+  {
+    "type": "slayer",
+    "name": "War Cry",
+    "imgPath": "war_cry.jpg",
+    "description": "Temporarily increases Damage by sacrificing Defense.",
+    "level": 0,
+    "requiredLevels": [32, 35, 38, 51, 44],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Power Stunner": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "slayer",
+    "name": "Power Stunner",
+    "imgPath": "power_stunner.jpg",
+    "description": "Performs an Attack on a target, with a chance of temporarily stunning it.",
+    "level": 0,
+    "requiredLevels": [23, 26, 29, 32, 35],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "slayer",
+    "name": "Air Strike",
+    "imgPath": "air_strike.jpg",
+    "description": "Temporarily increases Critical Hit Rate and Critical Hit Attack.",
+    "level": 0,
+    "requiredLevels": [29, 32, 35, 38, 41],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Power Stunner": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "slayer",
+    "name": "Lose Faith",
+    "imgPath": "lose_faith.jpg",
+    "description": "Inflicts a powerful Air Damage on a target.",
+    "level": 0,
+    "requiredLevels": [32, 35, 38, 51, 44],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Power Stunner": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "slayer",
+    "name": "Body Check",
+    "imgPath": "body_check.jpg",
+    "description": "Performs an Attack on targets in a straight line and temporarily decreases their Physical Resistance and Critical Hit Rate.",
+    "level": 0,
+    "requiredLevels": [38, 41, 44, 47, 50],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "War Cry": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "slayer",
+    "name": "Legendary Slayer",
+    "imgPath": "legendary_slayer.jpg",
+    "description": "Temporarily invincible to your enemy's Attacks.",
+    "level": 0,
+    "requiredLevels": [44, 47, 50, 53, 56],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Lose Faith": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "slayer",
+    "name": "Zen Shield",
+    "imgPath": "zen_shield.jpg",
+    "description": "Temporarily increases Physical Resistance and Critical Hit Resistance.",
+    "level": 0,
+    "requiredLevels": [35, 38, 41, 44, 47],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Air Strike": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "slayer",
+    "name": "Tidal Wave",
+    "imgPath": "tidal_wave.jpg",
+    "description": "Performs an Attack on nearby targets and temporarily decreases their Defense.",
+    "level": 0,
+    "requiredLevels": [50, 53, 56, 59, 62],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Legendary Slayer": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "slayer",
+    "name": "Ambush",
+    "imgPath": "ambush.jpg",
+    "description": "Moves a short distance instantly and performs a powerful Attack on a target.",
+    "level": 0,
+    "requiredLevels": [56, 59, 62, 65, 68],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Body Check": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "slayer",
+    "name": "Break Armor",
+    "imgPath": "break_armor.jpg",
+    "description": "Performs an Attack on a target and decreases the durability of its equipped items.",
+    "level": 0,
+    "requiredLevels": [62, 65, 68, 71, 74],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Tidal Wave": 2,
+      "Slayer Skill Points": 30
+    },
+    "stats": {}
+  },
+  {
+    "type": "slayer",
+    "name": "Reverse Death",
+    "imgPath": "reverse_death.jpg",
+    "description": "Temporarily increases chance of converting some of your damage taken into HP.",
+    "level": 0,
+    "requiredLevels": [47, 50, 53, 56, 59],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Zen Shield": 2
+    },
+    "stats": {}
+  }
+]

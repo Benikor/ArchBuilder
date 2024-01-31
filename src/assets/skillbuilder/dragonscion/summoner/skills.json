@@ -1,0 +1,181 @@
+[
+  {
+    "type": "summoner",
+    "name": "Call on Nature",
+    "imgPath": "call_on_nature.jpg",
+    "description": "Assists in a battle by summoning a monster for certain period of time.",
+    "level": 0,
+    "requiredLevels": [23, 26, 29, 32, 35],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "summoner",
+    "name": "Killing Breath",
+    "imgPath": "killing_breath.jpg",
+    "description": "Performs a Breath Attack on targets in a straight line by borrowing the Air Attribute of Mightthesis.",
+    "level": 0,
+    "requiredLevels": [29, 32, 35, 38, 41],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Call on Nature": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "summoner",
+    "name": "Mighty Foot",
+    "imgPath": "mighty_foot.jpg",
+    "description": "Performs Damage on targets within a certain radius by summoning Mightthesis' Foot.",
+    "level": 0,
+    "requiredLevels": [32, 35, 38, 41, 44],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Call on Nature": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "summoner",
+    "name": "Perfect Sense",
+    "imgPath": "perfect_sense.jpg",
+    "description": "Temporarily decreases Skill Cast Time.",
+    "level": 0,
+    "requiredLevels": [35, 38, 41, 44, 47],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Call on Nature": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "summoner",
+    "name": "Mana Union",
+    "imgPath": "mana_union.jpg",
+    "description": "Temporarily increases Max. HP and Defense.",
+    "level": 0,
+    "requiredLevels": [35, 38, 41, 44, 47],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Killing Breath": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "summoner",
+    "name": "Mighty Wing",
+    "imgPath": "mighty_wing.jpg",
+    "description": "Performs an Air Damage on nearby targets by summoning Mightthesis' Wing",
+    "level": 0,
+    "requiredLevels": [38, 41, 44, 47, 50],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Mighty Foot": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "summoner",
+    "name": "World Ruler",
+    "imgPath": "world_ruler.jpg",
+    "description": "Reinforces your Attributes by borrowing Mightthesis' power for certain period of time.",
+    "level": 0,
+    "requiredLevels": [47, 50, 53, 56, 59],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Perfect Sense": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "summoner",
+    "name": "Hell Infinity",
+    "imgPath": "hell_infinity.jpg",
+    "description": "Performs an attack on targets within a certain radius and temporarily inflicts Fire Damage over time.",
+    "level": 0,
+    "requiredLevels": [44, 47, 50, 53, 56],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Mana Union": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "summoner",
+    "name": "Sacred One",
+    "imgPath": "sacred_one.jpg",
+    "description": "Assists in a battle by summoning Mightthesis Larva for a certain period of time.",
+    "level": 0,
+    "requiredLevels": [47, 50, 53, 56, 59],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Mighty Wing": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "summoner",
+    "name": "Mind Jumper",
+    "imgPath": "mind_jumper.jpg",
+    "description": "Temporarily increases Elemental Attack.",
+    "level": 0,
+    "requiredLevels": [50, 53, 56, 59, 62],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Hell Infinity": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "summoner",
+    "name": "Lose Mind",
+    "imgPath": "lose_mind.jpg",
+    "description": "Performs an Attack on a target by borrowing the Air Attribute of Mightthesis and temporarily increases target's Cooldown Time.",
+    "level": 0,
+    "requiredLevels": [56, 59, 62, 65, 68],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Sacred One": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "summoner",
+    "name": "Breath of Rage",
+    "imgPath": "breath_of_rage.jpg",
+    "description": "Performs an Attack on targets within a certain radius and temporarily decreases their Discipline and Critical Hit Attack.",
+    "level": 0,
+    "requiredLevels": [56, 59, 62, 65, 68],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "World Ruler": 2,
+      "Summoner Skill Points": 30
+    },
+    "stats": {}
+  }
+]

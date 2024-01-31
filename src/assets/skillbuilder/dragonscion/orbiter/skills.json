@@ -1,0 +1,181 @@
+[
+  {
+    "type": "orbiter",
+    "name": "Mind Eye",
+    "imgPath": "mind_eye.jpg",
+    "description": "Performs consecutive Attacks on a long-range target using Energy Wave.",
+    "level": 0,
+    "requiredLevels": [29, 32, 35, 38, 41],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Rush Hour": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "orbiter",
+    "name": "Rush Hour",
+    "imgPath": "rush_hour.jpg",
+    "description": "Temporarily increases Attack Speed and decreases Skill Cast Time.",
+    "level": 0,
+    "requiredLevels": [23, 26, 29, 32, 35],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "orbiter",
+    "name": "Twister",
+    "imgPath": "twister.jpg",
+    "description": "Performs an attack on targets within a certain radius and temporarily inflicts Air Damage over time.",
+    "level": 0,
+    "requiredLevels": [29, 32, 35, 38, 41],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Rush Hour": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "orbiter",
+    "name": "Block Breaker",
+    "imgPath": "block_breaker.jpg",
+    "description": "Performs a Piercing Attack on targets in a straight line using Energy Wave.",
+    "level": 0,
+    "requiredLevels": [38, 41, 44, 47, 50],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Mind Eye": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "orbiter",
+    "name": "Push Away",
+    "imgPath": "push_away.jpg",
+    "description": "Pushes a long-range target backwards with consecutive Attacks.",
+    "level": 0,
+    "requiredLevels": [32, 35, 38, 41, 44],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Rush Hour": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "orbiter",
+    "name": "Toxic Hand",
+    "imgPath": "toxic_hand.jpg",
+    "description": "Performs an attack on a target and temporarily disarms it.",
+    "level": 0,
+    "requiredLevels": [35, 38, 41, 44, 47],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Twister": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "orbiter",
+    "name": "Shadow Effector",
+    "imgPath": "shadow_effector.jpg",
+    "description": "Temporarily increases Discipline and Defense.",
+    "level": 0,
+    "requiredLevels": [47, 50, 53, 56, 59],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Block Breaker": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "orbiter",
+    "name": "Swift",
+    "imgPath": "swift.jpg",
+    "description": "Temporarily increases chance of ignoring Elemental Resistance and Defense.",
+    "level": 0,
+    "requiredLevels": [44, 47, 50, 53, 56],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Push Away": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "orbiter",
+    "name": "Siphon Wave",
+    "imgPath": "siphon_wave.jpg",
+    "description": "Performs an Attack on targets within a certain radius and temporarily decreases their Movement Speed.",
+    "level": 0,
+    "requiredLevels": [44, 47, 50, 53, 56],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Toxic Hand": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "orbiter",
+    "name": "Remove Armor",
+    "imgPath": "remove_armor.jpg",
+    "description": "Performs an Attack on a target and temporarily decreases its Block Rate and Damage.",
+    "level": 0,
+    "requiredLevels": [62, 65, 68, 71, 74],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Shadow Effector": 2,
+      "Orbiter Skill Points": 30
+    },
+    "stats": {}
+  },
+  {
+    "type": "orbiter",
+    "name": "Flash and Burn",
+    "imgPath": "flash_and_burn.jpg",
+    "description": "Performs an Attack on targets within a certain radius and temporarily decreases their Elemental Resistance.",
+    "level": 0,
+    "requiredLevels": [56, 59, 62, 65, 68],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Swift": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "orbiter",
+    "name": "Screamer",
+    "imgPath": "screamer.jpg",
+    "description": "Performs an Attack on a target and temporarily decreases its Dodge Rate and Movement Speed.",
+    "level": 0,
+    "requiredLevels": [50, 53, 56, 59, 62],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Siphon Wave": 2
+    },
+    "stats": {}
+  }
+]

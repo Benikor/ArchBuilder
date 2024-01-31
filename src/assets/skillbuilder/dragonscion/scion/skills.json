@@ -1,0 +1,254 @@
+[
+  {
+    "type": "scion",
+    "name": "Disturb",
+    "imgPath": "disturb.jpg",
+    "description": "Performs an Attack on a target and temporarily decreases its Movement Speed.",
+    "level": 0,
+    "requiredLevels": [4, 6, 8, 10, 12],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "scion",
+    "name": "Battle Machine",
+    "imgPath": "battle_machine.jpg",
+    "description": "Temporarily increases Defense.",
+    "level": 0,
+    "requiredLevels": [4, 6, 8, 10, 12],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "scion",
+    "name": "Distribute",
+    "imgPath": "distribute.jpg",
+    "description": "[Party] Temporarily recovers HP of you and nearby party members.",
+    "level": 0,
+    "requiredLevels": [8, 10, 12, 14, 16],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "scion",
+    "name": "Hurt Muscle",
+    "imgPath": "hurt_muscle.jpg",
+    "description": "Performs an Attack on a target and temporarily decreases its Attack Speed.",
+    "level": 0,
+    "requiredLevels": [12, 14, 16, 18, 20],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Disturb": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "scion",
+    "name": "Good Xenon",
+    "imgPath": "good_xenon.jpg",
+    "description": "Temporarily increases Xenon-type Damages.",
+    "level": 0,
+    "requiredLevels": [12, 14, 16, 18, 20],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Battle Machine": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "scion",
+    "name": "Hater",
+    "imgPath": "hater.jpg",
+    "description": "Performs an Attack on targets within a certain radius and temporarily decreases their Defense.",
+    "level": 0,
+    "requiredLevels": [16, 18, 20, 22, 24],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Hurt Muscle": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "scion",
+    "name": "Good Karon",
+    "imgPath": "good_karon.jpg",
+    "description": "Temporarily increases Karon-type Damages.",
+    "level": 0,
+    "requiredLevels": [12, 14, 16, 18, 20],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Battle Machine": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "scion",
+    "name": "Purgatory",
+    "imgPath": "purgatory.jpg",
+    "description": "[Party] Temporarily increases Elemental Resistance of you and nearby party members.",
+    "level": 0,
+    "requiredLevels": [16, 18, 20, 22, 24],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Distribute": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "scion",
+    "name": "Slayer of Evolution",
+    "imgPath": "slayer_of_evolution.jpg",
+    "description": "Evolve to Slayer.",
+    "level": 0,
+    "requiredLevels": [20],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1],
+    "requiredHeroicPoints": [0],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "scion",
+    "name": "Orbiter of Evolution",
+    "imgPath": "orbiter_of_evolution.jpg",
+    "description": "Evolve to Orbiter.",
+    "level": 0,
+    "requiredLevels": [20],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1],
+    "requiredHeroicPoints": [0],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "scion",
+    "name": "Summoner of Evolution",
+    "imgPath": "summoner_of_evolution.jpg",
+    "description": "Evolve to Summoner.",
+    "level": 0,
+    "requiredLevels": [20],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1],
+    "requiredHeroicPoints": [0],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "scion",
+    "name": "Powerful Might",
+    "imgPath": "powerful_might.jpg",
+    "description": "Temporarily increases Strength and Critical Hit Attack in Slayer state.",
+    "level": 0,
+    "requiredLevels": [40, 43, 46, 49, 52],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Slayer of Evolution": 1,
+      "All Skill Points": 20
+    },
+    "stats": {}
+  },
+  {
+    "type": "scion",
+    "name": "Smart Sniper",
+    "imgPath": "smart_sniper.jpg",
+    "description": "Temporarily increases Agility and Damage in Orbiter state.",
+    "level": 0,
+    "requiredLevels": [40, 43, 46, 49, 52],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Orbiter of Evolution": 1,
+      "All Skill Points": 20
+    },
+    "stats": {}
+  },
+  {
+    "type": "scion",
+    "name": "Soul of Scion",
+    "imgPath": "soul_of_scion.jpg",
+    "description": "Temporarily increases Movement Speed and Attack Speed in Summoner state.",
+    "level": 0,
+    "requiredLevels": [40, 43, 46, 49, 52],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Summoner of Evolution": 1,
+      "All Skill Points": 20
+    },
+    "stats": {}
+  },
+  {
+    "type": "scion",
+    "name": "Moral Courage",
+    "imgPath": "moral_courage.jpg",
+    "description": "Temporarily increases Stamina and Defense in Slayer state.",
+    "level": 0,
+    "requiredLevels": [60, 63, 66, 69, 72],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Slayer of Evolution": 1,
+      "Powerful Might": 3,
+      "All Skill Points": 30
+    },
+    "stats": {}
+  },
+  {
+    "type": "scion",
+    "name": "Great Honor",
+    "imgPath": "great_honor.jpg",
+    "description": "Temporarily increases Elemental Resistance in Orbiter state.",
+    "level": 0,
+    "requiredLevels": [60, 63, 66, 69, 72],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Orbiter of Evolution": 1,
+      "Smart Sniper": 3,
+      "All Skill Points": 30
+    },
+    "stats": {}
+  },
+  {
+    "type": "scion",
+    "name": "Guardian of Scion",
+    "imgPath": "guardian_of_scion.jpg",
+    "description": "Temporarily increases Air Damage and Damage in Summoner state.",
+    "level": 0,
+    "requiredLevels": [60, 63, 66, 69, 72],
+    "requiredSpentHeroicPoints": [],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkills": {
+      "Summoner of Evolution": 1,
+      "Soul of Scion": 3,
+      "All Skill Points": 30
+    },
+    "stats": {}
+  }
+]

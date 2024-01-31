@@ -1,0 +1,142 @@
+[
+  {
+    "type": "slayer-heroic",
+    "name": "Warding Slayer",
+    "imgPath": "warding_slayer.jpg",
+    "description": "Increases Movement Speed and Heroic Attack Power if a Karon is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSpentHeroicPoints": [0, 0, 0, 0, 0],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "slayer-heroic",
+    "name": "Delayed Blow",
+    "imgPath": "delayed_blow.jpg",
+    "description": "Powerful Melee Heroic Attack within range around you.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSpentHeroicPoints": [10, 0, 0, 0, 0],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "slayer-heroic",
+    "name": "Brilliant Barrage",
+    "imgPath": "brilliant_barrage.jpg",
+    "description": "Powerful Heroic Melee attack.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSpentHeroicPoints": [5, 0, 0, 0, 0],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "slayer-heroic",
+    "name": "Powerful Light",
+    "imgPath": "powerful_light.jpg",
+    "description": "Temporarily increases the caster's Heroic Attack Power, Physical Damage and Air Elemental Damage.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSpentHeroicPoints": [5, 0, 0, 0, 0],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "slayer-heroic",
+    "name": "Shrinking Punch",
+    "imgPath": "shrinking_punch.jpg",
+    "description": "Temporarily causes Cower with a certain chance after a powerful Melee Heroic Attack.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSpentHeroicPoints": [20, 0, 0, 0, 0],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requiredSkills": {
+      "Delayed Blow": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "slayer-heroic",
+    "name": "Rule of the Slayer",
+    "imgPath": "rule_of_the_slayer.jpg",
+    "description": "Increases Heroic Defense and Attack Speed if a Karon is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSpentHeroicPoints": [10, 0, 0, 0, 0],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requiredSkills": {
+      "Brilliant Barrage": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "slayer-heroic",
+    "name": "Daylight Smite",
+    "imgPath": "daylight_smite.jpg",
+    "description": "Temporarily causes Chaos with a certain chance after a powerful Melee Heroic Attack in a line.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSpentHeroicPoints": [20, 0, 0, 0, 0],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requiredSkills": {
+      "Powerful Light": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "slayer-heroic",
+    "name": "Challenge the Justice",
+    "imgPath": "challenge_the_justice.jpg",
+    "description": "Temporarily increases Heroic Attack Power by drawing upon inherent energy.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSpentHeroicPoints": [40, 0, 0, 0, 0],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [3, 3, 3, 3, 3],
+    "requiredSkills": {},
+    "stats": {}
+  },
+  {
+    "type": "slayer-heroic",
+    "name": "Hand of Justice",
+    "imgPath": "hand_of_justice.jpg",
+    "description": "[Party] Removes Disease and Chaos effects on your party members within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSpentHeroicPoints": [25, 0, 0, 0, 0],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requiredSkills": {
+      "Rule of the Slayer": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "slayer-heroic",
+    "name": "Restrained Strike",
+    "imgPath": "restrained_strike.jpg",
+    "description": "Temporarily causes Hold with a certain chance after a powerful Melee Heroic Attack within range around you.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSpentHeroicPoints": [25, 0, 0, 0, 0],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requiredSkills": {
+      "Daylight Smite": 3
+    },
+    "stats": {}
+  }
+]
