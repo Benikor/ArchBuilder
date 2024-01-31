@@ -1,0 +1,158 @@
+[
+  {
+    "type": "combo",
+    "name": "Battle Cry",
+    "imgPath": "battle_cry.jpg",
+    "description": "[Party] Temporarily increases the Attack Power of both you and party members within close proximity.",
+    "level": 0,
+    "requiredLevels": [56, 58, 60, 62, 64],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Temper Armour": 4
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Temper Armour",
+    "imgPath": "temper_armour.jpg",
+    "description": "[Guild] Temporarily increases the Defense of both you and guild members within the target area.",
+    "level": 0,
+    "requiredLevels": [50, 52, 54, 56, 58],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Ancient`s Favour",
+    "imgPath": "ancients_favour.jpg",
+    "description": "Temporarily increases the Elemental Damages and level of your summoned ally.",
+    "level": 0,
+    "requiredLevels": [56, 58, 60, 62, 64],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Temper Armour": 4
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Spirit Smash",
+    "imgPath": "spirit_smash.jpg",
+    "description": "Inflicts Air Damage to a target and temporarily decreases its Strength and Stamina.",
+    "level": 0,
+    "requiredLevels": [62, 64, 66, 68, 70],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Battle Cry": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Chakram Finesse",
+    "imgPath": "chakram_finesse.jpg",
+    "description": "Increases your Attack Power, Accuracy and reduces your Skill Cast Times when using a Chakram.",
+    "level": 0,
+    "requiredLevels": [62, 64, 66, 68, 70],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Battle Cry": 2,
+      "Ancient`s Favour": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Ancient`s Haste",
+    "imgPath": "ancients_haste.jpg",
+    "description": "Temporarily increases Pet's Attack Speed and Damage. Pet's Attacks have a chance of ignoring target's Defense.",
+    "level": 0,
+    "requiredLevels": [62, 64, 66, 68, 70],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Ancient`s Favour": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Frozen Darts",
+    "imgPath": "frozen_darts.jpg",
+    "description": "Inflicts Ice Damage to a target and temporarily decreases its Intelligence and Wisdom.",
+    "level": 0,
+    "requiredLevels": [67, 69, 71, 73, 75],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Spirit Smash": 2,
+      "Chakram Finesse": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Ancient`s Protection",
+    "imgPath": "ancients_protection.jpg",
+    "description": "Temporarily increases Defense, Elemental Resistance, and Skill Block Rate of you and your Pet. Normal Attacks have chance of ignoring target's Elemental Resistance.",
+    "level": 0,
+    "requiredLevels": [67, 69, 71, 73, 75],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Ancient`s Haste": 2,
+      "Chakram Finesse": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Wind Shear",
+    "imgPath": "wind_shear.jpg",
+    "description": "Inflicts Air Damage to targets within a certain radius and temporarily decreases their Elemental Resistance.",
+    "level": 0,
+    "requiredLevels": [71, 73, 75, 77, 79],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Frozen Darts": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Bomba",
+    "imgPath": "bomba.jpg",
+    "description": "Inflicts a Physical Damage on targets within a certain radius by making your pet explode and temporarily decreases their Skill Block Rate.",
+    "level": 0,
+    "requiredLevels": [71, 73, 75, 77, 79],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Frozen Darts": 2,
+      "Ancient`s Protection": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Strike Mark",
+    "imgPath": "strike_mark.jpg",
+    "description": "Temporarily increases All Stats of both you and your current target.",
+    "level": 0,
+    "requiredLevels": [71, 73, 75, 77, 79],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Ancient`s Protection": 3
+    },
+    "stats": {}
+  }
+]

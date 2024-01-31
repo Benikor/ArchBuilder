@@ -1,0 +1,62 @@
+[
+  {
+    "type": "buff",
+    "name": "Holy Ground",
+    "imgPath": "holy_ground.jpg",
+    "description": "Faster HP/MP recovery for certain duration while near the caster.",
+    "level": 0,
+    "requiredLevels": [5, 8, 11, 14, 17],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "buff",
+    "name": "Moonlight Blessing",
+    "imgPath": "moonlight_blessing.jpg",
+    "description": "Increases summoned Elemental's Attack Power.",
+    "level": 0,
+    "requiredLevels": [13, 16, 19, 22, 25],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "buff",
+    "name": "Fine Staff",
+    "imgPath": "fine_staff.jpg",
+    "description": "Temporarily increases Staff damage.",
+    "level": 0,
+    "requiredLevels": [21, 24, 27, 30, 33],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "buff",
+    "name": "Fine Chakram",
+    "imgPath": "fine_chakram.jpg",
+    "description": "Temporarily increases Chakram damage.",
+    "level": 0,
+    "requiredLevels": [21, 24, 27, 30, 33],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "buff",
+    "name": "Fairy Bless",
+    "imgPath": "fairy_bless.jpg",
+    "description": "Temporarily increases HP.",
+    "level": 0,
+    "requiredLevels": [29, 32, 35, 38, 41],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  }
+]
