@@ -30,6 +30,18 @@ export class SkillUnitComponent implements OnInit {
         this.skill.requiredLevels[this.skill.level]
       );
       this.skill.level++;
+
+      if (this.skill.requirements['All Skill Points' as keyof Object]) {
+        this.skillBuilderService.addRequiredSpentSkillPoints(
+          Number(this.skill.requirements['All Skill Points' as keyof Object])
+        );
+      }
+
+      if (this.skill.requirements['Heroic Skill Points' as keyof Object]) {
+        this.skillBuilderService.addRequiredSpentHeroicPoints(
+          Number(this.skill.requirements['Heroic Skill Points' as keyof Object])
+        );
+      }
     }
   }
 
@@ -45,6 +57,18 @@ export class SkillUnitComponent implements OnInit {
       this.skillBuilderService.removeMinLevel(
         this.skill.requiredLevels[this.skill.level]
       );
+
+      if (this.skill.requirements['All Skill Points' as keyof Object]) {
+        this.skillBuilderService.removeRequiredSpentSkillPoints(
+          Number(this.skill.requirements['All Skill Points' as keyof Object])
+        );
+      }
+
+      if (this.skill.requirements['Heroic Skill Points' as keyof Object]) {
+        this.skillBuilderService.removeRequiredSpentHeroicPoints(
+          Number(this.skill.requirements['Heroic Skill Points' as keyof Object])
+        );
+      }
     }
   }
 }

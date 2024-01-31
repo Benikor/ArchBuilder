@@ -56,6 +56,8 @@ export class SkillBuilderComponent implements OnInit {
         this.skillBuilderService.setUsedHeroicPoints(0);
         this.skillBuilderService.setMaxSkillPoint(this.levelLimit);
         this.skillBuilderService.setMaxHeroicPoint(this.levelLimit);
+        this.skillBuilderService.resetRequiredSpentSkillPoints();
+        this.skillBuilderService.resetRequiredSpentHeroicPoints();
         this.levelLimitForm.controls['levelLimitInput'].setValue(
           this.levelLimit
         );
@@ -109,45 +111,72 @@ export class SkillBuilderComponent implements OnInit {
   }
 
   increasable(skill: Skill) {
-    let requiredPassed = true;
-    for (let requiredSkillName in skill.requiredSkills) {
+    let requirementPassed = true;
+    let requiredSkillPointsSpent = true;
+    let requiredHeroicPointsSpent = true;
+    let dragonscionNotEvolved = true;
+    for (let requiredSkillName in skill.requirements) {
       for (let skillsByType of this.skills) {
         for (let requiredSkill of skillsByType) {
           if (requiredSkill.name === requiredSkillName) {
-            requiredPassed =
-              requiredPassed &&
+            requirementPassed =
+              requirementPassed &&
               requiredSkill.level >=
-                Number(skill.requiredSkills[requiredSkillName as keyof Object]);
+                Number(skill.requirements[requiredSkillName as keyof Object]);
             break;
           }
         }
       }
     }
 
+    if (skill.requirements['All Skill Points' as keyof Object]) {
+      requiredSkillPointsSpent =
+        this.skillBuilderService.getUsedSkillPoints() >=
+        Number(skill.requirements['All Skill Points' as keyof Object]);
+    }
+
+    if (skill.requirements['Heroic Skill Points' as keyof Object]) {
+      requiredHeroicPointsSpent =
+        this.skillBuilderService.getUsedHeroicPoints() >=
+        Number(skill.requirements['Heroic Skill Points' as keyof Object]);
+    }
+
+    if (
+      this.currentClass == 'dragonscion' &&
+      skill.name.search('of Evolution') != -1 &&
+      skill.level > 0
+    ) {
+      dragonscionNotEvolved = false;
+    }
+
     return (
       skill.level < 5 &&
       (this.levelLimit >= skill.requiredLevels[skill.level] ||
-        this.getMaxHeroicPoints() - this.getAvilableHeroicPoints() >=
-          skill.requiredSpentHeroicPoints[skill.level]) &&
+        skill.type == 'heroic') &&
       this.getAvilableSkillPoints() >= skill.requiredSkillPoints[skill.level] &&
       this.getAvilableHeroicPoints() >=
         skill.requiredHeroicPoints[skill.level] &&
-      requiredPassed
+      requiredHeroicPointsSpent &&
+      requiredSkillPointsSpent &&
+      dragonscionNotEvolved &&
+      requirementPassed
     );
   }
 
   decreasable(skill: Skill) {
-    let requiredByPassed = true;
+    let requirementByPassed = true;
+    let requiredSkillPointsSpent = true;
+    let requiredHeroicPointsSpent = true;
     for (let skillsByType of this.skills) {
       for (let requiredBySkill of skillsByType) {
-        for (let requiredBySkillName in requiredBySkill.requiredSkills) {
+        for (let requiredBySkillName in requiredBySkill.requirements) {
           if (skill.name === requiredBySkillName) {
-            requiredByPassed =
-              requiredByPassed &&
+            requirementByPassed =
+              requirementByPassed &&
               (requiredBySkill.level == 0 ||
                 skill.level >
                   Number(
-                    requiredBySkill.requiredSkills[
+                    requiredBySkill.requirements[
                       requiredBySkillName as keyof Object
                     ]
                   ));
@@ -156,7 +185,42 @@ export class SkillBuilderComponent implements OnInit {
       }
     }
 
-    return skill.level > 0 && requiredByPassed;
+    if (skill.requirements['All Skill Points' as keyof Object]) {
+      requiredSkillPointsSpent =
+        Number(skill.requirements['All Skill Points' as keyof Object]) >
+          this.skillBuilderService.getRequiredSpentSkillPoints()[skill.level] ||
+        this.skillBuilderService.getUsedSkillPoints() -
+          skill.requiredSkillPoints[skill.level - 1] >=
+          this.skillBuilderService.getRequiredSpentSkillPoints()[0];
+    } else {
+      requiredSkillPointsSpent =
+        this.skillBuilderService.getUsedSkillPoints() -
+          skill.requiredSkillPoints[skill.level - 1] >=
+        this.skillBuilderService.getRequiredSpentSkillPoints()[0];
+    }
+
+    if (skill.requirements['Heroic Skill Points' as keyof Object]) {
+      requiredHeroicPointsSpent =
+        Number(skill.requirements['Heroic Skill Points' as keyof Object]) >
+          this.skillBuilderService.getRequiredSpentHeroicPoints()[
+            skill.level
+          ] ||
+        this.skillBuilderService.getUsedHeroicPoints() -
+          skill.requiredHeroicPoints[skill.level - 1] >=
+          this.skillBuilderService.getRequiredSpentHeroicPoints()[0];
+    } else {
+      requiredHeroicPointsSpent =
+        this.skillBuilderService.getUsedHeroicPoints() -
+          skill.requiredHeroicPoints[skill.level - 1] >=
+        this.skillBuilderService.getRequiredSpentHeroicPoints()[0];
+    }
+
+    return (
+      skill.level > 0 &&
+      requirementByPassed &&
+      requiredSkillPointsSpent &&
+      requiredHeroicPointsSpent
+    );
   }
 
   resetSkillBuilder() {

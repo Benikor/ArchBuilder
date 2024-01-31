@@ -12,8 +12,10 @@ export class SkillBuilderService {
   private usedSkillPoints = 0;
   private maxHeroicPoints = 0;
   private usedHeroicPoints = 0;
-  private minLevel = [0];
   private maxLevel = 150;
+  private minLevel = [0];
+  private requiredSpentSkillPoints = [0];
+  private requiredSpentHeroicPoints = [0];
 
   constructor(private httpClient: HttpClient, private router: Router) {}
 
@@ -29,8 +31,34 @@ export class SkillBuilderService {
     this.usedSkillPoints -= skillPoints;
   }
 
+  getUsedSkillPoints() {
+    return this.usedSkillPoints;
+  }
+
   getAvilableSkillPoints() {
     return this.maxSkillPoints - this.usedSkillPoints;
+  }
+
+  addRequiredSpentSkillPoints(requiredSpentSkillPoints: number) {
+    this.requiredSpentSkillPoints.push(requiredSpentSkillPoints);
+    this.requiredSpentSkillPoints.sort((a, b) => b - a);
+  }
+
+  removeRequiredSpentSkillPoints(requiredSpentSkillPoints: number) {
+    this.requiredSpentSkillPoints
+      .splice(
+        this.requiredSpentSkillPoints.indexOf(requiredSpentSkillPoints, 0),
+        1
+      )
+      .sort((a, b) => b - a);
+  }
+
+  resetRequiredSpentSkillPoints() {
+    this.requiredSpentSkillPoints = [0];
+  }
+
+  getRequiredSpentSkillPoints() {
+    return this.requiredSpentSkillPoints;
   }
 
   setUsedHeroicPoints(HeroicPoints: number) {
@@ -45,8 +73,34 @@ export class SkillBuilderService {
     this.usedHeroicPoints -= HeroicPoints;
   }
 
+  getUsedHeroicPoints() {
+    return this.usedHeroicPoints;
+  }
+
   getAvilableHeroicPoints() {
     return this.maxHeroicPoints - this.usedHeroicPoints;
+  }
+
+  addRequiredSpentHeroicPoints(requiredSpentHeroicPoints: number) {
+    this.requiredSpentHeroicPoints.push(requiredSpentHeroicPoints);
+    this.requiredSpentHeroicPoints.sort((a, b) => b - a);
+  }
+
+  removeRequiredSpentHeroicPoints(requiredSpentHeroicPoints: number) {
+    this.requiredSpentHeroicPoints
+      .splice(
+        this.requiredSpentHeroicPoints.indexOf(requiredSpentHeroicPoints, 0),
+        1
+      )
+      .sort((a, b) => b - a);
+  }
+
+  resetRequiredSpentHeroicPoints() {
+    this.requiredSpentHeroicPoints = [0];
+  }
+
+  getRequiredSpentHeroicPoints() {
+    return this.requiredSpentHeroicPoints;
   }
 
   getSkillPointByLevel(level: number) {
