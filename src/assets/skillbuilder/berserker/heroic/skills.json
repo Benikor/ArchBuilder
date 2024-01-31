@@ -6,10 +6,9 @@
     "description": "Increases Movement Speed, Attack Speed and Heroic Attack Power if a weapon is equipped. This is a passive skill.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [0, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -19,10 +18,11 @@
     "description": "Powerful Melee Heroic Attack within range around you.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [10, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [2, 2, 2, 2, 2],
-    "requiredSkills": {},
+    "requirements": {
+      "Heroic Skill Points": 10
+    },
     "stats": {}
   },
   {
@@ -32,10 +32,11 @@
     "description": "Powerful Heroic Melee attack.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [5, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {},
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
     "stats": {}
   },
   {
@@ -45,10 +46,11 @@
     "description": "[Party] Temporarily increases Skill Block Rate, Earth Elemental Damage and Physical Damage of your party members within range.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [5, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {},
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
     "stats": {}
   },
   {
@@ -58,11 +60,11 @@
     "description": "Temporarily causes Fear with a certain chance after a powerful Melee Heroic Attack.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [20, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [2, 2, 2, 2, 2],
-    "requiredSkills": {
-      "Violent Crusher": 3
+    "requirements": {
+      "Violent Crusher": 3,
+      "Heroic Skill Points": 20
     },
     "stats": {}
   },
@@ -73,11 +75,11 @@
     "description": "Increases Heroic Attack Power, Magic Heroic Damage Defenses and Movement Speed by growing stronger muscles. This is a passive skill.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [10, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {
-      "Cruel Slash": 3
+    "requirements": {
+      "Cruel Slash": 3,
+      "Heroic Skill Points": 10
     },
     "stats": {}
   },
@@ -88,11 +90,11 @@
     "description": "Pulls a target towards the caster after a Melee Heroic Attack on a ranged target.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [20, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {
-      "Battle Focus": 3
+    "requirements": {
+      "Battle Focus": 3,
+      "Heroic Skill Points": 20
     },
     "stats": {}
   },
@@ -103,10 +105,11 @@
     "description": "Temporarily uses the powerful thirst for blood to reduce all Heroic Damage and increases all Heroic Attack Power.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [40, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [3, 3, 3, 3, 3],
-    "requiredSkills": {},
+    "requirements": {
+      "Heroic Skill Points": 40
+    },
     "stats": {}
   },
   {
@@ -116,11 +119,11 @@
     "description": "[Party] Temporarily increases Block Rate and Heroic Defense of your party members within range.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [25, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [2, 2, 2, 2, 2],
-    "requiredSkills": {
-      "Insane Howling": 3
+    "requirements": {
+      "Insane Howling": 3,
+      "Heroic Skill Points": 25
     },
     "stats": {}
   },
@@ -131,11 +134,11 @@
     "description": "Temporarily causes Chaos with a certain chance after a powerful Melee Heroic Attack within range around you.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [25, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {
-      "Forced Battle": 3
+    "requirements": {
+      "Forced Battle": 3,
+      "Heroic Skill Points": 25
     },
     "stats": {}
   }

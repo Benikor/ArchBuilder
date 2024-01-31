@@ -6,10 +6,9 @@
     "description": "Inflicts Fire Damage to a target and temporarily decreases its Elemental Resistance.",
     "level": 0,
     "requiredLevels": [56, 58, 60, 62, 64],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Electrical Storm": 4
     },
     "stats": {}
@@ -21,10 +20,9 @@
     "description": "Inflicts Lightning Damage to targets within a certain radius and temporarily decreases their Physical Attack.",
     "level": 0,
     "requiredLevels": [50, 52, 54, 56, 58],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -34,10 +32,9 @@
     "description": "Removes stun and movement slowing effects on a friendly target.",
     "level": 0,
     "requiredLevels": [56, 58, 60, 62, 64],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Electrical Storm": 4
     },
     "stats": {}
@@ -49,10 +46,9 @@
     "description": "[Party] Increases the Stamina and Wisdom of both you and party members within close proximity.",
     "level": 0,
     "requiredLevels": [62, 64, 66, 68, 70],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Explosive Bodkin": 3
     },
     "stats": {}
@@ -64,10 +60,9 @@
     "description": "Grants additional Attack Power and Accuracy when using a crossbow.",
     "level": 0,
     "requiredLevels": [62, 64, 66, 68, 70],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Explosive Bodkin": 2,
       "Disentangle": 2
     },
@@ -80,10 +75,9 @@
     "description": "Inflicts Magic Damage to a target and temporarily decreases its Elemental Attack.",
     "level": 0,
     "requiredLevels": [62, 64, 66, 68, 70],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Disentangle": 3
     },
     "stats": {}
@@ -95,10 +89,9 @@
     "description": "Subdues your current target by reducing thier Stamina and Wisdom.",
     "level": 0,
     "requiredLevels": [67, 69, 71, 73, 75],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Cohesion": 2,
       "Arbalestier": 2
     },
@@ -111,10 +104,9 @@
     "description": "[Party] Temporarily increases the Elemental Resistances and Defense of both you and party members within close proximity.",
     "level": 0,
     "requiredLevels": [67, 69, 71, 73, 75],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Dark Arcane Charge": 2,
       "Arbalestier": 2
     },
@@ -127,10 +119,9 @@
     "description": "Temporarily places a hex upon your current target that reduces their All Stats.",
     "level": 0,
     "requiredLevels": [71, 73, 75, 77, 79],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Subdue Prey": 3
     },
     "stats": {}
@@ -142,10 +133,9 @@
     "description": "Temporarily decreases Movement Speed and increases Skill Cast Time of all enemies within a selected area.",
     "level": 0,
     "requiredLevels": [71, 73, 75, 77, 79],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Subdue Prey": 2,
       "Elemental Affinity": 2
     },
@@ -158,10 +148,9 @@
     "description": "Inflicts Poison Damage to targets within a certain radius and temporarily deals damage over time.",
     "level": 0,
     "requiredLevels": [71, 73, 75, 77, 79],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Elemental Affinity": 3
     },
     "stats": {}

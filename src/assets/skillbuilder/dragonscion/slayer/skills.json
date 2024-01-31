@@ -6,10 +6,9 @@
     "description": "Temporarily increases Damage by sacrificing Defense.",
     "level": 0,
     "requiredLevels": [32, 35, 38, 51, 44],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Power Stunner": 3
     },
     "stats": {}
@@ -21,10 +20,9 @@
     "description": "Performs an Attack on a target, with a chance of temporarily stunning it.",
     "level": 0,
     "requiredLevels": [23, 26, 29, 32, 35],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -34,10 +32,9 @@
     "description": "Temporarily increases Critical Hit Rate and Critical Hit Attack.",
     "level": 0,
     "requiredLevels": [29, 32, 35, 38, 41],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Power Stunner": 3
     },
     "stats": {}
@@ -49,10 +46,9 @@
     "description": "Inflicts a powerful Air Damage on a target.",
     "level": 0,
     "requiredLevels": [32, 35, 38, 51, 44],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Power Stunner": 3
     },
     "stats": {}
@@ -64,10 +60,9 @@
     "description": "Performs an Attack on targets in a straight line and temporarily decreases their Physical Resistance and Critical Hit Rate.",
     "level": 0,
     "requiredLevels": [38, 41, 44, 47, 50],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "War Cry": 2
     },
     "stats": {}
@@ -79,10 +74,9 @@
     "description": "Temporarily invincible to your enemy's Attacks.",
     "level": 0,
     "requiredLevels": [44, 47, 50, 53, 56],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Lose Faith": 2
     },
     "stats": {}
@@ -94,10 +88,9 @@
     "description": "Temporarily increases Physical Resistance and Critical Hit Resistance.",
     "level": 0,
     "requiredLevels": [35, 38, 41, 44, 47],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Air Strike": 2
     },
     "stats": {}
@@ -109,10 +102,9 @@
     "description": "Performs an Attack on nearby targets and temporarily decreases their Defense.",
     "level": 0,
     "requiredLevels": [50, 53, 56, 59, 62],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Legendary Slayer": 2
     },
     "stats": {}
@@ -124,10 +116,9 @@
     "description": "Moves a short distance instantly and performs a powerful Attack on a target.",
     "level": 0,
     "requiredLevels": [56, 59, 62, 65, 68],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Body Check": 2
     },
     "stats": {}
@@ -139,10 +130,9 @@
     "description": "Performs an Attack on a target and decreases the durability of its equipped items.",
     "level": 0,
     "requiredLevels": [62, 65, 68, 71, 74],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Tidal Wave": 2,
       "Slayer Skill Points": 30
     },
@@ -155,10 +145,9 @@
     "description": "Temporarily increases chance of converting some of your damage taken into HP.",
     "level": 0,
     "requiredLevels": [47, 50, 53, 56, 59],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Zen Shield": 2
     },
     "stats": {}

@@ -6,10 +6,9 @@
     "description": "Temporarily reduces the Strength and Agility of both your current target and other targets within close proximity.",
     "level": 0,
     "requiredLevels": [56, 58, 60, 62, 64],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Flashfire": 4
     },
     "stats": {}
@@ -21,10 +20,9 @@
     "description": "Performs a Damage on a target and temporarily decreases its Discipline.",
     "level": 0,
     "requiredLevels": [50, 52, 54, 56, 58],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -34,10 +32,9 @@
     "description": "Temporarily reduces the Attack Power of both your current target and other targets within close proximity.",
     "level": 0,
     "requiredLevels": [56, 58, 60, 62, 64],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Flashfire": 4
     },
     "stats": {}
@@ -49,10 +46,9 @@
     "description": "Inflicts Lightning Damage to targets within a certain radius and temporarily increases their Skill Cast Time and decreases their Critical Hit Attack.",
     "level": 0,
     "requiredLevels": [62, 64, 66, 68, 70],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Enervate": 3
     },
     "stats": {}
@@ -64,10 +60,9 @@
     "description": "Grants additional Attack Power, Accuracy and reduces your Skill Cast Time when using a bow.",
     "level": 0,
     "requiredLevels": [62, 64, 66, 68, 70],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Enervate": 2,
       "Languish": 2
     },
@@ -80,10 +75,9 @@
     "description": "[Guild] Temporarily increases the Strength and Agility of both you and guild members within close proximity.",
     "level": 0,
     "requiredLevels": [62, 64, 66, 68, 70],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Languish": 3
     },
     "stats": {}
@@ -95,10 +89,9 @@
     "description": "Removes stun and movement slowing effects on a friendly target.",
     "level": 0,
     "requiredLevels": [67, 69, 71, 73, 75],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Thunderbolt": 2,
       "Superior Marksmanship": 2
     },
@@ -111,10 +104,9 @@
     "description": "When active, you gain immunity to stuns and movement speed reduction.",
     "level": 0,
     "requiredLevels": [67, 69, 71, 73, 75],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Divine Enhancement": 2,
       "Superior Marksmanship": 2
     },
@@ -127,10 +119,9 @@
     "description": "Inflicts Ice Damage to targets within a certain radius and temporarily decreases their Attack Speed.",
     "level": 0,
     "requiredLevels": [71, 73, 75, 77, 79],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Assistance": 3
     },
     "stats": {}
@@ -142,10 +133,9 @@
     "description": "Inflicts Air Damage to targets within a certain radius and temporarily decreases their Elemental Attack.",
     "level": 0,
     "requiredLevels": [71, 73, 75, 77, 79],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Assistance": 2,
       "Free Will": 2
     },
@@ -158,10 +148,9 @@
     "description": "Restrains your target for a short period, preventing them from using offensive skills.",
     "level": 0,
     "requiredLevels": [71, 73, 75, 77, 79],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Free Will": 3
     },
     "stats": {}

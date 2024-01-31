@@ -6,10 +6,9 @@
     "description": "Rapid Attack.",
     "level": 0,
     "requiredLevels": [4, 7, 10, 13, 16],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -19,10 +18,9 @@
     "description": "Armor Piercing Arrow attack on targets on a straight line.",
     "level": 0,
     "requiredLevels": [10, 13, 16, 19, 22],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -32,10 +30,9 @@
     "description": "Attacks with Magic Arrow and stuns the target with certain chance.",
     "level": 0,
     "requiredLevels": [10, 13, 16, 19, 22],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -45,10 +42,9 @@
     "description": "Triple Shot Attack.",
     "level": 0,
     "requiredLevels": [16, 19, 22, 25, 28],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -58,10 +54,9 @@
     "description": "Performs an attack on a target, temporarily decreases its Movement and Attack Speeds, and increases its Skill Cast Time.",
     "level": 0,
     "requiredLevels": [22, 25, 28, 31, 34],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -71,10 +66,9 @@
     "description": "Temporarily reduces target's Attack Rating.",
     "level": 0,
     "requiredLevels": [22, 25, 28, 31, 34],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -84,10 +78,9 @@
     "description": "Fire Arrow Attack.",
     "level": 0,
     "requiredLevels": [22, 25, 28, 31, 34],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -97,10 +90,9 @@
     "description": "Intense shot.",
     "level": 0,
     "requiredLevels": [22, 25, 28, 31, 34],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -110,10 +102,9 @@
     "description": "Long Range Attack.",
     "level": 0,
     "requiredLevels": [28, 31, 34, 37, 40],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -123,10 +114,9 @@
     "description": "Exploding Arrow Attack",
     "level": 0,
     "requiredLevels": [34, 37, 40, 43, 46],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -136,10 +126,9 @@
     "description": "Cascading arrow Attack on targets within certain radius at a distance.",
     "level": 0,
     "requiredLevels": [40, 43, 46, 49, 52],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -149,10 +138,9 @@
     "description": "Strong Successive Attack.",
     "level": 0,
     "requiredLevels": [46, 49, 52, 55, 58],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   }
 ]

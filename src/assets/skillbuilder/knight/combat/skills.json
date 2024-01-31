@@ -6,10 +6,9 @@
     "description": "Double Attack.",
     "level": 0,
     "requiredLevels": [4, 7, 10, 13, 16],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -19,10 +18,9 @@
     "description": "Attacks targets on a straight line.",
     "level": 0,
     "requiredLevels": [10, 13, 16, 19, 22],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -32,10 +30,9 @@
     "description": "Slams target with Shield and stuns the victim temporarily at certain rate.",
     "level": 0,
     "requiredLevels": [10, 13, 16, 19, 22],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -45,10 +42,9 @@
     "description": "Triple Attack.",
     "level": 0,
     "requiredLevels": [16, 19, 22, 25, 28],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -58,10 +54,9 @@
     "description": "Stab Attack (One-handed Sword).",
     "level": 0,
     "requiredLevels": [22, 25, 28, 31, 34],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -71,10 +66,9 @@
     "description": "Performs an Attack on a target with a Blunt Weapon, with chance of stunning it.",
     "level": 0,
     "requiredLevels": [22, 25, 28, 31, 34],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -84,10 +78,9 @@
     "description": "Range Attack using Two-handed weapons (except Two-handed Blunt weapons).",
     "level": 0,
     "requiredLevels": [22, 25, 28, 31, 34],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -97,10 +90,9 @@
     "description": "Powerful Attack (One-handed Axe).",
     "level": 0,
     "requiredLevels": [22, 25, 28, 31, 34],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -110,10 +102,9 @@
     "description": "In a fit of blind rage you deal excessive damage to your target.",
     "level": 0,
     "requiredLevels": [28, 31, 34, 37, 40],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -123,10 +114,9 @@
     "description": "Increases damage dealt to targets within a certain radius of the caster.",
     "level": 0,
     "requiredLevels": [34, 37, 40, 43, 46],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -136,10 +126,9 @@
     "description": "Spinning Attack on targets within certain radius.",
     "level": 0,
     "requiredLevels": [40, 43, 46, 49, 52],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -149,10 +138,9 @@
     "description": "Attacks consecutively with a weapon and summons a dragon.",
     "level": 0,
     "requiredLevels": [46, 49, 52, 55, 58],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   }
 ]

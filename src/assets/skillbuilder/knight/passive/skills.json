@@ -6,10 +6,9 @@
     "description": "Increases your Critical Hit rate and Critical Hit damage.",
     "level": 0,
     "requiredLevels": [6, 9, 12, 15, 18],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -19,10 +18,9 @@
     "description": "Increases Strength.",
     "level": 0,
     "requiredLevels": [6, 9, 12, 15, 18],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -32,10 +30,9 @@
     "description": "Increases Agility.",
     "level": 0,
     "requiredLevels": [6, 9, 12, 15, 18],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -45,10 +42,9 @@
     "description": "Increases Intelligence.",
     "level": 0,
     "requiredLevels": [6, 9, 12, 15, 18],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -58,10 +54,9 @@
     "description": "Increases Wisdom.",
     "level": 0,
     "requiredLevels": [6, 9, 12, 15, 18],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -71,10 +66,9 @@
     "description": "Increases Stamina.",
     "level": 0,
     "requiredLevels": [6, 9, 12, 15, 18],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -84,10 +78,9 @@
     "description": "Increases Defense.",
     "level": 0,
     "requiredLevels": [14, 17, 20, 23, 26],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -97,10 +90,9 @@
     "description": "Increases Health.",
     "level": 0,
     "requiredLevels": [22, 25, 28, 31, 34],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -110,10 +102,9 @@
     "description": "Increases Elemental Resistance.",
     "level": 0,
     "requiredLevels": [30, 33, 36, 39, 42],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   }
 ]

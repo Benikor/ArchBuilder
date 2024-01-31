@@ -6,10 +6,9 @@
     "description": "Reduces Ranged and Melee Heroic Damage, as well as increases Heroic Defense if a Shield is equipped. This is a passive skill.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [0, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -19,10 +18,11 @@
     "description": "Powerful Heroic Melee attack.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [10, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [2, 2, 2, 2, 2],
-    "requiredSkills": {},
+    "requirements": {
+      "Heroic Skill Points": 10
+    },
     "stats": {}
   },
   {
@@ -32,10 +32,11 @@
     "description": "Powerful Heroic Melee attack.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [5, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {},
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
     "stats": {}
   },
   {
@@ -45,10 +46,11 @@
     "description": "[Party] Temporarily increases Physical Resistance, Block Rate and Skill Block Rate of your party members within range.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [5, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {},
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
     "stats": {}
   },
   {
@@ -58,11 +60,11 @@
     "description": "Pulls a target towards the caster after a Melee Heroic Attack on a ranged target.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [20, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [2, 2, 2, 2, 2],
-    "requiredSkills": {
-      "Martyr`s Retribution": 3
+    "requirements": {
+      "Martyr`s Retribution": 3,
+      "Heroic Skill Points": 20
     },
     "stats": {}
   },
@@ -73,11 +75,11 @@
     "description": "Reduces Magic and Ranged Heroic Damage taken by the caster, as well as increases Heroic Attack Power if a Shield is equipped. This is a passive skill.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [10, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {
-      "Justice of Battle": 3
+    "requirements": {
+      "Justice of Battle": 3,
+      "Heroic Skill Points": 10
     },
     "stats": {}
   },
@@ -88,11 +90,11 @@
     "description": "Temporarily causes Cower with a certain chance after a Melee Heroic Attack within range around you.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [20, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {
-      "Shield of the Front": 3
+    "requirements": {
+      "Shield of the Front": 3,
+      "Heroic Skill Points": 20
     },
     "stats": {}
   },
@@ -103,10 +105,11 @@
     "description": "Temporarily unequips the target's upper armor after a powerful Melee Heroic Attack. Cannot be used in conjunction with other disarming skills.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [40, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [3, 3, 3, 3, 3],
-    "requiredSkills": {},
+    "requirements": {
+      "Heroic Skill Points": 40
+    },
     "stats": {}
   },
   {
@@ -116,11 +119,11 @@
     "description": "Temporarily sacrifices Movement Speed to increase Heroic Defense and Max. HP.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [25, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [2, 2, 2, 2, 2],
-    "requiredSkills": {
-      "Forced March": 3
+    "requirements": {
+      "Forced March": 3,
+      "Heroic Skill Points": 25
     },
     "stats": {}
   },
@@ -131,11 +134,11 @@
     "description": "Temporarily causes Hold with a certain chance after a Melee Heroic Attack on a ranged target.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [25, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {
-      "Righteous Smite": 3
+    "requirements": {
+      "Righteous Smite": 3,
+      "Heroic Skill Points": 25
     },
     "stats": {}
   }

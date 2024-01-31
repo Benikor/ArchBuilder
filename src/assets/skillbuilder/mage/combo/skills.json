@@ -6,10 +6,9 @@
     "description": "Inflicts Magic Damage to a target and temporarily decreases its Dodge Rate.",
     "level": 0,
     "requiredLevels": [56, 58, 60, 62, 64],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Ethereal Vision": 4
     },
     "stats": {}
@@ -21,10 +20,9 @@
     "description": "Cancels stealth and invisibility effects on any targets within close proximity of you.",
     "level": 0,
     "requiredLevels": [50, 52, 54, 56, 58],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -34,10 +32,9 @@
     "description": "[Guild] Heals guild members that are within the targeted area. Will also heal yourself if you are within the targeted area.",
     "level": 0,
     "requiredLevels": [56, 58, 60, 62, 64],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Ethereal Vision": 4
     },
     "stats": {}
@@ -49,10 +46,9 @@
     "description": "Temporarily increases Elemental Attack of you and your target.",
     "level": 0,
     "requiredLevels": [62, 64, 66, 68, 70],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Unstable Energies": 3
     },
     "stats": {}
@@ -64,10 +60,9 @@
     "description": "Grants additional Attack Power and Accuracy when using a staff.",
     "level": 0,
     "requiredLevels": [62, 64, 66, 68, 70],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Unstable Energies": 2,
       "Ethereal Healing": 2
     },
@@ -80,10 +75,9 @@
     "description": "Inflicts Water Damage to targets within a certain radius and temporarily decreases their Critical Hit Success Rate.",
     "level": 0,
     "requiredLevels": [62, 64, 66, 68, 70],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Ethereal Healing": 3
     },
     "stats": {}
@@ -95,10 +89,9 @@
     "description": "Temporarily reduces the Intelligence and Wisdom of both your current target and other targets close to it.",
     "level": 0,
     "requiredLevels": [67, 69, 71, 73, 75],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Elemental Overcharge": 2,
       "Superior Evocation": 2
     },
@@ -111,10 +104,9 @@
     "description": "Inflicts a Damage on a target and converts some of its damage to your HP.",
     "level": 0,
     "requiredLevels": [67, 69, 71, 73, 75],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Sudden Deluge": 2,
       "Superior Evocation": 2
     },
@@ -127,10 +119,9 @@
     "description": "Inflicts Fire Damage to targets within a certain radius and temporarily decreases their Skill Block Rate.",
     "level": 0,
     "requiredLevels": [71, 73, 75, 77, 79],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Mental Severance": 3
     },
     "stats": {}
@@ -142,10 +133,9 @@
     "description": "[Party] Temporarily increases the Intelligence, Wisdom and Attack Power of both you and party members within close proximity.",
     "level": 0,
     "requiredLevels": [71, 73, 75, 77, 79],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Mental Severance": 2,
       "Vampiric Impact": 2
     },
@@ -158,10 +148,9 @@
     "description": "You place a ward over the current target removing any magical effects from them, being positive or negative. (Higher ranks allow more targets within close proximity to be affected.)",
     "level": 0,
     "requiredLevels": [71, 73, 75, 77, 79],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Vampiric Impact": 3
     },
     "stats": {}

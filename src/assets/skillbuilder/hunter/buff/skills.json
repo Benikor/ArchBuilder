@@ -6,10 +6,9 @@
     "description": "Temporarily decreases target's Movement Speed.",
     "level": 0,
     "requiredLevels": [5, 8, 11, 14, 17],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -19,10 +18,9 @@
     "description": "[Party] Temporarily increases Damage, Defense and Physical Resistance of you and nearby party members.",
     "level": 0,
     "requiredLevels": [13, 16, 19, 22, 25],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -32,10 +30,9 @@
     "description": "Temporarily increases Bow damage.",
     "level": 0,
     "requiredLevels": [21, 24, 27, 30, 33],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -45,10 +42,9 @@
     "description": "Temporarily increases Crossbow damage.",
     "level": 0,
     "requiredLevels": [21, 24, 27, 30, 33],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -58,10 +54,9 @@
     "description": "Temporarily reduces target's Movement Speed within a certain radius at distance.",
     "level": 0,
     "requiredLevels": [29, 32, 35, 38, 41],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   }
 ]

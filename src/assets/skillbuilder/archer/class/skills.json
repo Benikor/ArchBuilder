@@ -6,10 +6,9 @@
     "description": "Temporarily increases Defense and Discipline.",
     "level": 0,
     "requiredLevels": [8, 11, 14, 17, 20],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -19,10 +18,9 @@
     "description": "Temporarily increases your Attack Accuracy and Dodge Rate and decreases Skill Cast Time.",
     "level": 0,
     "requiredLevels": [13, 16, 19, 22, 25],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -32,10 +30,9 @@
     "description": "Air Attack.",
     "level": 0,
     "requiredLevels": [18, 21, 24, 27, 30],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -45,10 +42,9 @@
     "description": "Temporarily increases Normal Attack Range.",
     "level": 0,
     "requiredLevels": [23, 26, 29, 32, 35],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -58,10 +54,9 @@
     "description": "Poison Attack.",
     "level": 0,
     "requiredLevels": [28, 31, 34, 37, 40],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -71,10 +66,9 @@
     "description": "Temporarily increases Elemental Attack and Resistance.",
     "level": 0,
     "requiredLevels": [33, 36, 39, 42, 45],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -84,10 +78,9 @@
     "description": "Temporarily decreases Defense, Elemental Resistace, and Critical Hit Attack of targets.",
     "level": 0,
     "requiredLevels": [38, 41, 44, 47, 50],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -97,10 +90,9 @@
     "description": "Temporarily reduces target's Attack Speed and increase target's Skill Cast time.",
     "level": 0,
     "requiredLevels": [43, 46, 49, 52, 55],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   }
 ]

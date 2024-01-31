@@ -6,10 +6,9 @@
     "description": "Temporarily increases Dodge and Discipline.",
     "level": 0,
     "requiredLevels": [8, 11, 14, 17, 20],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -19,10 +18,9 @@
     "description": "Temporarily increases Elemental Resistance.",
     "level": 0,
     "requiredLevels": [13, 16, 19, 22, 25],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -32,10 +30,9 @@
     "description": "Long Range DOT Attack.",
     "level": 0,
     "requiredLevels": [18, 21, 24, 27, 30],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -45,10 +42,9 @@
     "description": "Temporarily cures Debuff on self at certain rate.",
     "level": 0,
     "requiredLevels": [23, 26, 29, 32, 35],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -58,10 +54,9 @@
     "description": "Inflicts Extreme Damage to a target and decreases its Critical Hit Success Rate and Critical Hit Attack.",
     "level": 0,
     "requiredLevels": [28, 31, 34, 37, 40],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -71,10 +66,9 @@
     "description": "Temporarily removes the player's hostility points Cancels targeting by other players in PvP.",
     "level": 0,
     "requiredLevels": [33, 36, 39, 42, 45],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -84,10 +78,9 @@
     "description": "Temporarily remove hostility points on the monster Attacking first Reduce the player's movement speed.",
     "level": 0,
     "requiredLevels": [38, 41, 44, 47, 50],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -97,10 +90,9 @@
     "description": "Inflicts Earth Damage to a target and decreases its Critical Hit Attack.",
     "level": 0,
     "requiredLevels": [43, 46, 49, 52, 55],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   }
 ]

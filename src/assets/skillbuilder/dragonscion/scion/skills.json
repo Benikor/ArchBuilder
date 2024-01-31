@@ -6,10 +6,9 @@
     "description": "Performs an Attack on a target and temporarily decreases its Movement Speed.",
     "level": 0,
     "requiredLevels": [4, 6, 8, 10, 12],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -19,10 +18,9 @@
     "description": "Temporarily increases Defense.",
     "level": 0,
     "requiredLevels": [4, 6, 8, 10, 12],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -32,10 +30,9 @@
     "description": "[Party] Temporarily recovers HP of you and nearby party members.",
     "level": 0,
     "requiredLevels": [8, 10, 12, 14, 16],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -45,10 +42,9 @@
     "description": "Performs an Attack on a target and temporarily decreases its Attack Speed.",
     "level": 0,
     "requiredLevels": [12, 14, 16, 18, 20],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Disturb": 2
     },
     "stats": {}
@@ -60,10 +56,9 @@
     "description": "Temporarily increases Xenon-type Damages.",
     "level": 0,
     "requiredLevels": [12, 14, 16, 18, 20],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Battle Machine": 2
     },
     "stats": {}
@@ -75,10 +70,9 @@
     "description": "Performs an Attack on targets within a certain radius and temporarily decreases their Defense.",
     "level": 0,
     "requiredLevels": [16, 18, 20, 22, 24],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Hurt Muscle": 2
     },
     "stats": {}
@@ -90,10 +84,9 @@
     "description": "Temporarily increases Karon-type Damages.",
     "level": 0,
     "requiredLevels": [12, 14, 16, 18, 20],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Battle Machine": 2
     },
     "stats": {}
@@ -105,10 +98,9 @@
     "description": "[Party] Temporarily increases Elemental Resistance of you and nearby party members.",
     "level": 0,
     "requiredLevels": [16, 18, 20, 22, 24],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Distribute": 2
     },
     "stats": {}
@@ -120,10 +112,9 @@
     "description": "Evolve to Slayer.",
     "level": 0,
     "requiredLevels": [20],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1],
     "requiredHeroicPoints": [0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -133,10 +124,9 @@
     "description": "Evolve to Orbiter.",
     "level": 0,
     "requiredLevels": [20],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1],
     "requiredHeroicPoints": [0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -146,10 +136,9 @@
     "description": "Evolve to Summoner.",
     "level": 0,
     "requiredLevels": [20],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1],
     "requiredHeroicPoints": [0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -159,10 +148,9 @@
     "description": "Temporarily increases Strength and Critical Hit Attack in Slayer state.",
     "level": 0,
     "requiredLevels": [40, 43, 46, 49, 52],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Slayer of Evolution": 1,
       "All Skill Points": 20
     },
@@ -175,10 +163,9 @@
     "description": "Temporarily increases Agility and Damage in Orbiter state.",
     "level": 0,
     "requiredLevels": [40, 43, 46, 49, 52],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Orbiter of Evolution": 1,
       "All Skill Points": 20
     },
@@ -191,10 +178,9 @@
     "description": "Temporarily increases Movement Speed and Attack Speed in Summoner state.",
     "level": 0,
     "requiredLevels": [40, 43, 46, 49, 52],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Summoner of Evolution": 1,
       "All Skill Points": 20
     },
@@ -207,10 +193,9 @@
     "description": "Temporarily increases Stamina and Defense in Slayer state.",
     "level": 0,
     "requiredLevels": [60, 63, 66, 69, 72],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Slayer of Evolution": 1,
       "Powerful Might": 3,
       "All Skill Points": 30
@@ -224,10 +209,9 @@
     "description": "Temporarily increases Elemental Resistance in Orbiter state.",
     "level": 0,
     "requiredLevels": [60, 63, 66, 69, 72],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Orbiter of Evolution": 1,
       "Smart Sniper": 3,
       "All Skill Points": 30
@@ -241,10 +225,9 @@
     "description": "Temporarily increases Air Damage and Damage in Summoner state.",
     "level": 0,
     "requiredLevels": [60, 63, 66, 69, 72],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Summoner of Evolution": 1,
       "Soul of Scion": 3,
       "All Skill Points": 30

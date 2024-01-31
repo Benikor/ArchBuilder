@@ -6,10 +6,9 @@
     "description": "Increases Movement Speed and Heroic Attack Power if a Karon is equipped. This is a passive skill.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [0, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -19,10 +18,11 @@
     "description": "Powerful Melee Heroic Attack within range around you.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [10, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [2, 2, 2, 2, 2],
-    "requiredSkills": {},
+    "requirements": {
+      "Heroic Skill Points": 10
+    },
     "stats": {}
   },
   {
@@ -32,10 +32,11 @@
     "description": "Powerful Heroic Melee attack.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [5, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {},
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
     "stats": {}
   },
   {
@@ -45,10 +46,11 @@
     "description": "Temporarily increases the caster's Heroic Attack Power, Physical Damage and Air Elemental Damage.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [5, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {},
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
     "stats": {}
   },
   {
@@ -58,11 +60,11 @@
     "description": "Temporarily causes Cower with a certain chance after a powerful Melee Heroic Attack.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [20, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [2, 2, 2, 2, 2],
-    "requiredSkills": {
-      "Delayed Blow": 3
+    "requirements": {
+      "Delayed Blow": 3,
+      "Heroic Skill Points": 20
     },
     "stats": {}
   },
@@ -73,11 +75,11 @@
     "description": "Increases Heroic Defense and Attack Speed if a Karon is equipped. This is a passive skill.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [10, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {
-      "Brilliant Barrage": 3
+    "requirements": {
+      "Brilliant Barrage": 3,
+      "Heroic Skill Points": 10
     },
     "stats": {}
   },
@@ -88,11 +90,11 @@
     "description": "Temporarily causes Chaos with a certain chance after a powerful Melee Heroic Attack in a line.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [20, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {
-      "Powerful Light": 3
+    "requirements": {
+      "Powerful Light": 3,
+      "Heroic Skill Points": 20
     },
     "stats": {}
   },
@@ -103,10 +105,11 @@
     "description": "Temporarily increases Heroic Attack Power by drawing upon inherent energy.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [40, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [3, 3, 3, 3, 3],
-    "requiredSkills": {},
+    "requirements": {
+      "Heroic Skill Points": 40
+    },
     "stats": {}
   },
   {
@@ -116,11 +119,11 @@
     "description": "[Party] Removes Disease and Chaos effects on your party members within range.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [25, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [2, 2, 2, 2, 2],
-    "requiredSkills": {
-      "Rule of the Slayer": 3
+    "requirements": {
+      "Rule of the Slayer": 3,
+      "Heroic Skill Points": 25
     },
     "stats": {}
   },
@@ -131,11 +134,11 @@
     "description": "Temporarily causes Hold with a certain chance after a powerful Melee Heroic Attack within range around you.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [25, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {
-      "Daylight Smite": 3
+    "requirements": {
+      "Daylight Smite": 3,
+      "Heroic Skill Points": 25
     },
     "stats": {}
   }

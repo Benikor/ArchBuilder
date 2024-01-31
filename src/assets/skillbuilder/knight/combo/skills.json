@@ -6,10 +6,9 @@
     "description": "Lightning Attack within a certain radius.",
     "level": 0,
     "requiredLevels": [56, 58, 60, 62, 64],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Marching Song": 4
     },
     "stats": {}
@@ -21,10 +20,9 @@
     "description": "[Party] Temporarily increases Stamina and Strength of you and nearby party members.",
     "level": 0,
     "requiredLevels": [50, 52, 54, 56, 58],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -34,10 +32,9 @@
     "description": "[Party] Temporarily Increases the Elemental Resistances of both you and party members that are within close proximity.",
     "level": 0,
     "requiredLevels": [56, 58, 60, 62, 64],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Marching Song": 4
     },
     "stats": {}
@@ -49,10 +46,9 @@
     "description": "[Guild] Temporarily increases the Defense of both you and guild members that are within close proximity.",
     "level": 0,
     "requiredLevels": [62, 64, 66, 68, 70],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Capacitate": 3
     },
     "stats": {}
@@ -64,10 +60,9 @@
     "description": "Increases your Defense and Discipline when holding a shield.",
     "level": 0,
     "requiredLevels": [62, 64, 66, 68, 70],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Capacitate": 2,
       "Hold Up The Colours": 2
     },
@@ -80,10 +75,9 @@
     "description": "Performs a Damage on a target and temporarily decreases its Block Rate.",
     "level": 0,
     "requiredLevels": [62, 64, 66, 68, 70],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Hold Up The Colours": 3
     },
     "stats": {}
@@ -95,10 +89,9 @@
     "description": "When active you gain immunity to normal attack.",
     "level": 0,
     "requiredLevels": [67, 69, 71, 73, 75],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Solidarity": 2,
       "Frontline Experience": 2
     },
@@ -111,10 +104,9 @@
     "description": "Inflicts Earth Damage to targets in a straight line and temporarily decreases their Elemental Attack.",
     "level": 0,
     "requiredLevels": [67, 69, 71, 73, 75],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Defence Breaker": 2,
       "Frontline Experience": 2
     },
@@ -127,10 +119,9 @@
     "description": "Performs a Damage on a target and temporarily decreases its Damage.",
     "level": 0,
     "requiredLevels": [71, 73, 75, 77, 79],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Energy Barrier": 3
     },
     "stats": {}
@@ -142,10 +133,9 @@
     "description": "When active you gain immunity to skill based Attacks.",
     "level": 0,
     "requiredLevels": [71, 73, 75, 77, 79],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Energy Barrier": 2,
       "Aftershock": 2
     },
@@ -158,10 +148,9 @@
     "description": "[Party] When active you absorb part of elemental damage taken by your party members.",
     "level": 0,
     "requiredLevels": [71, 73, 75, 77, 79],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Aftershock": 3
     },
     "stats": {}

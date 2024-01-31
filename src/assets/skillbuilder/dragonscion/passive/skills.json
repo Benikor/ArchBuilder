@@ -6,10 +6,9 @@
     "description": "Increases Strength.",
     "level": 0,
     "requiredLevels": [6, 9, 12, 15, 18],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -19,10 +18,9 @@
     "description": "Increases Agility.",
     "level": 0,
     "requiredLevels": [6, 9, 12, 15, 18],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -32,10 +30,9 @@
     "description": "Increases Intelligence.",
     "level": 0,
     "requiredLevels": [6, 9, 12, 15, 18],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -45,10 +42,9 @@
     "description": "Increases Wisdom.",
     "level": 0,
     "requiredLevels": [6, 9, 12, 15, 18],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -58,10 +54,9 @@
     "description": "Increases Stamina.",
     "level": 0,
     "requiredLevels": [6, 9, 12, 15, 18],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -71,10 +66,9 @@
     "description": "A Passive Skill that reinforces Damage.",
     "level": 0,
     "requiredLevels": [28, 31, 34, 37, 40],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -84,10 +78,9 @@
     "description": "A Passive Skill that reinforces Movement Speed.",
     "level": 0,
     "requiredLevels": [34, 37, 40, 43, 46],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -97,10 +90,9 @@
     "description": "A Passive Skill that gives your Normal Attacks a chance of performing a Critical Hit.",
     "level": 0,
     "requiredLevels": [22, 25, 28, 31, 34],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -110,10 +102,9 @@
     "description": "A Passive Skill that increases Attack Success Rate.",
     "level": 0,
     "requiredLevels": [28, 31, 34, 37, 40],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -123,10 +114,9 @@
     "description": "A Passive Skill that reinforces Defense.",
     "level": 0,
     "requiredLevels": [34, 37, 40, 43, 46],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -136,10 +126,9 @@
     "description": "A Passive Skill that reinforces Damage and Elemental Attack.",
     "level": 0,
     "requiredLevels": [58, 61, 64, 67, 70],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Force Claw": 2
     },
     "stats": {}
@@ -151,10 +140,9 @@
     "description": "A Passive Skill that reinforces Dodge Rate.",
     "level": 0,
     "requiredLevels": [46, 49, 52, 55, 58],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Wing Over": 2
     },
     "stats": {}
@@ -166,10 +154,9 @@
     "description": "A Passive Skill that reinforces Discipline and Block Rate.",
     "level": 0,
     "requiredLevels": [52, 55, 58, 51, 64],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Piercing Tooth": 2
     },
     "stats": {}
@@ -181,10 +168,9 @@
     "description": "A Passive Skill that reinforces Elemental Resistance and Physical Resistance.",
     "level": 0,
     "requiredLevels": [46, 49, 52, 55, 58],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Strong Mind": 2
     },
     "stats": {}
@@ -196,10 +182,9 @@
     "description": "A Passive Skill that reinforces Defense and increases HP.",
     "level": 0,
     "requiredLevels": [58, 61, 64, 67, 70],
-    "requiredSpentHeroicPoints": [],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requiredSkills": {
+    "requirements": {
       "Iron Scale": 2
     },
     "stats": {}

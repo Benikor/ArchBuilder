@@ -6,10 +6,9 @@
     "description": "Reduces Magic and Melee Heroic Damage, as well as increases Heroic Defense if a Crossbow is equipped. This is a passive skill.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [0, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {},
+    "requirements": {},
     "stats": {}
   },
   {
@@ -19,10 +18,11 @@
     "description": "Powerful Ranged Heroic Attack in a line.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [10, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [2, 2, 2, 2, 2],
-    "requiredSkills": {},
+    "requirements": {
+      "Heroic Skill Points": 10
+    },
     "stats": {}
   },
   {
@@ -32,10 +32,11 @@
     "description": "Powerful Ranged Heroic Attack within range.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [5, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {},
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
     "stats": {}
   },
   {
@@ -45,10 +46,11 @@
     "description": "[Party] Temporarily increases Dodge and Melee Heroic Damage Defense of your party members within range.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [5, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {},
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
     "stats": {}
   },
   {
@@ -58,11 +60,11 @@
     "description": "Temporarily causes Chaos with a certain chance after a powerful Ranged Heroic Attack within range.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [20, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [2, 2, 2, 2, 2],
-    "requiredSkills": {
-      "Tricky Shot": 3
+    "requirements": {
+      "Tricky Shot": 3,
+      "Heroic Skill Points": 20
     },
     "stats": {}
   },
@@ -73,11 +75,11 @@
     "description": "Reduces Ranged and Melee Heroic Damage, as well as Skill Casting time if a Crossbow is equipped. This is a passive skill.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [10, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {
-      "Acrobatic Shot": 3
+    "requirements": {
+      "Acrobatic Shot": 3,
+      "Heroic Skill Points": 10
     },
     "stats": {}
   },
@@ -88,11 +90,11 @@
     "description": "Temporarily causes Frenzy with a certain chance after a powerful Ranged Heroic Attack within range.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [20, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {
-      "Dangerous Position": 3
+    "requirements": {
+      "Dangerous Position": 3,
+      "Heroic Skill Points": 20
     },
     "stats": {}
   },
@@ -103,10 +105,11 @@
     "description": "[Party] Temporarily reduces all Heroic Damage dealt to your party members within range.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [40, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [3, 3, 3, 3, 3],
-    "requiredSkills": {},
+    "requirements": {
+      "Heroic Skill Points": 40
+    },
     "stats": {}
   },
   {
@@ -116,11 +119,11 @@
     "description": "[Party] Temporarily increases Heroic Defense and reduces duration of debuffs of your party members within range.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [25, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [2, 2, 2, 2, 2],
-    "requiredSkills": {
-      "Bloody Walk": 3
+    "requirements": {
+      "Bloody Walk": 3,
+      "Heroic Skill Points": 25
     },
     "stats": {}
   },
@@ -131,11 +134,11 @@
     "description": "Temporarily causes Cower with a certain chance after a powerful Ranged Heroic Attack within range.",
     "level": 0,
     "requiredLevels": [],
-    "requiredSpentHeroicPoints": [25, 0, 0, 0, 0],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requiredSkills": {
-      "Crimson Eye": 3
+    "requirements": {
+      "Crimson Eye": 3,
+      "Heroic Skill Points": 25
     },
     "stats": {}
   }
