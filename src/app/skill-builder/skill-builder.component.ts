@@ -114,6 +114,7 @@ export class SkillBuilderComponent implements OnInit {
     let requirementPassed = true;
     let requiredSkillPointsSpent = true;
     let requiredHeroicPointsSpent = true;
+    let requiredEvolutionSkillPointsSpent = true;
     let dragonscionNotEvolved = true;
     for (let requiredSkillName in skill.requirements) {
       for (let skillsByType of this.skills) {
@@ -141,6 +142,28 @@ export class SkillBuilderComponent implements OnInit {
         Number(skill.requirements['Heroic Skill Points' as keyof Object]);
     }
 
+    if (skill.requirements['Slayer Skill Points' as keyof Object]) {
+      requiredEvolutionSkillPointsSpent =
+        this.requiredEvolutionSkillPointsSpent(
+          Number(skill.requirements['Slayer Skill Points' as keyof Object]),
+          skill.type
+        );
+    }
+    if (skill.requirements['Orbiter Skill Points' as keyof Object]) {
+      requiredEvolutionSkillPointsSpent =
+        this.requiredEvolutionSkillPointsSpent(
+          Number(skill.requirements['Orbiter Skill Points' as keyof Object]),
+          skill.type
+        );
+    }
+    if (skill.requirements['Summoner Skill Points' as keyof Object]) {
+      requiredEvolutionSkillPointsSpent =
+        this.requiredEvolutionSkillPointsSpent(
+          Number(skill.requirements['Summoner Skill Points' as keyof Object]),
+          skill.type
+        );
+    }
+
     if (
       this.currentClass == 'dragonscion' &&
       skill.name.search('of Evolution') != -1 &&
@@ -156,6 +179,7 @@ export class SkillBuilderComponent implements OnInit {
       this.getAvilableSkillPoints() >= skill.requiredSkillPoints[skill.level] &&
       this.getAvilableHeroicPoints() >=
         skill.requiredHeroicPoints[skill.level] &&
+      requiredEvolutionSkillPointsSpent &&
       requiredHeroicPointsSpent &&
       requiredSkillPointsSpent &&
       dragonscionNotEvolved &&
@@ -221,6 +245,27 @@ export class SkillBuilderComponent implements OnInit {
       requiredSkillPointsSpent &&
       requiredHeroicPointsSpent
     );
+  }
+
+  requiredEvolutionSkillPointsSpent(
+    requiredEvolutionSkillPoints: number,
+    skillType: string
+  ) {
+    let spentEvolutionSkillPoints = 0;
+    for (let skillsByType of this.skills) {
+      for (let skillByType of skillsByType) {
+        if (skillByType.type != skillType) {
+          break;
+        }
+
+        spentEvolutionSkillPoints =
+          spentEvolutionSkillPoints + skillByType.level;
+      }
+      if (spentEvolutionSkillPoints != 0) {
+        break;
+      }
+    }
+    return spentEvolutionSkillPoints >= requiredEvolutionSkillPoints;
   }
 
   resetSkillBuilder() {
