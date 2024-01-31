@@ -152,7 +152,7 @@ export class SkillBuilderComponent implements OnInit {
     return (
       skill.level < 5 &&
       (this.levelLimit >= skill.requiredLevels[skill.level] ||
-        skill.type == 'heroic') &&
+        skill.type.search('heroic') != -1) &&
       this.getAvilableSkillPoints() >= skill.requiredSkillPoints[skill.level] &&
       this.getAvilableHeroicPoints() >=
         skill.requiredHeroicPoints[skill.level] &&
