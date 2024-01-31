@@ -1,0 +1,86 @@
+[
+  {
+    "type": "buff",
+    "name": "Smart Force",
+    "imgPath": "smart_force.jpg",
+    "description": "Temporarily increases your Attack Speed and reduces Skill Cast Time.",
+    "level": 0,
+    "requiredLevels": [5, 8, 11, 14, 17],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "buff",
+    "name": "Shout of Insight",
+    "imgPath": "shout_of_insight.jpg",
+    "description": "[Party]Temporarily increases Attack and Armor of Party Members within a certain radius around the caster.",
+    "level": 0,
+    "requiredLevels": [13, 16, 19, 22, 25],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "buff",
+    "name": "Smart Blade",
+    "imgPath": "smart_blade.jpg",
+    "description": "Temporarily increases Damage while equipping one weapon.",
+    "level": 0,
+    "requiredLevels": [21, 24, 27, 30, 33],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "buff",
+    "name": "Smart Weapon",
+    "imgPath": "smart_weapon.jpg",
+    "description": "Temporarily increases Damage while equipping Dagger type weapon.",
+    "level": 0,
+    "requiredLevels": [21, 24, 27, 30, 33],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "buff",
+    "name": "Sword Stopper",
+    "imgPath": "sword_stopper.jpg",
+    "description": "Discipline and Critical Resistance increase when you are wearing a Dagger.",
+    "level": 0,
+    "requiredLevels": [29, 32, 35, 38, 41],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "buff",
+    "name": "Unseeable",
+    "imgPath": "unseeable.jpg",
+    "description": "You dematerialise from sight and become invisible until you Attack or cast a skill.",
+    "level": 0,
+    "requiredLevels": [38, 41, 44, 47, 50],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "buff",
+    "name": "Force Armour",
+    "imgPath": "force_armour.jpg",
+    "description": "Temporarily increases stun resistance.",
+    "level": 0,
+    "requiredLevels": [37, 40, 43, 46, 49],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  }
+]

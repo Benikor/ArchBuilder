@@ -1,0 +1,74 @@
+[
+  {
+    "type": "class",
+    "name": "Lunar Masquerade",
+    "imgPath": "lunar_masquerade.jpg",
+    "description": "Temporarily increases Elemental Damage and Resistance. Certain skill level also increases per the caster's skill level.",
+    "level": 0,
+    "requiredLevels": [28, 31, 34, 37, 40],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Chant Masquerade",
+    "imgPath": "chant_masquerade.jpg",
+    "description": "Temporarily converts some of the Damage taken into HP. Certain skill level also increases per the caster's skill level.",
+    "level": 0,
+    "requiredLevels": [28, 31, 34, 37, 40],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Dauntless Masquerade",
+    "imgPath": "dauntless_masquerade.jpg",
+    "description": "Temporarily increases Max HP. Certain skill level also increases per the caster's skill level.",
+    "level": 0,
+    "requiredLevels": [28, 31, 34, 37, 40],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Fires Masquerade",
+    "imgPath": "fires_masquerade.jpg",
+    "description": "Temporarily increases Dodge rate against Melee attack. Certain skill level also increases per the caster's skill level.",
+    "level": 0,
+    "requiredLevels": [28, 31, 34, 37, 40],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Fallen Masquerade",
+    "imgPath": "fallen_masquerade.jpg",
+    "description": "Temporarily increases Dodge rate against Ranged attack. Certain skill level also increases per the caster's skill level.",
+    "level": 0,
+    "requiredLevels": [28, 31, 34, 37, 40],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Masquerade Master",
+    "imgPath": "masquerade_master.jpg",
+    "description": "Temporarily increases Physical Resistance and enables activating multiple Masquerades at the same time.",
+    "level": 0,
+    "requiredLevels": [33, 36, 39, 42, 45],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  }
+]
