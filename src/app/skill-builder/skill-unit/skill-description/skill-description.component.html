@@ -17,9 +17,12 @@
 
     <h4
       class="skill-requirement"
-      *ngFor="let requiredSkill of skill.requiredSkills | keyvalue"
+      *ngFor="let requirement of skill.requirements | keyvalue"
     >
-      Required: {{ requiredSkill.key }} Level {{ requiredSkill.value }}
+      Required:
+      {{ requirement.key }}
+      {{ requirement.key.search("Skill Points") != -1 ? "" : "Level" }}
+      {{ requirement.value }}
     </h4>
 
     <div class="grid-container">
@@ -37,20 +40,6 @@
           *ngFor="let skillLevel of skillLevels"
         >
           {{ skill.requiredLevels[skillLevel] }}
-        </p>
-      </ng-container>
-
-      <p class="property-name" *ngIf="skill.type.search('heroic') != -1">
-        Required Spent Heroic Points
-      </p>
-      <ng-container *ngIf="skill.type.search('heroic') != -1">
-        <p
-          [ngClass]="{
-            property: skill.requiredSpentHeroicPoints[skillLevel] != null
-          }"
-          *ngFor="let skillLevel of skillLevels"
-        >
-          {{ skill.requiredSpentHeroicPoints[skillLevel] }}
         </p>
       </ng-container>
 
