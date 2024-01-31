@@ -49,7 +49,7 @@
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
     "requirements": {
-      "Heroic Skill Points": 10
+      "Heroic Skill Points": 5
     },
     "stats": {}
   },
