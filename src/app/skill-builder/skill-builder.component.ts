@@ -115,7 +115,6 @@ export class SkillBuilderComponent implements OnInit {
     let requiredSkillPointsSpent = true;
     let requiredHeroicPointsSpent = true;
     let requiredEvolutionSkillPointsSpent = true;
-    let dragonscionNotEvolved = true;
     for (let requiredSkillName in skill.requirements) {
       for (let skillsByType of this.skills) {
         for (let requiredSkill of skillsByType) {
@@ -164,14 +163,6 @@ export class SkillBuilderComponent implements OnInit {
         );
     }
 
-    if (
-      this.currentClass == 'dragonscion' &&
-      skill.name.search('of Evolution') != -1 &&
-      skill.level > 0
-    ) {
-      dragonscionNotEvolved = false;
-    }
-
     return (
       skill.level < 5 &&
       (this.levelLimit >= skill.requiredLevels[skill.level] ||
@@ -182,7 +173,6 @@ export class SkillBuilderComponent implements OnInit {
       requiredEvolutionSkillPointsSpent &&
       requiredHeroicPointsSpent &&
       requiredSkillPointsSpent &&
-      dragonscionNotEvolved &&
       requirementPassed
     );
   }
