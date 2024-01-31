@@ -8,7 +8,9 @@
     "requiredLevels": [23, 26, 29, 32, 35],
     "requiredSkillPoints": [1, 1, 1, 1, 1],
     "requiredHeroicPoints": [0, 0, 0, 0, 0],
-    "requirements": {},
+    "requirements": {
+      "Summoner of Evolution": 1
+    },
     "stats": {}
   },
   {

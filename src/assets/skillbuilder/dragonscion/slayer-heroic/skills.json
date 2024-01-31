@@ -8,7 +8,9 @@
     "requiredLevels": [],
     "requiredSkillPoints": [2, 2, 2, 2, 2],
     "requiredHeroicPoints": [1, 2, 2, 2, 2],
-    "requirements": {},
+    "requirements": {
+      "Slayer of Evolution": 1
+    },
     "stats": {}
   },
   {
