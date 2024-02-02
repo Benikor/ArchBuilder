@@ -19,6 +19,7 @@ export class SkillBuilderComponent implements OnInit {
   skillTypes: string[] = [];
   currentClass: string = '';
   levelLimit: number = 0;
+  skillsLoading = true;
 
   subscriptions = new Subscription();
 
@@ -31,6 +32,7 @@ export class SkillBuilderComponent implements OnInit {
     this.subscriptions = this.activatedRoute.params
       .pipe(
         switchMap((params) => {
+          this.skillsLoading = true;
           this.currentClass = params['currentClass'];
           return this.skillBuilderService.getTypes(this.currentClass);
         }),
@@ -61,6 +63,7 @@ export class SkillBuilderComponent implements OnInit {
         this.levelLimitForm.controls['levelLimitInput'].setValue(
           this.levelLimit
         );
+        this.skillsLoading = false;
       });
   }
 

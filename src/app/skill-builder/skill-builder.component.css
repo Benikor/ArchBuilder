@@ -1,3 +1,9 @@
+.loading {
+  margin-top: 75px;
+  text-align: center;
+  color: #d2b582;
+}
+
 .background {
   padding: 50px;
   margin: 50px auto;

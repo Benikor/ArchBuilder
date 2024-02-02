@@ -1,5 +1,6 @@
 <app-class-menu></app-class-menu>
-<div class="background">
+<h2 class="loading" *ngIf="skillsLoading">Loading...</h2>
+<div *ngIf="!skillsLoading" class="background">
   <div class="skills-header">
     <h2>Skill Points</h2>
     <h2>Heroic Points</h2>
