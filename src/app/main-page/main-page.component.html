@@ -1,7 +1,8 @@
 <div class="title">
   <p>Choose a class to create a Build!</p>
 </div>
-<div class="background">
+<h2 class="loading" *ngIf="classesLoading">Loading...</h2>
+<div *ngIf="!classesLoading" class="background">
   <div class="container">
     <div
       *ngFor="let currentClass of classes"

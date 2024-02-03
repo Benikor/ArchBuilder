@@ -8,6 +8,7 @@ import { SkillBuilderService } from '../skill-builder/skill-builder.service';
 })
 export class MainPageComponent implements OnInit {
   classes: string[] = [];
+  classesLoading = true;
 
   constructor(private skillBuilderService: SkillBuilderService) {}
 
@@ -16,8 +17,10 @@ export class MainPageComponent implements OnInit {
   }
 
   getClasses() {
-    this.skillBuilderService
-      .getClasses()
-      .subscribe((classes) => (this.classes = classes));
+    this.classesLoading = true;
+    this.skillBuilderService.getClasses().subscribe((classes) => {
+      this.classes = classes;
+      this.classesLoading = false;
+    });
   }
 }

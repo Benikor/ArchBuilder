@@ -1,3 +1,9 @@
+.loading {
+  margin-top: 75px;
+  text-align: center;
+  color: #d2b582;
+}
+
 .title {
   width: 725px;
   margin: auto;
