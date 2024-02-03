@@ -1,9 +1,8 @@
 <div class="menu">
   <a
-    class="link"
-    (click)="ngOnInit()"
-    routerLink="/{{ class.toLowerCase() }}"
     *ngFor="let class of classes"
+    [ngClass]="currentClass == class.toLowerCase() ? 'current' : 'link'"
+    routerLink="/{{ class.toLowerCase() }}"
   >
     {{ class }}
   </a>

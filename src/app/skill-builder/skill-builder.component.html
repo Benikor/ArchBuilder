@@ -1,4 +1,4 @@
-<app-class-menu></app-class-menu>
+<app-class-menu [currentClass]="currentClass"></app-class-menu>
 <h2 class="loading" *ngIf="skillsLoading">Loading...</h2>
 <div *ngIf="!skillsLoading" class="background">
   <div class="skills-header">

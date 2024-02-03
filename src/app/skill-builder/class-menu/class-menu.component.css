@@ -18,3 +18,15 @@
 .link:active {
   color: white;
 }
+
+.current:link,
+.current:visited {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.current:hover,
+.current:active {
+  color: white;
+}
