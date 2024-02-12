@@ -1,0 +1,110 @@
+[
+  {
+    "type": "passive",
+    "name": "Supreme Damage",
+    "imgPath": "supreme_damage.jpg",
+    "description": "Increases your Critical Hit rate and Critical Hit damage.",
+    "level": 0,
+    "requiredLevels": [6, 9, 12, 15, 18],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Power Surge",
+    "imgPath": "power_surge.jpg",
+    "description": "Increases Strength.",
+    "level": 0,
+    "requiredLevels": [6, 9, 12, 15, 18],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Nimbleness",
+    "imgPath": "nimbleness.jpg",
+    "description": "Increases Agility.",
+    "level": 0,
+    "requiredLevels": [6, 9, 12, 15, 18],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Intellect",
+    "imgPath": "intellect.jpg",
+    "description": "Increases Intelligence.",
+    "level": 0,
+    "requiredLevels": [6, 9, 12, 15, 18],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Mind Boost",
+    "imgPath": "mind_boost.jpg",
+    "description": "Increases Wisdom.",
+    "level": 0,
+    "requiredLevels": [6, 9, 12, 15, 18],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Endurance",
+    "imgPath": "endurance.jpg",
+    "description": "Increases Stamina.",
+    "level": 0,
+    "requiredLevels": [6, 9, 12, 15, 18],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Red Heat",
+    "imgPath": "red_heat.jpg",
+    "description": "Increases Attack Accuracy.",
+    "level": 0,
+    "requiredLevels": [14, 17, 20, 23, 26],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Counter Attack",
+    "imgPath": "counter_attack.jpg",
+    "description": "Attack power increases after blocking hit.",
+    "level": 0,
+    "requiredLevels": [22, 25, 28, 31, 34],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Death Strike",
+    "imgPath": "death_strike.jpg",
+    "description": "Reduce target's HP greatly with certain chance.",
+    "level": 0,
+    "requiredLevels": [30, 33, 36, 39, 42],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  }
+]

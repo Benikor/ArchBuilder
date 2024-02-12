@@ -1,0 +1,145 @@
+[
+  {
+    "type": "heroic",
+    "name": "Indomitable Dagger",
+    "imgPath": "indomitable_dagger.jpg",
+    "description": "Reduces Magic and Melee Heroic Damage, as well as increases Heroic Defense if a Dagger is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Precision Sword Rush",
+    "imgPath": "precision_sword_rush.jpg",
+    "description": "Powerful Melee Heroic Attack in a line.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 10
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Deadly Piercing",
+    "imgPath": "deadly_piercing.jpg",
+    "description": "Powerful Heroic Melee attack.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Fortitude's Soul",
+    "imgPath": "fortitudes_soul.jpg",
+    "description": "[Party] Temporarily increases Skill Block Rate, Heroic Defense and Movement Speed of your party members within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Extreme Blade",
+    "imgPath": "extreme_blade.jpg",
+    "description": "Pulls a target towards the caster after a Melee Heroic Attack on a ranged target.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Precision Sword Rush": 3,
+      "Heroic Skill Points": 20
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Frontline Step",
+    "imgPath": "frontline_step.jpg",
+    "description": "Increases Ranged and Magic Heroic Damage Defenses, as well as Heroic Attack Power if a Dagger is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Deadly Piercing": 3,
+      "Heroic Skill Points": 10
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Sudden Twist Attack",
+    "imgPath": "sudden_twist_attack.jpg",
+    "description": "Temporarily causes Chaos with a certain chance after a powerful Melee Heroic Attack within range around you.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Fortitude's Soul": 3,
+      "Heroic Skill Points": 20
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Soul of the Impossible Weapon",
+    "imgPath": "soul_of_the_impossible_weapon.jpg",
+    "description": "Temporarily unequips the target's lower armor after a Melee Heroic Attack within range around you. Cannot be used in conjunction with other disarming skills.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [3, 3, 3, 3, 3],
+    "requirements": {
+      "Heroic Skill Points": 40
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Steadfast Sword",
+    "imgPath": "steadfast_sword.jpg",
+    "description": "[Party] Temporarily reduces the duration of debuffs directed at your party members within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Frontline Step": 3,
+      "Heroic Skill Points": 25
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Myriad Crescent Slashing",
+    "imgPath": "myriad_crescent_slashing.jpg",
+    "description": "Temporarily causes Cower with a certain chance after a powerful Melee Heroic Attack within range around you.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Sudden Twist Attack": 3,
+      "Heroic Skill Points": 25
+    },
+    "stats": {}
+  }
+]

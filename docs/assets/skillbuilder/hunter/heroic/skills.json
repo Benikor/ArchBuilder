@@ -1,0 +1,145 @@
+[
+  {
+    "type": "heroic",
+    "name": "Nimble Mobility",
+    "imgPath": "nimble_mobility.jpg",
+    "description": "Reduces Magic and Melee Heroic Damage, as well as increases Heroic Defense if a Crossbow is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Tricky Shot",
+    "imgPath": "tricky_shot.jpg",
+    "description": "Powerful Ranged Heroic Attack in a line.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 10
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Acrobatic Shot",
+    "imgPath": "acrobatic_shot.jpg",
+    "description": "Powerful Ranged Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Dangerous Position",
+    "imgPath": "dangerous_position.jpg",
+    "description": "[Party] Temporarily increases Dodge and Melee Heroic Damage Defense of your party members within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Painting Attack",
+    "imgPath": "painting_attack.jpg",
+    "description": "Temporarily causes Chaos with a certain chance after a powerful Ranged Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Tricky Shot": 3,
+      "Heroic Skill Points": 20
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Bloody Walk",
+    "imgPath": "bloody_walk.jpg",
+    "description": "Reduces Ranged and Melee Heroic Damage, as well as Skill Casting time if a Crossbow is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Acrobatic Shot": 3,
+      "Heroic Skill Points": 10
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Crimson Eye",
+    "imgPath": "crimson_eye.jpg",
+    "description": "Temporarily causes Frenzy with a certain chance after a powerful Ranged Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Dangerous Position": 3,
+      "Heroic Skill Points": 20
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Exquisite Pain",
+    "imgPath": "exquisite_pain.jpg",
+    "description": "[Party] Temporarily reduces all Heroic Damage dealt to your party members within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [3, 3, 3, 3, 3],
+    "requirements": {
+      "Heroic Skill Points": 40
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Enemy Bane Stance",
+    "imgPath": "enemy_bane_stance.jpg",
+    "description": "[Party] Temporarily increases Heroic Defense and reduces duration of debuffs of your party members within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Bloody Walk": 3,
+      "Heroic Skill Points": 25
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Shrinking Snake Shot",
+    "imgPath": "shrinking_snake_shot.jpg",
+    "description": "Temporarily causes Cower with a certain chance after a powerful Ranged Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Crimson Eye": 3,
+      "Heroic Skill Points": 25
+    },
+    "stats": {}
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "type": "combo",
+    "name": "Lunar Blessing",
+    "imgPath": "lunar_blessing.jpg",
+    "description": "[Party] Temporarily increases the Attack Power of both you and party members within close proximity.",
+    "level": 0,
+    "requiredLevels": [56, 58, 60, 62, 64],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Natural Toxin": 4
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Natural Toxin",
+    "imgPath": "natural_toxin.jpg",
+    "description": "Inflicts Poison Damage to a target and temporarily does continuous damage over time.",
+    "level": 0,
+    "requiredLevels": [50, 52, 54, 56, 58],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Critical Elements",
+    "imgPath": "critical_elements.jpg",
+    "description": "[Party] Increases the Critical Hit chance, Critical Hit damage and Elemental Damages of both you and party members within close proximity.",
+    "level": 0,
+    "requiredLevels": [56, 58, 60, 62, 64],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Natural Toxin": 4
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Water Torpedo",
+    "imgPath": "water_torpedo.jpg",
+    "description": "Inflicts Water Damage to targets within a certain radius and temporarily decreases their Movement and Attack Speeds.",
+    "level": 0,
+    "requiredLevels": [62, 64, 66, 68, 70],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Lunar Blessing": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Kataria Mastery",
+    "imgPath": "kataria_mastery.jpg",
+    "description": "Increases your Attack Power and Accuracy when using a Kataria.",
+    "level": 0,
+    "requiredLevels": [62, 64, 66, 68, 70],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Lunar Blessing": 2,
+      "Critical Elements": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Elemental Fortitude",
+    "imgPath": "elemental_fortitude.jpg",
+    "description": "Temporarily increases the Elemental Resistances and Fortitude of both you and your current target.",
+    "level": 0,
+    "requiredLevels": [62, 64, 66, 68, 70],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Critical Elements": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Angelic Might",
+    "imgPath": "angelic_might.jpg",
+    "description": "Temporarily increases the Strength, Agility and Attack Speed of both you and your current target.",
+    "level": 0,
+    "requiredLevels": [67, 69, 71, 73, 75],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Water Torpedo": 2,
+      "Kataria Mastery": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Energybolt",
+    "imgPath": "energybolt.jpg",
+    "description": "Performs a Damage on a target and temporarily decreases its Physical Resistance.",
+    "level": 0,
+    "requiredLevels": [67, 69, 71, 73, 75],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Elemental Fortitude": 2,
+      "Kataria Mastery": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Elemental Favour",
+    "imgPath": "elemental_favour.jpg",
+    "description": "When active you and your current target gain immunity to Elemental Damages.",
+    "level": 0,
+    "requiredLevels": [71, 73, 75, 77, 79],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Angelic Might": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Divine Lightning",
+    "imgPath": "divine_lightning.jpg",
+    "description": "Inflicts Lightning Damage to targets within a certain radius and temporarily decreases their Physical Defense.",
+    "level": 0,
+    "requiredLevels": [71, 73, 75, 77, 79],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Angelic Might": 2,
+      "Energybolt": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Concealment",
+    "imgPath": "concealment.jpg",
+    "description": "[Guild] Grants invisibility to both you and guild members within the target area.",
+    "level": 0,
+    "requiredLevels": [71, 73, 75, 77, 79],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Energybolt": 3
+    },
+    "stats": {}
+  }
+]

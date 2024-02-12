@@ -1,0 +1,147 @@
+[
+  {
+    "type": "orbiter-heroic",
+    "name": "Pardon of Vice",
+    "imgPath": "pardon_of_vice.jpg",
+    "description": "Reduces Skill Casting time and increases Ranged Heroic Damage Defenses if Xenon is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Orbiter of Evolution": 1
+    },
+    "stats": {}
+  },
+  {
+    "type": "orbiter-heroic",
+    "name": "Brand of Crime",
+    "imgPath": "brand_of_crime.jpg",
+    "description": "Powerful Ranged Heroic Attack in a line.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 10
+    },
+    "stats": {}
+  },
+  {
+    "type": "orbiter-heroic",
+    "name": "Fiery Shot",
+    "imgPath": "fiery_shot.jpg",
+    "description": "Powerful Ranged Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
+    "stats": {}
+  },
+  {
+    "type": "orbiter-heroic",
+    "name": "Dragon Boon",
+    "imgPath": "dragon_boon.jpg",
+    "description": "[Party] Removes Hold and Fear effects on your party members within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
+    "stats": {}
+  },
+  {
+    "type": "orbiter-heroic",
+    "name": "Resounding Destroyer",
+    "imgPath": "resounding_destroyer.jpg",
+    "description": "Temporarily causes Hold with a certain chance after a powerful Ranged Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Brand of Crime": 3,
+      "Heroic Skill Points": 20
+    },
+    "stats": {}
+  },
+  {
+    "type": "orbiter-heroic",
+    "name": "Punishing Crime",
+    "imgPath": "punishing_crime.jpg",
+    "description": "Increases Heroic Attack Power and duration of the caster's debuffs if Xenon is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Fiery Shot": 3,
+      "Heroic Skill Points": 10
+    },
+    "stats": {}
+  },
+  {
+    "type": "orbiter-heroic",
+    "name": "Lightning Frenzy Assault",
+    "imgPath": "lightning_frenzy_assault.jpg",
+    "description": "Temporarily causes Frenzy with a certain chance after a powerful Ranged Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Dragon Boon": 3,
+      "Heroic Skill Points": 20
+    },
+    "stats": {}
+  },
+  {
+    "type": "orbiter-heroic",
+    "name": "Victim`s Repose",
+    "imgPath": "victims_repose.jpg",
+    "description": "Temporarily causes Heroic Damage Over Time after a powerful Ranged Heroic attack.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [3, 3, 3, 3, 3],
+    "requirements": {
+      "Heroic Skill Points": 40
+    },
+    "stats": {}
+  },
+  {
+    "type": "orbiter-heroic",
+    "name": "Elemental Rescue",
+    "imgPath": "elemental_rescue.jpg",
+    "description": "[Party] Temporarily reduces the duration of debuffs and increases Skill Block Rate and Dodge for your party members within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Punishing Crime": 3,
+      "Heroic Skill Points": 25
+    },
+    "stats": {}
+  },
+  {
+    "type": "orbiter-heroic",
+    "name": "Withering Night Shot",
+    "imgPath": "withering_night_shot.jpg",
+    "description": "Temporarily causes Cower with a certain chance after a powerful Ranged Heroic Attack in a line.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Lightning Frenzy Assault": 3,
+      "Heroic Skill Points": 25
+    },
+    "stats": {}
+  }
+]

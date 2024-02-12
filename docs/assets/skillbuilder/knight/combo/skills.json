@@ -1,0 +1,158 @@
+[
+  {
+    "type": "combo",
+    "name": "Capacitate",
+    "imgPath": "capacitate.jpg",
+    "description": "Lightning Attack within a certain radius.",
+    "level": 0,
+    "requiredLevels": [56, 58, 60, 62, 64],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Marching Song": 4
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Marching Song",
+    "imgPath": "marching_song.jpg",
+    "description": "[Party] Temporarily increases Stamina and Strength of you and nearby party members.",
+    "level": 0,
+    "requiredLevels": [50, 52, 54, 56, 58],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Hold Up The Colours",
+    "imgPath": "hold_up_the_colours.jpg",
+    "description": "[Party] Temporarily Increases the Elemental Resistances of both you and party members that are within close proximity.",
+    "level": 0,
+    "requiredLevels": [56, 58, 60, 62, 64],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Marching Song": 4
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Solidarity",
+    "imgPath": "solidarity.jpg",
+    "description": "[Guild] Temporarily increases the Defense of both you and guild members that are within close proximity.",
+    "level": 0,
+    "requiredLevels": [62, 64, 66, 68, 70],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Capacitate": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Frontline Experience",
+    "imgPath": "frontline_experience.jpg",
+    "description": "Increases your Defense and Discipline when holding a shield.",
+    "level": 0,
+    "requiredLevels": [62, 64, 66, 68, 70],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Capacitate": 2,
+      "Hold Up The Colours": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Defence Breaker",
+    "imgPath": "defence_breaker.jpg",
+    "description": "Performs a Damage on a target and temporarily decreases its Block Rate.",
+    "level": 0,
+    "requiredLevels": [62, 64, 66, 68, 70],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Hold Up The Colours": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Energy Barrier",
+    "imgPath": "energy_barrier.jpg",
+    "description": "When active you gain immunity to normal attack.",
+    "level": 0,
+    "requiredLevels": [67, 69, 71, 73, 75],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Solidarity": 2,
+      "Frontline Experience": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Aftershock",
+    "imgPath": "aftershock.jpg",
+    "description": "Inflicts Earth Damage to targets in a straight line and temporarily decreases their Elemental Attack.",
+    "level": 0,
+    "requiredLevels": [67, 69, 71, 73, 75],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Defence Breaker": 2,
+      "Frontline Experience": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Intimidating Blow",
+    "imgPath": "intimidating_blow.jpg",
+    "description": "Performs a Damage on a target and temporarily decreases its Damage.",
+    "level": 0,
+    "requiredLevels": [71, 73, 75, 77, 79],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Energy Barrier": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Godlike Discipline",
+    "imgPath": "godlike_discipline.jpg",
+    "description": "When active you gain immunity to skill based Attacks.",
+    "level": 0,
+    "requiredLevels": [71, 73, 75, 77, 79],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Energy Barrier": 2,
+      "Aftershock": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Divine Protection",
+    "imgPath": "divine_protection.jpg",
+    "description": "[Party] When active you absorb part of elemental damage taken by your party members.",
+    "level": 0,
+    "requiredLevels": [71, 73, 75, 77, 79],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Aftershock": 3
+    },
+    "stats": {}
+  }
+]

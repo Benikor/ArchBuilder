@@ -1,0 +1,62 @@
+[
+  {
+    "type": "buff",
+    "name": "Air Walk",
+    "imgPath": "air_walk.jpg",
+    "description": "Temporarily increases Movement Speed.",
+    "level": 0,
+    "requiredLevels": [5, 8, 11, 14, 17],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "buff",
+    "name": "Elemental Defense",
+    "imgPath": "elemental_defense.jpg",
+    "description": "Temporarily increases Elemental Resistance.",
+    "level": 0,
+    "requiredLevels": [13, 16, 19, 22, 25],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "buff",
+    "name": "Fine Bow",
+    "imgPath": "fine_bow.jpg",
+    "description": "Temporarily increases Bow damage.",
+    "level": 0,
+    "requiredLevels": [21, 24, 27, 30, 33],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "buff",
+    "name": "Fine Kataria",
+    "imgPath": "fine_kataria.jpg",
+    "description": "Temporarily increases Kataria Attack.",
+    "level": 0,
+    "requiredLevels": [21, 24, 27, 30, 33],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "buff",
+    "name": "Flame Force",
+    "imgPath": "flame_force.jpg",
+    "description": "Deals Fire damage to the targets around the caster.",
+    "level": 0,
+    "requiredLevels": [29, 32, 35, 38, 41],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  }
+]

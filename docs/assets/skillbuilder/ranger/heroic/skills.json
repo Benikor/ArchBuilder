@@ -1,0 +1,145 @@
+[
+  {
+    "type": "heroic",
+    "name": "Evade Slashing",
+    "imgPath": "evade_slashing.jpg",
+    "description": "Increases Attack Speed, Movement Speed and duration of the caster's debuffs if a Kataria is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Howling Blood Strike",
+    "imgPath": "howling_blood_strike.jpg",
+    "description": "Powerful Ranged Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 10
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Slasher Shot",
+    "imgPath": "slasher_shot.jpg",
+    "description": "Powerful Ranged Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Forest Soul Barrier",
+    "imgPath": "forest_soul_barrier.jpg",
+    "description": "[Party] Temporarily increases Physical Damage, Water Elemental Damage and Dodge of your party members within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Rage Tornado",
+    "imgPath": "rage_tornado.jpg",
+    "description": "Temporarily causes Frenzy with a certain chance after a powerful Ranged Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Howling Blood Strike": 3,
+      "Heroic Skill Points": 20
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Quick Reload",
+    "imgPath": "quick_reload.jpg",
+    "description": "Reduces short distance Heroic Damage and Skill Casting time, as well as increases Heroic Attack Power if a Kataria is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Slasher Shot": 3,
+      "Heroic Skill Points": 10
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Hail of Thorns",
+    "imgPath": "hail_of_thorns.jpg",
+    "description": "Temporarily causes Hold with a certain chance after a powerful Ranged Heroic Attack in a line.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Forest Soul Barrier": 3,
+      "Heroic Skill Points": 20
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Unstoppable Fierce Shot",
+    "imgPath": "unstoppable_fierce_shot.jpg",
+    "description": "Temporarily grants an Elemental Blessing to greatly increase the caster's Heroic Attack Power.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [3, 3, 3, 3, 3],
+    "requirements": {
+      "Heroic Skill Points": 40
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Ranger`s Quarry",
+    "imgPath": "rangers_quarry.jpg",
+    "description": "Temporarily increases the caster's Heroic Attack Power and Heroic Defense.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Quick Reload": 3,
+      "Heroic Skill Points": 25
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Eye of the Red Ranger",
+    "imgPath": "eye_of_the_red_ranger.jpg",
+    "description": "Temporarily causes Fear with a certain chance after a powerful Ranged Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Hail of Thorns": 3,
+      "Heroic Skill Points": 25
+    },
+    "stats": {}
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "type": "class",
+    "name": "Mana Absorb",
+    "imgPath": "mana_absorb.jpg",
+    "description": "Temporarily increases chance that Normal Attacks will ignore target's Elemental Resistance.",
+    "level": 0,
+    "requiredLevels": [8, 11, 14, 17, 20],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Life Extinction",
+    "imgPath": "life_extinction.jpg",
+    "description": "Chance to absorb HP temporarily when Attacks succeeds.",
+    "level": 0,
+    "requiredLevels": [13, 16, 19, 22, 25],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Eternal Soul",
+    "imgPath": "eternal_soul.jpg",
+    "description": "Temporarily increases status of the caster with the power of Hero's spirit.",
+    "level": 0,
+    "requiredLevels": [18, 21, 24, 27, 30],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Moonlight Fever",
+    "imgPath": "moonlight_fever.jpg",
+    "description": "Temporarily increases Damage (night) Temporarily increases Defense (day).",
+    "level": 0,
+    "requiredLevels": [23, 26, 29, 32, 35],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Bad Friends",
+    "imgPath": "bad_friends.jpg",
+    "description": "Temporarily Transforms targeted monster into Ally.",
+    "level": 0,
+    "requiredLevels": [28, 31, 34, 37, 40],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Mortal Dagger",
+    "imgPath": "mortal_dagger.jpg",
+    "description": "Spinning Attack on targets within certain radius.",
+    "level": 0,
+    "requiredLevels": [33, 36, 39, 42, 45],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Invisibility",
+    "imgPath": "invisibility.jpg",
+    "description": "You dematerialise from sight and become invisible until you Attack or cast a skill.",
+    "level": 0,
+    "requiredLevels": [38, 41, 44, 47, 50],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Lightning Trap",
+    "imgPath": "lightning_trap.jpg",
+    "description": "Powerful Lightning Trap.",
+    "level": 0,
+    "requiredLevels": [43, 46, 49, 52, 55],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  }
+]

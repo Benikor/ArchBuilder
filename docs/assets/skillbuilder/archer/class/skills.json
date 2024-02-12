@@ -1,0 +1,98 @@
+[
+  {
+    "type": "class",
+    "name": "Rock skin",
+    "imgPath": "rock_skin.jpg",
+    "description": "Temporarily increases Defense and Discipline.",
+    "level": 0,
+    "requiredLevels": [8, 11, 14, 17, 20],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Sharp Shooter",
+    "imgPath": "sharp_shooter.jpg",
+    "description": "Temporarily increases your Attack Accuracy and Dodge Rate and decreases Skill Cast Time.",
+    "level": 0,
+    "requiredLevels": [13, 16, 19, 22, 25],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Wind Arrow",
+    "imgPath": "wind_arrow.jpg",
+    "description": "Air Attack.",
+    "level": 0,
+    "requiredLevels": [18, 21, 24, 27, 30],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Far Sight",
+    "imgPath": "far_sight.jpg",
+    "description": "Temporarily increases Normal Attack Range.",
+    "level": 0,
+    "requiredLevels": [23, 26, 29, 32, 35],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Poison Shot",
+    "imgPath": "poison_shot.jpg",
+    "description": "Poison Attack.",
+    "level": 0,
+    "requiredLevels": [28, 31, 34, 37, 40],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Soul Breath",
+    "imgPath": "soul_breath.jpg",
+    "description": "Temporarily increases Elemental Attack and Resistance.",
+    "level": 0,
+    "requiredLevels": [33, 36, 39, 42, 45],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Helpless",
+    "imgPath": "helpless.jpg",
+    "description": "Temporarily decreases Defense, Elemental Resistace, and Critical Hit Attack of targets.",
+    "level": 0,
+    "requiredLevels": [38, 41, 44, 47, 50],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Heavy Hand",
+    "imgPath": "heavy_hand.jpg",
+    "description": "Temporarily reduces target's Attack Speed and increase target's Skill Cast time.",
+    "level": 0,
+    "requiredLevels": [43, 46, 49, 52, 55],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  }
+]

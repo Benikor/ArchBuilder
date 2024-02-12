@@ -1,0 +1,192 @@
+[
+  {
+    "type": "passive",
+    "name": "Power Surge",
+    "imgPath": "power_surge.jpg",
+    "description": "Increases Strength.",
+    "level": 0,
+    "requiredLevels": [6, 9, 12, 15, 18],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Nimbleness",
+    "imgPath": "nimbleness.jpg",
+    "description": "Increases Agility.",
+    "level": 0,
+    "requiredLevels": [6, 9, 12, 15, 18],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Intellect",
+    "imgPath": "intellect.jpg",
+    "description": "Increases Intelligence.",
+    "level": 0,
+    "requiredLevels": [6, 9, 12, 15, 18],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Mind Boost",
+    "imgPath": "mind_boost.jpg",
+    "description": "Increases Wisdom.",
+    "level": 0,
+    "requiredLevels": [6, 9, 12, 15, 18],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Endurance",
+    "imgPath": "endurance.jpg",
+    "description": "Increases Stamina.",
+    "level": 0,
+    "requiredLevels": [6, 9, 12, 15, 18],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Force Claw",
+    "imgPath": "force_claw.jpg",
+    "description": "A Passive Skill that reinforces Damage.",
+    "level": 0,
+    "requiredLevels": [28, 31, 34, 37, 40],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Wing Over",
+    "imgPath": "wing_over.jpg",
+    "description": "A Passive Skill that reinforces Movement Speed.",
+    "level": 0,
+    "requiredLevels": [34, 37, 40, 43, 46],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Piercing Tooth",
+    "imgPath": "piercing_tooth.jpg",
+    "description": "A Passive Skill that gives your Normal Attacks a chance of performing a Critical Hit.",
+    "level": 0,
+    "requiredLevels": [22, 25, 28, 31, 34],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Strong Mind",
+    "imgPath": "strong_mind.jpg",
+    "description": "A Passive Skill that increases Attack Success Rate.",
+    "level": 0,
+    "requiredLevels": [28, 31, 34, 37, 40],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Iron Scale",
+    "imgPath": "iron_scale.jpg",
+    "description": "A Passive Skill that reinforces Defense.",
+    "level": 0,
+    "requiredLevels": [34, 37, 40, 43, 46],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Dragon Might",
+    "imgPath": "dragon_might.jpg",
+    "description": "A Passive Skill that reinforces Damage and Elemental Attack.",
+    "level": 0,
+    "requiredLevels": [58, 61, 64, 67, 70],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Force Claw": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Dragon Wing",
+    "imgPath": "dragon_wing.jpg",
+    "description": "A Passive Skill that reinforces Dodge Rate.",
+    "level": 0,
+    "requiredLevels": [46, 49, 52, 55, 58],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Wing Over": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Dragon Head",
+    "imgPath": "dragon_head.jpg",
+    "description": "A Passive Skill that reinforces Discipline and Block Rate.",
+    "level": 0,
+    "requiredLevels": [52, 55, 58, 51, 64],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Piercing Tooth": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Dragon Mind",
+    "imgPath": "dragon_mind.jpg",
+    "description": "A Passive Skill that reinforces Elemental Resistance and Physical Resistance.",
+    "level": 0,
+    "requiredLevels": [46, 49, 52, 55, 58],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Strong Mind": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Dragon Blood",
+    "imgPath": "dragon_blood.jpg",
+    "description": "A Passive Skill that reinforces Defense and increases HP.",
+    "level": 0,
+    "requiredLevels": [58, 61, 64, 67, 70],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Iron Scale": 2
+    },
+    "stats": {}
+  }
+]

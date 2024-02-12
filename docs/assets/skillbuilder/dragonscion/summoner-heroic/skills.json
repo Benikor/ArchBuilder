@@ -1,0 +1,147 @@
+[
+  {
+    "type": "summoner-heroic",
+    "name": "Scale Protection",
+    "imgPath": "scale_protection.jpg",
+    "description": "Reduces Magic and Melee Heroic Damage and increases Heroic Defense if a Karon is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Summoner of Evolution": 1
+    },
+    "stats": {}
+  },
+  {
+    "type": "summoner-heroic",
+    "name": "Crushing Rip Attack",
+    "imgPath": "crushing_rip_attack.jpg",
+    "description": "Powerful Magic Heroic Attack in a line if a Karon is equipped.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 10
+    },
+    "stats": {}
+  },
+  {
+    "type": "summoner-heroic",
+    "name": "Iron Claw Boom",
+    "imgPath": "iron_claw_boom.jpg",
+    "description": "Powerful Magic Heroic Attack within range around you if a Karon is equipped.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
+    "stats": {}
+  },
+  {
+    "type": "summoner-heroic",
+    "name": "Over the Dragon",
+    "imgPath": "over_the_dragon.jpg",
+    "description": "Temporarily increases all Heroic Damage Defenses if a Karon is equipped.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
+    "stats": {}
+  },
+  {
+    "type": "summoner-heroic",
+    "name": "Frightful Wingover",
+    "imgPath": "frightful_wingover.jpg",
+    "description": "Causes Fear with a certain chance after a powerful Magic Heroic Attack within range if a Karon is equipped.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Crushing Rip Attack": 3,
+      "Heroic Skill Points": 20
+    },
+    "stats": {}
+  },
+  {
+    "type": "summoner-heroic",
+    "name": "Blood Vein",
+    "imgPath": "blood_vein.jpg",
+    "description": "Increases Heroic Defense, Movement Speed and Skill Casting time if a Karon is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Iron Claw Boom": 3,
+      "Heroic Skill Points": 10
+    },
+    "stats": {}
+  },
+  {
+    "type": "summoner-heroic",
+    "name": "Oppressive Blow",
+    "imgPath": "oppressive_blow.jpg",
+    "description": "Temporarily causes Cower with a certain chance after a powerful Magic Heroic Attack within range around you if a Karon is equipped.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Over the Dragon": 3,
+      "Heroic Skill Points": 20
+    },
+    "stats": {}
+  },
+  {
+    "type": "summoner-heroic",
+    "name": "Obliterating Breath",
+    "imgPath": "obliterating_breath.jpg",
+    "description": "Temporarily sacrifices Heroic Attack Power to increase Heroic Defense and all Heroic Resistances and reduce Skill Casting time if a Karon is equipped.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [3, 3, 3, 3, 3],
+    "requirements": {
+      "Heroic Skill Points": 40
+    },
+    "stats": {}
+  },
+  {
+    "type": "summoner-heroic",
+    "name": "Dragon Presence",
+    "imgPath": "dragon_presence.jpg",
+    "description": "[Party] Temporarily increases Heroic Attack Power and the stats of you and your party members within range if a Karon is equipped.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Blood Vein": 3,
+      "Heroic Skill Points": 25
+    },
+    "stats": {}
+  },
+  {
+    "type": "summoner-heroic",
+    "name": "Elemental Maelstrom",
+    "imgPath": "elemental_maelstrom.jpg",
+    "description": "Causes Disease with a certain chance after a powerful Magic Heroic Attack within range if a Karon is equipped.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Oppressive Blow": 3,
+      "Heroic Skill Points": 25
+    },
+    "stats": {}
+  }
+]

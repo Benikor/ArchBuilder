@@ -1,0 +1,145 @@
+[
+  {
+    "type": "heroic",
+    "name": "Nightmare Vision",
+    "imgPath": "nightmare_vision.jpg",
+    "description": "Increases Movement Speed and the caster's Ranged Heroic Damage Defense if a Wand is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Dark Firewood",
+    "imgPath": "dark_firewood.jpg",
+    "description": "Powerful Magic Heroic Attack in a line.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 10
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Soul Burn",
+    "imgPath": "soul_burn.jpg",
+    "description": "Powerful Magic Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Crown of Madness",
+    "imgPath": "crown_of_madness.jpg",
+    "description": "Temporarily increases the level of the caster's Skeleton Warriors and their Heroic Attack Power and Heroic Defense.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Venomous Bite",
+    "imgPath": "venomous_bite.jpg",
+    "description": "Temporarily causes Disease with a certain chance after a powerful Magic Heroic Attack in a line.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Dark Firewood": 3,
+      "Heroic Skill Points": 20
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Shroud of Darkness",
+    "imgPath": "shroud_of_darkness.jpg",
+    "description": "Increases duration of the caster's debuffs and reduces Skill Casting time if a Wand is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Soul Burn": 3,
+      "Heroic Skill Points": 10
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Life Black Fire",
+    "imgPath": "life_black_fire.jpg",
+    "description": "Temporarily causes Hold with a certain chance after a powerful Magic Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Crown of Madness": 3,
+      "Heroic Skill Points": 20
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Deadman Awaken",
+    "imgPath": "deadman_awaken.jpg",
+    "description": "Temporarily reduces the caster's Skill Casting time. Reduces Movement Speed and Attack Speed and deals Heroic Damage Over Time to a target attacking the caster.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [3, 3, 3, 3, 3],
+    "requirements": {
+      "Heroic Skill Points": 40
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Ruins of Horror",
+    "imgPath": "ruins_of_horror.jpg",
+    "description": "[Party] Removes Fear and Chaos effects on your party members within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Shroud of Darkness": 3,
+      "Heroic Skill Points": 25
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Zone of Terrible Corpses",
+    "imgPath": "zone_of_terrible_corpses.jpg",
+    "description": "Temporarily causes Fear with a certain chance after a powerful Magic Heroic Attack in a line.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Life Black Fire": 3,
+      "Heroic Skill Points": 25
+    },
+    "stats": {}
+  }
+]

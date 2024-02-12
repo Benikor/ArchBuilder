@@ -1,0 +1,145 @@
+[
+  {
+    "type": "heroic",
+    "name": "Elemental Magic",
+    "imgPath": "elemental_magic.jpg",
+    "description": "Reduces Skill Casting time and increases Ranged Heroic Damage Defenses if a Chakram is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Cloud of Frost",
+    "imgPath": "cloud_of_frost.jpg",
+    "description": "Powerful Magic Heroic Attack in a line.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 10
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Fiery Crab",
+    "imgPath": "fiery_crab.jpg",
+    "description": "Powerful Magic Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Blessing Elemental",
+    "imgPath": "blessing_elemental.jpg",
+    "description": "Temporarily increases the level of the Summoned Monster and its basic Stats.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Elemental Tentacle",
+    "imgPath": "elemental_tentacle.jpg",
+    "description": "Temporarily causes Hold with a certain chance after a powerful Magic Heroic Attack in a line.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Cloud of Frost": 3,
+      "Heroic Skill Points": 20
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Elemental Rejuvenation",
+    "imgPath": "elemental_rejuvenation.jpg",
+    "description": "Reduces the duration of debuffs used by the caster and Summoned Monster, and increases Heroic Damage and Movement Speed if a Chakram is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Fiery Crab": 3,
+      "Heroic Skill Points": 10
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Spectral Storm",
+    "imgPath": "spectral_storm.jpg",
+    "description": "Temporarily causes Chaos with a certain chance after a powerful Magic Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Blessing Elemental": 3,
+      "Heroic Skill Points": 20
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Absolute Territory",
+    "imgPath": "absolute_territory.jpg",
+    "description": "Temporarily reduces the caster's Skill Casting time. Curses a target that attacks the caster with an Elemental Curse to deal Heroic Damage Over Time.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [3, 3, 3, 3, 3],
+    "requirements": {
+      "Heroic Skill Points": 40
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Iron Protector",
+    "imgPath": "iron_protector.jpg",
+    "description": "[Party] Removes Frenzy and Disease effects on your party members within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Elemental Rejuvenation": 3,
+      "Heroic Skill Points": 25
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Prismatic Chain",
+    "imgPath": "prismatic_chain.jpg",
+    "description": "Temporarily causes Disease with a certain chance after a powerful Magic Heroic Attack in a line.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Spectral Storm": 3,
+      "Heroic Skill Points": 25
+    },
+    "stats": {}
+  }
+]

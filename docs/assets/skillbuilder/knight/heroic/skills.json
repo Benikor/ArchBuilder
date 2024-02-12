@@ -1,0 +1,145 @@
+[
+  {
+    "type": "heroic",
+    "name": "Iron Shield",
+    "imgPath": "iron_shield.jpg",
+    "description": "Reduces Ranged and Melee Heroic Damage, as well as increases Heroic Defense if a Shield is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Martyr`s Retribution",
+    "imgPath": "martyrs_retribution.jpg",
+    "description": "Powerful Heroic Melee attack.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 10
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Justice of Battle",
+    "imgPath": "justice_of_battle.jpg",
+    "description": "Powerful Heroic Melee attack.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Shield of the Front",
+    "imgPath": "shield_of_the_front.jpg",
+    "description": "[Party] Temporarily increases Physical Resistance, Block Rate and Skill Block Rate of your party members within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Strike of Judgement",
+    "imgPath": "strike_of_judgement.jpg",
+    "description": "Pulls a target towards the caster after a Melee Heroic Attack on a ranged target.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Martyr`s Retribution": 3,
+      "Heroic Skill Points": 20
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Forced March",
+    "imgPath": "forced_march.jpg",
+    "description": "Reduces Magic and Ranged Heroic Damage taken by the caster, as well as increases Heroic Attack Power if a Shield is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Justice of Battle": 3,
+      "Heroic Skill Points": 10
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Righteous Smite",
+    "imgPath": "righteous_smite.jpg",
+    "description": "Temporarily causes Cower with a certain chance after a Melee Heroic Attack within range around you.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Shield of the Front": 3,
+      "Heroic Skill Points": 20
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Inexorable Strike",
+    "imgPath": "inexorable_strike.jpg",
+    "description": "Temporarily unequips the target's upper armor after a powerful Melee Heroic Attack. Cannot be used in conjunction with other disarming skills.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [3, 3, 3, 3, 3],
+    "requirements": {
+      "Heroic Skill Points": 40
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Brilliant Spirit",
+    "imgPath": "brilliant_spirit.jpg",
+    "description": "Temporarily sacrifices Movement Speed to increase Heroic Defense and Max. HP.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Forced March": 3,
+      "Heroic Skill Points": 25
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Terrifying Nemesis",
+    "imgPath": "terrifying_nemesis.jpg",
+    "description": "Temporarily causes Hold with a certain chance after a Melee Heroic Attack on a ranged target.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Righteous Smite": 3,
+      "Heroic Skill Points": 25
+    },
+    "stats": {}
+  }
+]

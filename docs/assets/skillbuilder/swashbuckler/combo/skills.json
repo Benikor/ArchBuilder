@@ -1,0 +1,158 @@
+[
+  {
+    "type": "combo",
+    "name": "Invisible Blade X",
+    "imgPath": "invisible_blade_x.jpg",
+    "description": "Inflicts Ice Damage to nearby targets within a certain radius and temporarily decreases their Strength and Agility The Skill Effect increases when the target is affected by Wounding Critical.",
+    "level": 0,
+    "requiredLevels": [56, 58, 60, 62, 64],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Hide in Sight": 4
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Hide in Sight",
+    "imgPath": "hide_in_sight.jpg",
+    "description": "Temporarily becomes invisible. Attacking or casting a skill cancels the spell. Can use in the middle of a battle.",
+    "level": 0,
+    "requiredLevels": [50, 52, 54, 56, 58],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Restoration",
+    "imgPath": "restoration.jpg",
+    "description": "Restores some HP of the target.",
+    "level": 0,
+    "requiredLevels": [56, 58, 60, 62, 64],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Hide in Sight": 4
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Advent Legend",
+    "imgPath": "advent_legend.jpg",
+    "description": "Temporarily gains immunity to Stun and Movement Speed reduction.",
+    "level": 0,
+    "requiredLevels": [62, 64, 66, 68, 70],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Invisible Blade X": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Two Weapon Mastery",
+    "imgPath": "two_weapon_mastery.jpg",
+    "description": "Increases Accuracy and Damage while using Two-Handed weapon.",
+    "level": 0,
+    "requiredLevels": [62, 64, 66, 68, 70],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Invisible Blade X": 2,
+      "Restoration": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Safeguard",
+    "imgPath": "safeguard.jpg",
+    "description": "Temporarily increases Physical Resistance and Skill Block Rate of the caster and the designated target.",
+    "level": 0,
+    "requiredLevels": [62, 64, 66, 68, 70],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Restoration": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Fierce Blow",
+    "imgPath": "fierce_blow.jpg",
+    "description": "Inflicts a Damage on a nearby target and temporarily decreases its Intelligence and Wisdom. The Skill Effect increases when the target is affected by an Invisible Blade X.",
+    "level": 0,
+    "requiredLevels": [67, 69, 71, 73, 75],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Advent Legend": 2,
+      "Two Weapon Mastery": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Heroism Might",
+    "imgPath": "heroism_might.jpg",
+    "description": "[Party] Temporarily increases Physical and Elemental Damage of the caster and the party members within range.",
+    "level": 0,
+    "requiredLevels": [67, 69, 71, 73, 75],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Safeguard": 2,
+      "Two Weapon Mastery": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Boost Up",
+    "imgPath": "boost_up.jpg",
+    "description": "[Guild] Temporarily increases Strength, Wisdom and Stamina of the caster and the guild members within range.",
+    "level": 0,
+    "requiredLevels": [71, 73, 75, 77, 79],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Fierce Blow": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Lightening Rush",
+    "imgPath": "lightening_rush.jpg",
+    "description": "Inflicts Lightning Damage to targets in a straight line and temporarily decreases their Movement Speed. Targets get stunned when they are affected by Fierce Blow.",
+    "level": 0,
+    "requiredLevels": [71, 73, 75, 77, 79],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Fierce Blow": 2,
+      "Heroism Might": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Close Fin Air",
+    "imgPath": "close_fin_air.jpg",
+    "description": "Inflicts Air Damage to a nearby target and temporarily decreases its Skill Block Rate. The Skill Effect increases when the target is affected by Invisible Blade X.",
+    "level": 0,
+    "requiredLevels": [71, 73, 75, 77, 79],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Heroism Might": 3
+    },
+    "stats": {}
+  }
+]

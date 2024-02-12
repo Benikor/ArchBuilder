@@ -1,0 +1,98 @@
+[
+  {
+    "type": "class",
+    "name": "Lethal Attack",
+    "imgPath": "lethal_attack.jpg",
+    "description": "Temporarily sets Attack Damage to maximum Normal Attacks have a chance of ignoring target's Physical Defense.",
+    "level": 0,
+    "requiredLevels": [8, 11, 14, 17, 20],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Debilitate",
+    "imgPath": "debilitate.jpg",
+    "description": "Temporarily decreases target's Attack Power to minimum.",
+    "level": 0,
+    "requiredLevels": [13, 16, 19, 22, 25],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Vital Charge",
+    "imgPath": "vital_charge.jpg",
+    "description": "Temporarily heals yourself for a percentage of damage taken when hit.",
+    "level": 0,
+    "requiredLevels": [18, 21, 24, 27, 30],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Berserker",
+    "imgPath": "berserker.jpg",
+    "description": "Temporarily increases your status and movement speed. HP consumed when the buff ends.",
+    "level": 0,
+    "requiredLevels": [23, 26, 29, 32, 35],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Natural Warrior",
+    "imgPath": "natural_warrior.jpg",
+    "description": "Temporarily increases Elemental Attack, Resistance, Critical Hit Resistance, and Max. HP. HP consumed after Skill performed.",
+    "level": 0,
+    "requiredLevels": [28, 31, 34, 37, 40],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Body Break",
+    "imgPath": "body_break.jpg",
+    "description": "Temporarily decreases target's Defense.",
+    "level": 0,
+    "requiredLevels": [33, 36, 39, 42, 45],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Panic",
+    "imgPath": "panic.jpg",
+    "description": "Temporarily decreases target's Movement Speed.",
+    "level": 0,
+    "requiredLevels": [38, 41, 44, 47, 50],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Power Drain",
+    "imgPath": "power_drain.jpg",
+    "description": "Temporarily decreases target's Physical Damage.",
+    "level": 0,
+    "requiredLevels": [43, 46, 49, 52, 55],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "type": "heroic",
+    "name": "Slight of Bow",
+    "imgPath": "slight_of_bow.jpg",
+    "description": "Increases Attack Speed and Magic Heroic Damage Defenses if a Bow is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Ghost on the Arrow",
+    "imgPath": "ghost_on_the_arrow.jpg",
+    "description": "Powerful Ranged Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 10
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Biting Strike",
+    "imgPath": "biting_strike.jpg",
+    "description": "Powerful Ranged Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Bow of Meditation",
+    "imgPath": "bow_of_meditation.jpg",
+    "description": "Removes Disease and Frenzy effects on the caster and target.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Heroic Skill Points": 5
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Scorpion Trap",
+    "imgPath": "scorpion_trap.jpg",
+    "description": "Temporarily causes Hold with a certain chance after a powerful Ranged Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Ghost on the Arrow": 3,
+      "Heroic Skill Points": 20
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Illusion Stride",
+    "imgPath": "illusion_stride.jpg",
+    "description": "Increases Heroic Attack and Heroic Defense if a Bow is equipped. This is a passive skill.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Biting Strike": 3,
+      "Heroic Skill Points": 10
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Cloud of Arrows",
+    "imgPath": "cloud_of_arrows.jpg",
+    "description": "Temporarily causes Chaos with a certain chance after a powerful Ranged Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Bow of Meditation": 3,
+      "Heroic Skill Points": 20
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Hurricane of Death",
+    "imgPath": "hurricane_of_death.jpg",
+    "description": "Temporarily causes Heroic Damage Over Time after a powerful Ranged Heroic attack.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [3, 3, 3, 3, 3],
+    "requirements": {
+      "Heroic Skill Points": 40
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Archer`s Eye",
+    "imgPath": "archers_eye.jpg",
+    "description": "[Party] Temporarily increases the duration of debuffs used by your party members within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [2, 2, 2, 2, 2],
+    "requirements": {
+      "Illusion Stride": 3,
+      "Heroic Skill Points": 25
+    },
+    "stats": {}
+  },
+  {
+    "type": "heroic",
+    "name": "Intimidate Blow",
+    "imgPath": "intimidate_blow.jpg",
+    "description": "Temporarily causes Frenzy with a certain chance after a powerful Ranged Heroic Attack within range.",
+    "level": 0,
+    "requiredLevels": [],
+    "requiredSkillPoints": [2, 2, 2, 2, 2],
+    "requiredHeroicPoints": [1, 2, 2, 2, 2],
+    "requirements": {
+      "Cloud of Arrows": 3,
+      "Heroic Skill Points": 25
+    },
+    "stats": {}
+  }
+]

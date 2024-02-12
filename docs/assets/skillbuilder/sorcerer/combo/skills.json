@@ -1,0 +1,158 @@
+[
+  {
+    "type": "combo",
+    "name": "Firestorm",
+    "imgPath": "firestorm.jpg",
+    "description": "Inflicts Fire Damage to targets within a certain radius and temporarily decreases their Skill Block Rate and Movement Speed.",
+    "level": 0,
+    "requiredLevels": [56, 58, 60, 62, 64],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Ethereal Impale": 4
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Ethereal Impale",
+    "imgPath": "ethereal_impale.jpg",
+    "description": "Inflicts a powerful Damage on a target by summoning a Giant Sword and temporarily decreases target's Block Rate and STR.",
+    "level": 0,
+    "requiredLevels": [50, 52, 54, 56, 58],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Legion of the Dead",
+    "imgPath": "legion_of_the_dead.jpg",
+    "description": "Using the dark arts to summon the Skeleton Warrior that will be under your command.",
+    "level": 0,
+    "requiredLevels": [56, 58, 60, 62, 64],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Ethereal Impale": 4
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Requiem",
+    "imgPath": "requiem.jpg",
+    "description": "Temporarily decreases Physical Resistance and Dodge Rate of targets within a certain radius.",
+    "level": 0,
+    "requiredLevels": [62, 64, 66, 68, 70],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Firestorm": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Unholy Casting",
+    "imgPath": "unholy_casting.jpg",
+    "description": "Reduces your Skill Cast Time and increases both Attack Power and Accuracy when using a wand.",
+    "level": 0,
+    "requiredLevels": [62, 64, 66, 68, 70],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Firestorm": 2,
+      "Legion of the Dead": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Death Pact",
+    "imgPath": "death_pact.jpg",
+    "description": "Temporarily increases Damage and Defense of Summoned Skeletons and increases Pet's level.",
+    "level": 0,
+    "requiredLevels": [62, 64, 66, 68, 70],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Legion of the Dead": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Dark Metabolism",
+    "imgPath": "dark_metabolism.jpg",
+    "description": "[Party] Temporarily increases the Stamina, Strength and Agility of both you and party members.",
+    "level": 0,
+    "requiredLevels": [67, 69, 71, 73, 75],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Requiem": 2,
+      "Unholy Casting": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Ethereal Refreshment",
+    "imgPath": "ethereal_refreshment.jpg",
+    "description": "Restores some lost health and mana back to the current target.",
+    "level": 0,
+    "requiredLevels": [67, 69, 71, 73, 75],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Death Pact": 2,
+      "Unholy Casting": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Windstorm",
+    "imgPath": "windstorm.jpg",
+    "description": "Inflicts Air Damage to targets within a certain radius and temporarily decreases their Intelligence and Wisdom.",
+    "level": 0,
+    "requiredLevels": [71, 73, 75, 77, 79],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Dark Metabolism": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Wretched Cold",
+    "imgPath": "wretched_cold.jpg",
+    "description": "Inflicts Ice Damage to a target, temporarily decreases its Attack Speed, and increases its Skill Cast Time.",
+    "level": 0,
+    "requiredLevels": [71, 73, 75, 77, 79],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Dark Metabolism": 2,
+      "Ethereal Refreshment": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Narcolepsy",
+    "imgPath": "narcolepsy.jpg",
+    "description": "Any targets within the target area have a chance to be subjected to a deep sleep that renders them immobilized.",
+    "level": 0,
+    "requiredLevels": [71, 73, 75, 77, 79],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Ethereal Refreshment": 3
+    },
+    "stats": {}
+  }
+]

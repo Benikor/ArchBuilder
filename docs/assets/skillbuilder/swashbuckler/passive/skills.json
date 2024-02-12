@@ -1,0 +1,110 @@
+[
+  {
+    "type": "passive",
+    "name": "Kin Sense",
+    "imgPath": "kin_sense.jpg",
+    "description": "Increases your Critical Hit rate and Critical Hit damage.",
+    "level": 0,
+    "requiredLevels": [6, 9, 12, 15, 18],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Power Surge",
+    "imgPath": "power_surge.jpg",
+    "description": "Increases Strength.",
+    "level": 0,
+    "requiredLevels": [6, 9, 12, 15, 18],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Nimbleness",
+    "imgPath": "nimbleness.jpg",
+    "description": "Increases Agility.",
+    "level": 0,
+    "requiredLevels": [6, 9, 12, 15, 18],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Intellect",
+    "imgPath": "intellect.jpg",
+    "description": "Increases Intelligence.",
+    "level": 0,
+    "requiredLevels": [6, 9, 12, 15, 18],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Mind Boost",
+    "imgPath": "mind_boost.jpg",
+    "description": "Increases Wisdom.",
+    "level": 0,
+    "requiredLevels": [6, 9, 12, 15, 18],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Endurance",
+    "imgPath": "endurance.jpg",
+    "description": "Increases Stamina.",
+    "level": 0,
+    "requiredLevels": [6, 9, 12, 15, 18],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Dodge Form",
+    "imgPath": "dodge_form.jpg",
+    "description": "Dodge against Melee attacks Increase Dodge against Ranged attacks Increase.",
+    "level": 0,
+    "requiredLevels": [14, 17, 20, 23, 26],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Grace",
+    "imgPath": "grace.jpg",
+    "description": "Increases Attack Accuracy.",
+    "level": 0,
+    "requiredLevels": [14, 17, 20, 23, 26],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "passive",
+    "name": "Improved Strike",
+    "imgPath": "improved_strike.jpg",
+    "description": "Attack power increases after blocking hit.",
+    "level": 0,
+    "requiredLevels": [22, 25, 28, 31, 34],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  }
+]

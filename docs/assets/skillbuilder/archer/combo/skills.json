@@ -1,0 +1,158 @@
+[
+  {
+    "type": "combo",
+    "name": "Enervate",
+    "imgPath": "enervate.jpg",
+    "description": "Temporarily reduces the Strength and Agility of both your current target and other targets within close proximity.",
+    "level": 0,
+    "requiredLevels": [56, 58, 60, 62, 64],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Flashfire": 4
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Flashfire",
+    "imgPath": "flashfire.jpg",
+    "description": "Performs a Damage on a target and temporarily decreases its Discipline.",
+    "level": 0,
+    "requiredLevels": [50, 52, 54, 56, 58],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Languish",
+    "imgPath": "languish.jpg",
+    "description": "Temporarily reduces the Attack Power of both your current target and other targets within close proximity.",
+    "level": 0,
+    "requiredLevels": [56, 58, 60, 62, 64],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Flashfire": 4
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Thunderbolt",
+    "imgPath": "thunderbolt.jpg",
+    "description": "Inflicts Lightning Damage to targets within a certain radius and temporarily increases their Skill Cast Time and decreases their Critical Hit Attack.",
+    "level": 0,
+    "requiredLevels": [62, 64, 66, 68, 70],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Enervate": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Superior Marksmanship",
+    "imgPath": "superior_marksmanship.jpg",
+    "description": "Grants additional Attack Power, Accuracy and reduces your Skill Cast Time when using a bow.",
+    "level": 0,
+    "requiredLevels": [62, 64, 66, 68, 70],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Enervate": 2,
+      "Languish": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Divine Enhancement",
+    "imgPath": "divine_enhancement.jpg",
+    "description": "[Guild] Temporarily increases the Strength and Agility of both you and guild members within close proximity.",
+    "level": 0,
+    "requiredLevels": [62, 64, 66, 68, 70],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Languish": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Assistance",
+    "imgPath": "assistance.jpg",
+    "description": "Removes stun and movement slowing effects on a friendly target.",
+    "level": 0,
+    "requiredLevels": [67, 69, 71, 73, 75],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Thunderbolt": 2,
+      "Superior Marksmanship": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Free Will",
+    "imgPath": "free_will.jpg",
+    "description": "When active, you gain immunity to stuns and movement speed reduction.",
+    "level": 0,
+    "requiredLevels": [67, 69, 71, 73, 75],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Divine Enhancement": 2,
+      "Superior Marksmanship": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Arctic Strike",
+    "imgPath": "arctic_strike.jpg",
+    "description": "Inflicts Ice Damage to targets within a certain radius and temporarily decreases their Attack Speed.",
+    "level": 0,
+    "requiredLevels": [71, 73, 75, 77, 79],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Assistance": 3
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Pressure Blast",
+    "imgPath": "pressure_blast.jpg",
+    "description": "Inflicts Air Damage to targets within a certain radius and temporarily decreases their Elemental Attack.",
+    "level": 0,
+    "requiredLevels": [71, 73, 75, 77, 79],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Assistance": 2,
+      "Free Will": 2
+    },
+    "stats": {}
+  },
+  {
+    "type": "combo",
+    "name": "Restrain",
+    "imgPath": "restrain.jpg",
+    "description": "Restrains your target for a short period, preventing them from using offensive skills.",
+    "level": 0,
+    "requiredLevels": [71, 73, 75, 77, 79],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {
+      "Free Will": 3
+    },
+    "stats": {}
+  }
+]

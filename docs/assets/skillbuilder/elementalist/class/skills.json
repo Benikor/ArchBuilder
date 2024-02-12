@@ -1,0 +1,86 @@
+[
+  {
+    "type": "class",
+    "name": "Frost Armor",
+    "imgPath": "frost_armor.jpg",
+    "description": "Temporarily strengthens own Defense and reduces nearby enemy's Attack Speed.",
+    "level": 0,
+    "requiredLevels": [8, 11, 14, 17, 20],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Soul Barrier",
+    "imgPath": "soul_barrier.jpg",
+    "description": "Chance to block normal attacks temporarily.",
+    "level": 0,
+    "requiredLevels": [13, 16, 19, 22, 25],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Lightning Strike",
+    "imgPath": "lightning_strike.jpg",
+    "description": "Attacks targets within a radius at a distance with the power of lightning reduces theirs movement speed.",
+    "level": 0,
+    "requiredLevels": [23, 26, 29, 32, 35],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Hyper Soul",
+    "imgPath": "hyper_soul.jpg",
+    "description": "Increases Elemental Resistance and Critical Hit Resistance of you and your Summoned Elemental.",
+    "level": 0,
+    "requiredLevels": [28, 31, 34, 37, 40],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Increase Gate",
+    "imgPath": "increase_gate.jpg",
+    "description": "Increases the number of Summoned Elementals allowed.",
+    "level": 0,
+    "requiredLevels": [33],
+    "requiredSkillPoints": [1],
+    "requiredHeroicPoints": [0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Descent of Luna",
+    "imgPath": "descent_of_luna.jpg",
+    "description": "Restores yourown and your summoned Elementals HP.",
+    "level": 0,
+    "requiredLevels": [38, 41, 44, 47, 50],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  },
+  {
+    "type": "class",
+    "name": "Mutation",
+    "imgPath": "mutation.jpg",
+    "description": "Temporarily transforms target into a creature.",
+    "level": 0,
+    "requiredLevels": [43, 46, 49, 52, 55],
+    "requiredSkillPoints": [1, 1, 1, 1, 1],
+    "requiredHeroicPoints": [0, 0, 0, 0, 0],
+    "requirements": {},
+    "stats": {}
+  }
+]
