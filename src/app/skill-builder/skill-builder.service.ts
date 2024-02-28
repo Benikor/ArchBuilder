@@ -208,13 +208,11 @@ export class SkillBuilderService {
   }
 
   getClasses(): Observable<string[]> {
-    return this.httpClient
-      .get<string[]>('assets/skillbuilder/classes.json')
-      .pipe(
-        catchError((error: HttpErrorResponse) => {
-          this.router.navigate(['error'], { replaceUrl: true });
-          return throwError(() => new Error(error.message));
-        })
-      );
+    return this.httpClient.get<string[]>('assets/classes/classes.json').pipe(
+      catchError((error: HttpErrorResponse) => {
+        this.router.navigate(['error'], { replaceUrl: true });
+        return throwError(() => new Error(error.message));
+      })
+    );
   }
 }
