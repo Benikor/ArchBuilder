@@ -53,6 +53,10 @@ button:hover:enabled {
   background-color: #3d3d3d;
 }
 
+button:active:enabled {
+  background-color: #2b2b2b;
+}
+
 .available {
   opacity: 1;
   color: #d2b582;

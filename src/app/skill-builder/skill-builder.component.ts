@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { SkillBuilderService } from './skill-builder.service';
 import { FormControl, FormGroup } from '@angular/forms';
 import { Skill } from './skill';
 import { Subscription, forkJoin, switchMap } from 'rxjs';
+import { BuildCode } from './build-code';
 
 @Component({
   selector: 'app-skill-builder',
@@ -22,10 +23,12 @@ export class SkillBuilderComponent implements OnInit {
   skillsLoading = true;
 
   subscriptions = new Subscription();
+  buildCode: BuildCode = {} as BuildCode;
 
   constructor(
     private skillBuilderService: SkillBuilderService,
-    private activatedRoute: ActivatedRoute
+    private activatedRoute: ActivatedRoute,
+    private router: Router
   ) {}
 
   ngOnInit(): void {
@@ -52,7 +55,9 @@ export class SkillBuilderComponent implements OnInit {
       )
       .subscribe((skills) => {
         this.skills = skills;
-        this.levelLimit = this.getMaxLevel();
+        this.levelLimit = this.buildCode.levelLimit
+          ? Number(this.buildCode.levelLimit)
+          : this.getMaxLevel();
         this.skillBuilderService.resetMinLevel();
         this.skillBuilderService.setUsedSkillPoints(0);
         this.skillBuilderService.setUsedHeroicPoints(0);
@@ -63,13 +68,14 @@ export class SkillBuilderComponent implements OnInit {
         this.levelLimitForm.controls['levelLimitInput'].setValue(
           this.levelLimit
         );
+        if (this.buildCode.skillLevels) {
+          this.activateBuildCode();
+        }
         this.skillsLoading = false;
       });
   }
 
   changeLevelLimit() {
-    console.log(this.skills);
-    console.log(Number(this.levelLimitForm.value.levelLimitInput));
     if (
       Number(this.levelLimitForm.value.levelLimitInput) > this.getMaxLevel()
     ) {
@@ -259,6 +265,49 @@ export class SkillBuilderComponent implements OnInit {
       }
     }
     return spentEvolutionSkillPoints >= requiredEvolutionSkillPoints;
+  }
+
+  loadBuildCode(buildCode: BuildCode) {
+    this.buildCode = buildCode;
+    if (this.buildCode.currentClass != this.currentClass) {
+      this.router.navigate([this.buildCode.currentClass]);
+    } else {
+      this.resetSkillBuilder();
+    }
+  }
+
+  activateBuildCode() {
+    let index = 0;
+    for (let skillsByType of this.skills) {
+      for (let skill of skillsByType) {
+        for (let i = 0; i < this.buildCode.skillLevels[index]; i++) {
+          this.skillBuilderService.increaseUsedSkillPoints(
+            skill.requiredSkillPoints[skill.level]
+          );
+          this.skillBuilderService.increaseUsedHeroicPoints(
+            skill.requiredHeroicPoints[skill.level]
+          );
+          this.skillBuilderService.addMinLevel(
+            skill.requiredLevels[skill.level]
+          );
+          skill.level++;
+
+          if (skill.requirements['All Skill Points' as keyof Object]) {
+            this.skillBuilderService.addRequiredSpentSkillPoints(
+              Number(skill.requirements['All Skill Points' as keyof Object])
+            );
+          }
+
+          if (skill.requirements['Heroic Skill Points' as keyof Object]) {
+            this.skillBuilderService.addRequiredSpentHeroicPoints(
+              Number(skill.requirements['Heroic Skill Points' as keyof Object])
+            );
+          }
+        }
+        index++;
+      }
+    }
+    this.buildCode = {} as BuildCode;
   }
 
   resetSkillBuilder() {

@@ -1,3 +1,10 @@
+<div class="space"></div>
+<app-build-code
+  [skills]="skills"
+  [currentClass]="currentClass"
+  [levelLimit]="levelLimit"
+  (buildCodeEvent)="loadBuildCode($event)"
+></app-build-code>
 <app-class-menu [currentClass]="currentClass"></app-class-menu>
 <h2 class="loading" *ngIf="skillsLoading">Loading...</h2>
 <div *ngIf="!skillsLoading" class="background">
@@ -34,9 +41,11 @@
           [max]="getMaxLevel()"
           formControlName="levelLimitInput"
         />
-        <button type="submit">Change</button>
+        <button title="Change Level Limit" type="submit">Change</button>
       </form>
-      <button (click)="resetSkillBuilder()">Reset</button>
+      <button title="Reset Skill Builder" (click)="resetSkillBuilder()">
+        Reset
+      </button>
     </div>
   </div>
   <div

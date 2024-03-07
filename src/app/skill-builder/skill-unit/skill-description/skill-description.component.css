@@ -23,7 +23,7 @@
   margin: auto;
 }
 
-.exit-button {
+button {
   border: none;
   background-color: #00000000;
   color: #d2b582;
@@ -32,7 +32,7 @@
   padding: 3px 5px 3px 5px;
 }
 
-.exit-button:hover {
+button:hover {
   color: white;
   cursor: pointer;
 }

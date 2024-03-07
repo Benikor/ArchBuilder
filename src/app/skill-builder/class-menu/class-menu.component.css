@@ -1,8 +1,7 @@
 .menu {
   display: flex;
   width: 725px;
-  margin: auto;
-  padding-top: 288px;
+  margin: 20px auto;
   color: #d2b582;
   justify-content: space-between;
 }
