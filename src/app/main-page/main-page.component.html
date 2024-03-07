@@ -1,5 +1,14 @@
+<div class="space"></div>
+<div class="build-code-background">
+  <div class="build-code-flex">
+    <h4>Build Code</h4>
+    <button title="Load Build Code" (click)="loadBuildCode()">Load</button>
+  </div>
+  <textarea class="build-code-input" [(ngModel)]="buildCode"></textarea>
+</div>
+
 <div class="title">
-  <p>Choose a class to create a Build!</p>
+  <p>Choose a class to create a Build or load one with a Build Code!</p>
 </div>
 <h2 class="loading" *ngIf="classesLoading">Loading...</h2>
 <div *ngIf="!classesLoading" class="background">

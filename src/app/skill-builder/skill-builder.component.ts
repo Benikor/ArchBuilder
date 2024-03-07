@@ -55,6 +55,7 @@ export class SkillBuilderComponent implements OnInit {
       )
       .subscribe((skills) => {
         this.skills = skills;
+        this.buildCode = this.skillBuilderService.getBuildCode();
         this.levelLimit = this.buildCode.levelLimit
           ? Number(this.buildCode.levelLimit)
           : this.getMaxLevel();
@@ -269,6 +270,7 @@ export class SkillBuilderComponent implements OnInit {
 
   loadBuildCode(buildCode: BuildCode) {
     this.buildCode = buildCode;
+    this.skillBuilderService.setBuildCode(this.buildCode);
     if (this.buildCode.currentClass != this.currentClass) {
       this.router.navigate([this.buildCode.currentClass]);
     } else {
@@ -308,6 +310,7 @@ export class SkillBuilderComponent implements OnInit {
       }
     }
     this.buildCode = {} as BuildCode;
+    this.skillBuilderService.setBuildCode(this.buildCode);
   }
 
   resetSkillBuilder() {

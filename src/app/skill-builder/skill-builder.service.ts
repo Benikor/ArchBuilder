@@ -3,6 +3,7 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Observable, catchError, throwError } from 'rxjs';
 import { Skill } from './skill';
 import { Router } from '@angular/router';
+import { BuildCode } from './build-code';
 
 @Injectable({
   providedIn: 'root',
@@ -16,8 +17,21 @@ export class SkillBuilderService {
   private minLevel = [0];
   private requiredSpentSkillPoints = [0];
   private requiredSpentHeroicPoints = [0];
+  private buildCode: BuildCode = {} as BuildCode;
 
   constructor(private httpClient: HttpClient, private router: Router) {}
+
+  setBuildCode(buildCode: BuildCode) {
+    this.buildCode = buildCode;
+  }
+
+  loadBuildCode() {
+    this.router.navigate([this.buildCode.currentClass]);
+  }
+
+  getBuildCode() {
+    return this.buildCode;
+  }
 
   setUsedSkillPoints(skillPoints: number) {
     this.usedSkillPoints = skillPoints;
