@@ -10,7 +10,11 @@
       Load
     </button>
   </div>
-  <textarea class="build-code-input" [(ngModel)]="buildCode"></textarea>
+  <textarea
+    class="build-code-input"
+    [placeholder]="buildCodePlaceholder"
+    [(ngModel)]="buildCode"
+  ></textarea>
 </div>
 
 <div class="title">

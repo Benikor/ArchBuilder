@@ -12,6 +12,7 @@ export class MainPageComponent implements OnInit {
   classesLoading = true;
 
   buildCode: string = '';
+  buildCodePlaceholder: string = 'Insert your Build Code here!';
   secretKey: string = 'ArchLordBuillderSecretKey';
 
   constructor(private skillBuilderService: SkillBuilderService) {}
@@ -32,7 +33,8 @@ export class MainPageComponent implements OnInit {
         AES.decrypt(this.buildCode, this.secretKey.trim()).toString(enc.Utf8)
       );
     } catch (exception) {
-      this.buildCode = 'Invalid Build Code!';
+      this.buildCode = '';
+      this.buildCodePlaceholder = 'Invalid Build Code!';
       return console.error(exception);
     }
 

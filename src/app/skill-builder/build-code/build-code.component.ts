@@ -22,6 +22,7 @@ export class BuildCodeComponent implements OnInit, OnChanges {
   @Input() levelLimit: number = 0;
   @Output() buildCodeEvent = new EventEmitter<BuildCode>();
   buildCode: string = '';
+  buildCodePlaceholder: string = 'Insert or Generate Build Code!';
   secretKey: string = 'ArchLordBuillderSecretKey';
 
   constructor(private clipboard: Clipboard) {}
@@ -30,6 +31,7 @@ export class BuildCodeComponent implements OnInit, OnChanges {
 
   ngOnChanges(): void {
     this.buildCode = '';
+    this.buildCodePlaceholder = 'Insert or Generate Build Code!';
   }
 
   generateBuildCode() {
@@ -48,6 +50,7 @@ export class BuildCodeComponent implements OnInit, OnChanges {
     ).toString();
 
     // this.buildCode = this.buildCode.replace(/,$/, ']}'); // This is just for development
+    this.buildCodePlaceholder = 'Insert or Generate Build Code!';
   }
 
   copyBuildCode() {
@@ -63,7 +66,8 @@ export class BuildCodeComponent implements OnInit, OnChanges {
         // this.buildCode // This is just for development
       );
     } catch (exception) {
-      this.buildCode = 'Invalid Build Code!';
+      this.buildCode = '';
+      this.buildCodePlaceholder = 'Invalid Build Code!';
       return console.error(exception);
     }
 
