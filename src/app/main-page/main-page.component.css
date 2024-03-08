@@ -37,16 +37,20 @@ button {
   font-size: 16px;
   border: 1px solid #4e4e4e;
   background-color: #2b2b2b;
+  color: #000000;
+}
+
+button:enabled {
   color: #d2b582;
 }
 
-button:hover {
+button:hover:enabled {
   color: white;
   cursor: pointer;
   background-color: #3d3d3d;
 }
 
-button:active {
+button:active:enabled {
   background-color: #2b2b2b;
 }
 

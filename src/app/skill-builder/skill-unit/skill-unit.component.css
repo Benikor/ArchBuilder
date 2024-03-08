@@ -47,6 +47,10 @@ button {
   width: 20px;
 }
 
+button:enabled {
+  color: #d2b582;
+}
+
 button:hover:enabled {
   color: white;
   cursor: pointer;

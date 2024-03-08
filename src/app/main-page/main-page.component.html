@@ -2,7 +2,13 @@
 <div class="build-code-background">
   <div class="build-code-flex">
     <h4>Build Code</h4>
-    <button title="Load Build Code" (click)="loadBuildCode()">Load</button>
+    <button
+      [disabled]="!buildCode"
+      title="Load Build Code"
+      (click)="loadBuildCode()"
+    >
+      Load
+    </button>
   </div>
   <textarea class="build-code-input" [(ngModel)]="buildCode"></textarea>
 </div>

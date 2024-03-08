@@ -8,9 +8,19 @@
     <button title="Generate Build Code" (click)="generateBuildCode()">
       Generate
     </button>
-    <button title="Copy Build Code to clipboard" (click)="copyBuildCode()">
+    <button
+      [disabled]="!buildCode"
+      title="Copy to clipboard"
+      (click)="copyBuildCode()"
+    >
       Copy
     </button>
-    <button title="Load Build Code" (click)="loadBuildCode()">Load</button>
+    <button
+      [disabled]="!buildCode"
+      title="Load Build Code"
+      (click)="loadBuildCode()"
+    >
+      Load
+    </button>
   </div>
 </div>
